@@ -66,5 +66,10 @@ Web Application (HTML/PHP or similar)
 
 **How to Use**
 Clone this repository:
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+
+git clone https://github.com/Moksel-arch/Mokgadi-Selepe-AWS--re-Start-Journey.git
+
+cd Mokgadi-Selepe-AWS--re-Start-Journey/Databases
+
+
+
