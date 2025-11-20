@@ -15,3 +15,6 @@
 [Generative AI for Decision Makers – Certificate (PDF)](certifications/Generative-AI-Decision-Makers.pdf)
 
 https://cdn.jsdelivr.net/gh/Mokgadi-Selepe-AWS-re-Start-Journey/assets/favicon.ico
+
+# My AWS Portfolio  
+[View My AWS Certifications (Live Gallery)](https://mokgadi-selepe-aws-re-start-journey.github.io/index.html)
