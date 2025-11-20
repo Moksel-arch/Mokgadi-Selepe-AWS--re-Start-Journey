@@ -59,3 +59,4 @@ Team
 - Leah – Presentation Lead
 - Skhumbuzo – Web Developer
 
+[My static site](https://static-website-on-s3.netlify.app)
