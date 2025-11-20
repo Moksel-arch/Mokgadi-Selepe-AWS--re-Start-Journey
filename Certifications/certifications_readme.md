@@ -5,3 +5,11 @@
 [![AI Practitioner Learning Plan](certifications/AI-Practitioner-Learning-Plan.jpg)](https://aws.amazon.com/blogs/training-and-certification/unlock-the-power-of-generative-ai-with-aws-training-and-certification/)
 
 [AWS Certified AI Practitioner – Official Certificate (PDF)](certifications/AWS-Certified-AI-Practitioner.pdf)
+
+## Official AWS Certificates (PDF)
+
+[![AWS Certified AI Practitioner](certifications/AI-Practitioner-Certificate-preview.jpg)](certifications/AWS-Certified-AI-Practitioner.pdf)
+
+[AWS Cloud Practitioner Completion Certificate (PDF)](certifications/AWS-Cloud-Practitioner-Certificate.pdf)
+
+[Generative AI for Decision Makers – Certificate (PDF)](certifications/Generative-AI-Decision-Makers.pdf)
