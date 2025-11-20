@@ -13,3 +13,5 @@
 [AWS Cloud Practitioner Completion Certificate (PDF)](certifications/AWS-Cloud-Practitioner-Certificate.pdf)
 
 [Generative AI for Decision Makers – Certificate (PDF)](certifications/Generative-AI-Decision-Makers.pdf)
+
+https://cdn.jsdelivr.net/gh/Mokgadi-Selepe-AWS-re-Start-Journey/assets/favicon.ico
