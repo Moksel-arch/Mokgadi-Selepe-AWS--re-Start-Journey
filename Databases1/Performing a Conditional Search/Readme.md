@@ -71,4 +71,5 @@ Result was massive – Canada + USA really add up!
 
 **Lab completed – I can now slice and dice data however I want!**  
 Next time someone says “show me all countries with X” I’m ready in 5 seconds flat.
-```
+
+-Mokgadi: mokgadi9939@gmail.com
