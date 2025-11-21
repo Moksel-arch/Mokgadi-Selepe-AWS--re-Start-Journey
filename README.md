@@ -40,5 +40,6 @@ For now, feel free to browse, laugh at my beginner mistakes, steal any code that
 
 See you on the other side of 2025! 
 
-– Mokgadi: mokgadi9939@gmail.com
 Still in training… will properly finish this README when I graduate end of 2025!
+
+– Mokgadi: mokgadi9939@gmail.com
