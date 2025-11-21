@@ -13,7 +13,7 @@
 
 ![Seven colours](https://github.com/user-attachments/assets/43622117-c72b-4e30-83fd-593b3163fa8a)
 
-<img width="1000" height="1000" alt="SA tone" src="https://github.com/user-attachments/assets/4472f91a-5849-4ba2-8ef6-051dfe60007e" />
+<img width="500" height="500" alt="SA tone" src="https://github.com/user-attachments/assets/4472f91a-5849-4ba2-8ef6-051dfe60007e" />
 
 ![Power Salad with Avocado_Eggs   Spinach Fuel Bowl](https://github.com/user-attachments/assets/a6fbc7ea-e433-47fd-a43d-fd43cf4d2d35)
 
@@ -33,7 +33,7 @@
 
 ![Mala   Mogodu](https://github.com/user-attachments/assets/69950e0f-9296-402d-861d-722c2ace4c78)
 
-<img width="1000" height="1000" alt="Lekotla" src="https://github.com/user-attachments/assets/bec2c059-726b-41d5-9071-a88e190791d0" />
+<img width="500" height="500" alt="Lekotla" src="https://github.com/user-attachments/assets/bec2c059-726b-41d5-9071-a88e190791d0" />
 
 ![Kota or Bunny chow](https://github.com/user-attachments/assets/da00d8d0-1d39-4e60-a515-29f424c70b36)
 
@@ -49,11 +49,11 @@
 
 ![Favicon](https://github.com/user-attachments/assets/43552f5e-d4e0-4010-b490-5915ccf77c2a)
 
-<img width="1000" height="1000" alt="community" src="https://github.com/user-attachments/assets/78eaee9f-37bf-4c27-8d77-a7ba833255d7" />
+<img width="500" height="500" alt="community" src="https://github.com/user-attachments/assets/78eaee9f-37bf-4c27-8d77-a7ba833255d7" />
 
 ![Chocolate shake](https://github.com/user-attachments/assets/d2f2680c-a4d5-4a81-9d25-9f975d448a8c)
 
-<img width="1000" height="1000" alt="Chefs Association" src="https://github.com/user-attachments/assets/7b1fb4eb-a34d-4343-b684-bf7ad10e61b9" />
+<img width="500" height="500" alt="Chefs Association" src="https://github.com/user-attachments/assets/7b1fb4eb-a34d-4343-b684-bf7ad10e61b9" />
 
 ![Cheesy pap with spinach](https://github.com/user-attachments/assets/30e615c4-4943-4bdf-9112-eb60af028c33)
 
