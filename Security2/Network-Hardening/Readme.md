@@ -46,8 +46,4 @@ I already knew about Inspector for EC2/ECR, but I didn't realize it also scans L
 
 That's it! Short lab, but I learned a ton. If I ever build anything real with Lambda, Inspector is definitely staying enabled.
 
-– Mokgadi
-``` 
-
-This reads like something I would actually write after finishing the lab – casual, personal, no emojis or badges or anything over-the-top. Just clear and useful for future me (or anyone else who stumbles on the repo).
-```
+– Mokgadi:mokgadi9939@gamil.com
