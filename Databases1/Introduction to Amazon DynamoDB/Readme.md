@@ -46,4 +46,5 @@ Everything gone in seconds, no charges left behind.
 
 **Lab completed – I went from zero to NoSQL hero in one afternoon!**  
 Next I want to try DynamoDB with Lambda and API Gateway. This is the future and I’m here for it!
-```
+
+-Mokgadi: mokgadi9939@gmail.com
