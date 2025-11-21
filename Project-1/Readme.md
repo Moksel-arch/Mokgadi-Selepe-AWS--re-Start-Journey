@@ -42,15 +42,6 @@ DynamoDB              | R48
 Cognito & ACM         | Free
 Total                 | R540–R630
 
-Setup Instructions
-Clone the Repository:
-git clone https://github.com/Moksel-arch/Mokgadi-Selepe-AWS--re-Start-Journey.git
-cd Mokgadi-Selepe-AWS--re-Start-Journey/project-1
-
-Run Locally:
-Open index.html in your browser:
-open index.html   # Mac
-start index.html  # Windows
 
 Team
 - Mokgadi – Web Developer
