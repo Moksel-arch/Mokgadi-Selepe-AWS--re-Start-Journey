@@ -45,20 +45,6 @@
 <img width="602" height="284" alt="32_Test Termination Protection 5" src="https://github.com/user-attachments/assets/5b2fc1db-5553-4acd-acc2-01a37b22becb" />
 <img width="602" height="386" alt="33_Test Termination Protection 6" src="https://github.com/user-attachments/assets/710ec4e4-3c6f-467e-a96e-d10ba7e0043c" />
 <img width="602" height="293" alt="34_Test Termination Protection 7" src="https://github.com/user-attachments/assets/b3a8c1c6-c5f8-4d4d-a447-743da58c4e3b" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="602" height="317" alt="35_Test Termination Protection 8" src="https://github.com/user-attachments/assets/2424b5a7-3192-4846-996b-6c73825cb239" />
+<img width="602" height="290" alt="36_Test Termination Protection 9" src="https://github.com/user-attachments/assets/8cf33d38-ba97-4e5b-abe8-5a985eb7451a" />
+<img width="602" height="291" alt="37_Test Termination Protection 10" src="https://github.com/user-attachments/assets/23fc374a-52fa-48d3-a3da-c316738d17c8" />
