@@ -1,4 +1,5 @@
-Mokgadi
+**Bash_Script_Lab**
+
 ![The Challenge given](https://github.com/user-attachments/assets/b1436649-8446-4a4e-96d6-575a86aa4861)
 ![Ec2 pic1](https://github.com/user-attachments/assets/58bcbc98-784a-48ea-b0c9-6eff8a160d90)
 ![Picture readme1](https://github.com/user-attachments/assets/ddc353d3-b9ee-4dbf-8083-92fad038106c)
