@@ -1,33 +1,64 @@
-**AWS EC2 Instance Management and Web Server Deployment**
+# **EC2 Lab – Mokgadi Selepe**
 
-This repository documents a hands‑on project where I set up, configured, and managed a virtual server (EC2 instance) on Amazon Web Services (AWS) Elastic Compute Cloud (EC2). The project follows a step‑by‑step approach to launch a public‑facing instance, deploy a basic web service, and practice essential lifecycle management and security best practices.
+This is my write-up (more like a personal log) of the Amazon EC2 hands-on lab I did. I basically went through launching a web server, fixing the usual “why can’t I see my page” problem, resizing the instance, and finally cleaning everything up safely.
 
-**Project Overview**
+## What I did – step by step
 
-The goal of this project was to gain practical exposure to the AWS console and EC2 features, including networking, security groups, instance configuration, and persistent storage management. The documentation was originally created by MOKGADI SELEPE.
+### 1. Launching the EC2 instance
+- Named it “Web Server”
+- Chose Amazon Linux 2023 AMI
+- Went with the free-tier t3.micro (2 vCPUs, 1 GiB RAM)
+- Created a new security group but accidentally removed SSH (on purpose for extra security at first)
+- Kept the default 8 GB gp3 root volume
+- Turned on termination protection so I wouldn’t delete it by mistake
+- Added a simple user-data script to install Apache and serve a “Hello From Your Web Server!” page
+- Launched it and waited until it showed “running”
 
-**Key Topics Covered**
+At the end of this step the instance was up and I could already see it had a public IP/DNS.
 
-**The project successfully completed and documented the following five core tasks:**
+### 2. Monitoring the instance
+Just normal health checks:
+- Status Checks → 2/2 checks passed
+- Looked at the Monitoring tab (CPU was basically idle, as expected)
+- Grabbed a couple of console screenshots to see the boot process
 
-1. EC2 Instance Launch – Provisioning an EC2 instance using an Amazon Machine Image (AMI) and configuring network settings, including the Security Group (firewall rules).
-2. Web Server Setup – Connecting to the launched instance (e.g., via SSH or RDP) and installing the necessary software (e.g., IIS, Apache, or Nginx) to run a basic web server.
-3. Instance Modification & Scaling – Practicing resource management by stopping and starting the instance to apply changes, including upgrading the Instance Type (e.g., from t2.micro to t3.small) to increase memory and CPU capacity.
-4. Elastic Block Store (EBS) Management – Demonstrating how to increase the size of the persistent storage (EBS volume) attached to the EC2 instance to meet growing storage needs.
-5. Termination Protection Test – Implementing a crucial security feature by enabling Termination Protection on the instance to prevent accidental deletion, and testing the failure message upon attempted termination.
+Everything looked healthy.
 
-**Learning Outcomes**
+### 3. Fixing the web server access (Security Group)
+Tried opening the public IP in my browser → “can’t reach this page” (classic).
 
-**The exercises in this project solidified the following practical AWS operational skills:**
+Realised I never opened port 80!  
+So I:
+- Went to the security group
+- Added an inbound rule: HTTP (port 80) from 0.0.0.0/0
+- Refreshed the browser → “Hello From Your Web Server!”
 
-- Understanding the instance lifecycle (Pending, Running, Stopping, Terminated).
-- Ability to scale compute resources by changing instance types.
-- Ability to scale storage resources by modifying EBS volume sizes.
-- Implementing basic security measures using Security Groups and Termination Protection.
-- Basic command‑line/server administration skills required to deploy applications.
+Lesson learned: security groups are firewalls, nothing gets in unless you explicitly allow it.
 
-**Technologies Used**
-- Amazon Web Services (AWS): Primary cloud platform.
-- AWS EC2: Core virtual computing service.
-- AWS EBS: Persistent block storage service.
-- Amazon Linux / Windows Server: Operating system environments (depending on the documented steps).
+### 4. Resizing the instance (instance type + EBS volume)
+Wanted to see how upgrading works, so I:
+- Stopped the instance
+- Changed instance type from t3.micro → t3.small (2 vCPUs, 2 GiB RAM)
+- Increased the root volume from 8 GB → 10 GB
+- Started the instance again
+- Extended the file system inside the OS so the extra 2 GB became usable
+
+Everything came back online with more memory and a tiny bit more disk space.
+
+### 5. Testing Termination Protection
+Just to be sure the safety net works:
+- Tried to terminate → got the expected error because protection was enabled
+- Disabled termination protection
+- Terminated the instance for real
+
+Instance deleted, no surprises.
+
+## What I take away from this lab
+- EC2 is basically a virtual machine in the cloud, but you control networking with security groups
+- Always remember to open the ports you need (port 80 for web servers!)
+- You can upgrade/downgrade instance types and grow disks on the fly (just have to stop/start for type changes)
+- Termination protection is super useful so you don’t accidentally blow away something important
+
+That’s it! Pretty straightforward once you get the security group part right. Feel free to use this as a cheat-sheet if you’re doing the same lab.
+
+– Mokgadi
