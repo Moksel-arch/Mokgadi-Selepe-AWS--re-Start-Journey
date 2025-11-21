@@ -70,4 +70,5 @@ I now feel confident with the basic lifecycle of databases and tables:
 These are the commands I’ll be using every day when working with relational databases!
 
 **Lab completed successfully – everything created and cleanly removed!**
-```
+
+-Mokgadi: mokgadi9939@gmail.com
