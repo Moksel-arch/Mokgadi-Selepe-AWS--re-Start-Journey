@@ -5,7 +5,7 @@ Still deep in the AWS re/Start database module and today we levelled up from bas
 
 ## What I Did Today
 
-### 1. Connected like a pro (no more screenshots needed)
+### 1. Connected like a pro 
 
 ### 2. Aggregation Functions – the “give me summaries” squad
 ```sql
