@@ -1,4 +1,5 @@
 **NETWORK-HARDENING**
+
 <img width="602" height="289" alt="Picture1" src="https://github.com/user-attachments/assets/d9802ea5-1159-4bc3-b60d-fd9e48fc8275" />
 <img width="602" height="270" alt="Picture2" src="https://github.com/user-attachments/assets/61aed14a-1411-483c-9d4a-b1ae05fe4b24" />
 <img width="602" height="280" alt="Picture3" src="https://github.com/user-attachments/assets/14061392-8ad5-4eaf-b55c-2e73dedec842" />
