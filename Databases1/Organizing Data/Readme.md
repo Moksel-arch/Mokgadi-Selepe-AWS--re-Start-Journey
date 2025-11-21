@@ -91,4 +91,5 @@ ORDER BY Region, RankInRegion;
 
 **Lab completed – I’m officially addicted to window functions!**  
 Next time someone asks “Who’s the biggest country in each region?” I’ll write one query and look like a wizard.
-```
+
+-Mokgadi: mokgadi9939@gmail.com
