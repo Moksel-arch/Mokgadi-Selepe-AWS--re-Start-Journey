@@ -4,6 +4,7 @@
 
 I’m starting the Introduction to Programming lab, and the whole thing is built around Python. The goal is simple: write my very first Python program
 
+***Exercise 1: Introducing Python*
 <img width="1919" height="578" alt="image" src="https://github.com/user-attachments/assets/20e5139f-279d-4cf6-9b83-480784680028" />
 <img width="1914" height="890" alt="image" src="https://github.com/user-attachments/assets/d31be660-a194-4bf4-a643-097b75e8c1e5" />
 <img width="1914" height="820" alt="image" src="https://github.com/user-attachments/assets/650127c8-5f41-4e43-a094-1bdcf6b42698" />
@@ -28,3 +29,7 @@ I’m starting the Introduction to Programming lab, and the whole thing is built
 
 #### Checking which Python versions are on the computer
 - I typed these commands one by one:
+
+***Exercise 2: Writing your first Python program*
+<img width="1916" height="548" alt="image" src="https://github.com/user-attachments/assets/0e66c046-9fb0-425b-9c0e-72008a534d40" />
+<img width="1909" height="600" alt="image" src="https://github.com/user-attachments/assets/e45dbe76-18fc-4a4c-b083-ef7d43d5e2db" />
