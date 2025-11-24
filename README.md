@@ -13,15 +13,8 @@ I’m putting everything I learn here, one folder at a time:
 - Networking  
 - Security  
 - Python Programming  
-- Databases  
-- AWS Architecture  
-- Systems Operations  
-- Tooling and Automation  
-- Servers  
-- Scaling and Name Resolution  
-- Serverless and Containers  
-- AWS Database Services  
-- AWS Networking Services  
+- Databases   
+- Servers   
 
 Every day I finish a lab I feel like I understand the cloud a little bit more. From basic Linux commands to building databases on RDS and Aurora – it’s a lot, but I’m loving it!
 
