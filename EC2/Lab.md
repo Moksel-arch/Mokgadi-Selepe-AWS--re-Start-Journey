@@ -85,6 +85,31 @@ Now, my web server is up and running, and I can access it using its public DNS n
 <img width="1543" height="260" alt="image" src="https://github.com/user-attachments/assets/cfa29f11-d765-4dfe-af48-a4e234897eac" />
 <img width="1899" height="882" alt="image" src="https://github.com/user-attachments/assets/164609ba-2529-43f3-a53b-b6bcf1239403" />
 <img width="1899" height="704" alt="image" src="https://github.com/user-attachments/assets/2adb369f-ef96-41b4-95d3-6df309efc998" />
+Here's what happened:
+
+I checked on the status of my virtual server (EC2 instance) to make sure it's running smoothly.
+
+Here's what I did:
+
+1. Checked instance status: I looked at the Status checks tab and saw that both system and instance checks passed, which means everything is okay.
+2. Viewed monitoring metrics: I clicked on the Monitoring tab and saw some basic metrics about my instance, like CPU usage.
+3. Took a screenshot: I took a screenshot of my instance's console to see what's happening on the screen, which can help with troubleshooting.
+
+By doing this, I can:
+- Make sure my instance is running properly
+- Identify any potential issues
+- Troubleshoot problems if they arise
+
+Now I know my instance is up and running smoothly!
+
+**Task 3: Update Your Security Group and Access the Web Server**
+<img width="1247" height="821" alt="image" src="https://github.com/user-attachments/assets/8105bbbc-ccb6-462b-b36b-27d0dc1a56d0" />
+<img width="1913" height="876" alt="image" src="https://github.com/user-attachments/assets/486c47c5-09a9-4111-a599-28923ba551d6" />
+<img width="1917" height="661" alt="image" src="https://github.com/user-attachments/assets/cf8676a3-87ff-48b6-9725-ae1b75934ab3" />
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/d599499b-9adc-40a1-9923-23bdb345823e" />
+<img width="944" height="248" alt="image" src="https://github.com/user-attachments/assets/f0e00030-79bb-4f69-b34c-ae13f513e6a5" />
+
+
 
 
 
