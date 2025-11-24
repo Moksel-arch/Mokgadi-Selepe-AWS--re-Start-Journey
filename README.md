@@ -3,7 +3,7 @@
 Hi there!  
 My name is Mokgadi and this is my little corner on GitHub where I’m keeping everything from my **AWS re/Start** journey.
 
-I started the program on **06 October 2025** and we finish on **26 December 2025**. Time is moving so fast! After that I’m planning to write the **AWS Cloud Practitioner** exam early 2026 – I’m nervous but also super excited 😅
+I started the program on **06 October 2025** and we finish on **26 December 2025**. Time is moving so fast! After that I’m planning to write the **AWS Cloud Practitioner** exam early 2026 – I’m nervous but also super excited..
 
 ### Labs I’ve Completed So Far
 I’m putting everything I learn here, one folder at a time:
