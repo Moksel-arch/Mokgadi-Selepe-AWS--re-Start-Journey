@@ -33,3 +33,47 @@ Here’s what I just did:
 What happened:
 All users in this AWS account now have to follow a stricter password policy—longer passwords, extra complexity requirements, passwords that expire after 90 days, and they can’t reuse the last five passwords. This makes the passwords much harder to crack.
 
+***Task 2: Explore users and user groups*
+<img width="1919" height="880" alt="image" src="https://github.com/user-attachments/assets/7546ab31-df58-4e26-8444-b5f95a571940" />
+<img width="1891" height="875" alt="image" src="https://github.com/user-attachments/assets/622ccd50-29c1-4f4a-99a3-314a86b6cbc7" />
+<img width="1911" height="885" alt="image" src="https://github.com/user-attachments/assets/c0adc494-9ab1-47e2-b7f9-1a1962fc6a19" />
+<img width="1892" height="876" alt="image" src="https://github.com/user-attachments/assets/b91605d9-ac60-4cf6-8e51-fdac71524a42" />
+<img width="1914" height="877" alt="image" src="https://github.com/user-attachments/assets/5a1a81a8-eeb7-4a59-a83c-e3c2b879f88e" />
+<img width="1906" height="870" alt="image" src="https://github.com/user-attachments/assets/002190a1-f1d4-4d46-9301-458f343c15af" />
+<img width="1895" height="887" alt="image" src="https://github.com/user-attachments/assets/c9363cb2-b39b-4bc0-86a7-2a097461bee8" />
+<img width="1895" height="875" alt="image" src="https://github.com/user-attachments/assets/0058f7b0-bdff-4aeb-b7ab-58b589c119dc" />
+<img width="1890" height="885" alt="image" src="https://github.com/user-attachments/assets/52a9dc63-35f9-4d0e-8ecd-6de953b5fb2d" />
+<img width="1890" height="890" alt="image" src="https://github.com/user-attachments/assets/965dc974-55b8-4063-a464-5b0dd6699b70" />
+
+
+What I just did - a quick walk‑through:
+
+- I opened the IAM console and looked at the Users section.
+    - Three users were already there: user-1, user-2, and user-3.
+    - I clicked on user-1. The Permissions tab showed that this user has no permissions at all, and the Groups tab confirmed the user isn’t in any group.
+    - The Security credentials tab told me that user-1 has a console password set.
+
+- Next I went to User groups. Three groups were already created:
+    - EC2‑Admin
+    - EC2‑Support
+    - S3‑Support
+
+- EC2‑Support group
+    - I opened its Permissions tab and saw a managed policy called AmazonEC2ReadOnlyAccess.
+    - I expanded the policy and saw it lets you list and describe EC2, ELB, CloudWatch, and Auto Scaling resources – perfect for a read‑only support role.
+
+- S3‑Support group
+    - This group has the managed policy AmazonS3ReadOnlyAccess.
+    - Expanding the policy showed it only allows Get and List actions on S3 buckets.
+
+- EC2‑Admin group
+    - Unlike the other groups, this one uses a customer inline policy (EC2‑Admin‑Policy).
+    - The inline policy lets you describe EC2 resources and start or stop instances – a one‑off set of permissions for an admin role.
+
+- Business scenario
+    - The lab now expects me to map the users to groups with the right level of access:
+        - user-1 → S3‑Support → read‑only S3
+        - user-2 → EC2‑Support → read‑only EC2
+        - user-3 → EC2‑Admin → view, start, and stop EC2 instances
+
+That’s the whole picture: I inspected the pre‑created users and groups, looked at the policies attached to each group, and understood how the permissions line up with the business needs.
