@@ -5,7 +5,7 @@ AWS--re-Start - Projects
 
 This is Mokgadi’s little corner of GitHub where I’m keeping everything from my AWS re/Start programme. Labs, notes, screenshots, half-working code, tears, and triumphs – it’s all here.
 
-I’m still very much in the middle of the training (started earlier this year 2025 06th of Octber and finishing end of December 2025), so this README is a work-in-progress. I’ll come back and polish it properly once I’m done with the whole course and hopefully holding that Cloud Practitioner certificate in my hand!
+I’m still very much in the middle of the training (started 06th October this year 2025 finishing end of 26th December 2025), so this README is a work-in-progress. I’ll come back and polish it properly once I’m done with the whole course and hopefully holding that Cloud Practitioner certificate in my hand!
 
 ## Quick About Me
 Mokgadi here  
