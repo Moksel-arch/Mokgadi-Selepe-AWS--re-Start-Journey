@@ -1,6 +1,6 @@
 **DATA PROTECTION USING ENCRYPTION**
 
-<img width="1231" height="753" alt="image" src="https://github.com/user-attachments/assets/8d548423-60bd-449d-ae3b-8e3b644128dc" />
+
 
 *1: Create an AWS KMS key*
 <img width="1901" height="875" alt="image" src="https://github.com/user-attachments/assets/16d42f8b-5c7d-43fd-ba9c-549429875b33" />
