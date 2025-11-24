@@ -41,9 +41,42 @@ What’s happening now:
 <img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/847bc9e5-f242-4093-a8a7-8bb8177ddec5" />
 
 ***Step 4: Configuring a key pair*
-<img width="1214" height="215" alt="image" src="https://github.com/user-attachments/assets/92adadad-205e-4da8-bc03-1097be9eedd1" />
+<img width="1900" height="868" alt="image" src="https://github.com/user-attachments/assets/56039057-f802-4231-bfed-4a7a913be1f5" />
 
 ***Step 5: Configuring the network settings *
+<img width="1896" height="876" alt="image" src="https://github.com/user-attachments/assets/ef338c42-3857-463b-905e-724daa90e58c" />
+
+***Step 6: Adding storage*
+<img width="1894" height="873" alt="image" src="https://github.com/user-attachments/assets/822657b5-23b3-495e-b327-a73e419b877a" />
+
+***Step 7: Configuring advanced details *
+<img width="1899" height="873" alt="image" src="https://github.com/user-attachments/assets/d5bdd7ab-5350-4398-bd3e-bc10c49201fe" />
+<img width="1919" height="883" alt="image" src="https://github.com/user-attachments/assets/6c43484c-0e75-43b1-9446-60dba64ea1c6" />
+<img width="1904" height="882" alt="image" src="https://github.com/user-attachments/assets/92bee2fe-8b52-4132-a4e0-5709f1d69c58" />
+
+***Step 8: Launching an EC2 instance*
+<img width="1898" height="878" alt="image" src="https://github.com/user-attachments/assets/5f5458a7-5847-4091-a3e1-d4fe4270c2cf" />
+<img width="1906" height="873" alt="image" src="https://github.com/user-attachments/assets/b407db68-ab19-46b5-9d3b-436cb93ed4ee" />
+<img width="1906" height="893" alt="image" src="https://github.com/user-attachments/assets/dacbd5eb-0309-4595-a1cf-64a9747e975b" />
+
+Here's what happened:
+
+I created a virtual server on Amazon Web Services (AWS) called an EC2 instance. Here's what I did:
+
+1. Named the instance: I named it "Web Server".
+2. Chose an operating system: I selected Amazon Linux 2023 as the operating system.
+3. Selected instance type: I chose a t3.micro instance, which has 2 virtual CPUs and 1 GB of memory.
+4. Configured security: I created a security group to control traffic to the instance and removed SSH access for security.
+5. Added storage: I used the default 8 GB disk volume.
+6. Enabled termination protection: I enabled protection to prevent accidental termination of the instance.
+7. Added a script: I added a script that installs a web server (Apache) and creates a simple web page.
+8. Launched the instance: I launched the instance and waited for it to start running.
+
+Now, my web server is up and running, and I can access it using its public DNS name!
+                                                                                                                                                                                                                              
+
+
+**Task 2: Monitor Your Instance**
 
 
 
