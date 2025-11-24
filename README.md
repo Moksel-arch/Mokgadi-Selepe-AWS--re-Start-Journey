@@ -24,7 +24,7 @@ Everything we’ve covered up to November 2025:
 - Servers → Serverless → Containers
 - Scaling, Name Resolution, Storage, Monitoring
 - Automated Deployments (SAM, CodePipeline, etc.)
-- A tiny bit of Machine Learning & Generative AI
+- Machine Learning as I have recently graduated as a **Data Scientist** & Generative AI
 
 ## Favourite Thing I’ve Built So Far
 The @MALLS restaurant project (group of 5) – we took a real-life South African restaurant that was running on WhatsApp and paper and moved them to a fully serverless AWS setup for ~R600/month instead of R6 000+.  
