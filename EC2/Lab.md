@@ -130,6 +130,47 @@ What I learned:
 <img width="1025" height="609" alt="image" src="https://github.com/user-attachments/assets/6e6b7134-ff17-4f76-ab02-91235d79f0fa" />
 <img width="1906" height="881" alt="image" src="https://github.com/user-attachments/assets/0203a25b-4079-4dba-99ee-47302f7170ae" />
 <img width="1913" height="882" alt="image" src="https://github.com/user-attachments/assets/00d35dbc-893f-4329-9fdc-28f66469fc70" />
+<img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/f38cd9e5-7d04-4941-b30d-ffa8c3caff68" />
+<img width="1907" height="874" alt="image" src="https://github.com/user-attachments/assets/17568b56-a937-45c9-83e7-b8b01f2e7a71" />
+<img width="1916" height="876" alt="image" src="https://github.com/user-attachments/assets/5105ed8f-2973-4888-8d36-87b59462c6a3" />
+<img width="1904" height="883" alt="image" src="https://github.com/user-attachments/assets/2802bd5e-83dd-44d0-bbef-bea3b1764135" />
+<img width="1907" height="875" alt="image" src="https://github.com/user-attachments/assets/ab4d3819-5e3e-4ea5-8e9e-69ca7fbd077f" />
+<img width="762" height="464" alt="image" src="https://github.com/user-attachments/assets/1059934a-c3c8-488c-8ece-58e79181802f" />
+<img width="1919" height="893" alt="image" src="https://github.com/user-attachments/assets/8732d910-44b8-4a2f-bd78-fa1a88d5c732" />
+<img width="1916" height="883" alt="image" src="https://github.com/user-attachments/assets/b8319466-79b1-4c97-ba1c-7dad4afd7565" />
+<img width="1905" height="890" alt="image" src="https://github.com/user-attachments/assets/4b14358b-7d1b-4b3b-a04c-7d6d8d45aa21" />
+I just resized my EC2 instance and its disk, and here’s what I did:
+
+- Stopped the instance – I had to shut the server down first; there’s no charge while it’s stopped, only the EBS storage cost remains.
+- Changed the instance type – From the Actions menu I chose Instance Settings → Change Instance Type and picked t3.small (twice the memory of the original t3.micro).
+- Resized the EBS volume – I went to Volumes under Elastic Block Store, selected my 8 GiB root disk, chose Modify Volume, and bumped it up to 10 GiB.
+- Started the instance again – Back on the Instances page I selected the stopped instance and clicked Start.
+
+Now the web server runs on a larger t3.small instance with a 10 GiB root disk, and everything is back up and running.
+
+**Task 5: Test Termination Protection**
+<img width="1019" height="546" alt="image" src="https://github.com/user-attachments/assets/cd98f1df-1f71-4ea5-87d4-c13646f3129b" />
+<img width="1909" height="879" alt="image" src="https://github.com/user-attachments/assets/cb68cd51-cfec-43d6-aa2f-2d97f46af495" />
+<img width="737" height="370" alt="image" src="https://github.com/user-attachments/assets/efcbc713-d698-490b-ad8c-15fcb5746e5b" />
+<img width="762" height="490" alt="image" src="https://github.com/user-attachments/assets/1e6b4458-76bb-4089-9e75-d07dc09e74f6" />
+<img width="1903" height="877" alt="image" src="https://github.com/user-attachments/assets/d26b643f-06be-4f36-8b1f-e69c2b968c4a" />
+Here's what happened:
+
+I tried to delete my virtual server (EC2 instance), but it didn't work at first.
+
+Here's what I did:
+
+1. Tried to terminate the instance: I selected "Terminate instance" to delete it.
+2. Got an error: It didn't let me delete it because termination protection was enabled.
+3. Disabled termination protection: I turned off termination protection in the settings.
+4. Terminated the instance: I tried again and successfully deleted the instance.
+
+What I learned:
+
+- Termination protection is a feature that prevents accidental deletion of instances.
+- I need to disable termination protection before I can delete an instance.
+- Once termination protection is disabled, I can delete the instance.
+
 
 
 
