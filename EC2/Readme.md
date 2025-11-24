@@ -61,4 +61,4 @@ Instance deleted, no surprises.
 
 That’s it! Pretty straightforward once you get the security group part right. Feel free to use this as a cheat-sheet if you’re doing the same lab.
 
-– Mokgadi
+– Mokgadi: mokgadi9939@gmail.com
