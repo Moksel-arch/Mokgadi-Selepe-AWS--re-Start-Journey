@@ -72,4 +72,3 @@
 
 -Mokgadi: mokgadi9939@gmail.com
 
-Feel free to copy any of these snippets into your README. They’re written as if I’m talking to myself while I work, so the tone stays human and approachable. Happy coding! 🚀
