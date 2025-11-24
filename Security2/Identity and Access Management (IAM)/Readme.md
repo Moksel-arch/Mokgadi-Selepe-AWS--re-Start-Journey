@@ -1,4 +1,7 @@
+
+
 **Introduction to AWS Identity and Access Management (IAM)**
+<img width="2200" height="1100" alt="image" src="https://github.com/user-attachments/assets/9549e819-3938-42d0-b7fc-a672bd18b501" />
 
 I just read the intro to the IAM lab, and here’s what it’s saying in plain English:
 
