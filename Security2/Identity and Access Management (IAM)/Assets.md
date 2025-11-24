@@ -44,6 +44,8 @@ All users in this AWS account now have to follow a stricter password policy—lo
 <img width="1895" height="875" alt="image" src="https://github.com/user-attachments/assets/0058f7b0-bdff-4aeb-b7ab-58b589c119dc" />
 <img width="1890" height="885" alt="image" src="https://github.com/user-attachments/assets/52a9dc63-35f9-4d0e-8ecd-6de953b5fb2d" />
 <img width="1890" height="890" alt="image" src="https://github.com/user-attachments/assets/965dc974-55b8-4063-a464-5b0dd6699b70" />
+<img width="1903" height="879" alt="image" src="https://github.com/user-attachments/assets/697a8214-aa35-431d-a213-582784977d6e" />
+<img width="1914" height="875" alt="image" src="https://github.com/user-attachments/assets/445b28d2-3f41-42ce-b36f-7a71d6b76abe" />
 
 
 What I just did - a quick walk‑through:
@@ -77,3 +79,27 @@ What I just did - a quick walk‑through:
         - user-3 → EC2‑Admin → view, start, and stop EC2 instances
 
 That’s the whole picture: I inspected the pre‑created users and groups, looked at the policies attached to each group, and understood how the permissions line up with the business needs.
+
+***3: Add users to user groups*
+<img width="1919" height="898" alt="image" src="https://github.com/user-attachments/assets/476e7072-9234-4c68-b226-75df4a82a475" />
+<img width="1916" height="888" alt="image" src="https://github.com/user-attachments/assets/b1b4f029-bf7e-48d7-abbe-584a4602bee6" />
+<img width="1907" height="874" alt="image" src="https://github.com/user-attachments/assets/091ce904-739a-46b4-bb1a-f9c1d5bc0d89" />
+<img width="1915" height="882" alt="image" src="https://github.com/user-attachments/assets/6243f6e4-59da-4389-a46d-19da424ecad6" />
+
+
+I just walked through adding the three users to the right groups, and here’s what I did in simple English:
+
+- Added user‑1 to the S3‑Support group
+    - Went to User groups, selected S3‑Support, opened the Users tab, clicked Add users, ticked the box for user‑1, and hit Add Users.
+    - (I ignored any “not authorized” warnings – they’re just a quirk of the lab account.)
+
+- Added user‑2 to the EC2‑Support group
+    - Repeated the same steps, but chose the EC2‑Support group and selected user‑2 instead.
+
+- Added user‑3 to the EC2‑Admin group
+    - Again, same process, this time picking the EC2‑Admin group and adding user‑3.
+
+- Checked the results
+    - Back in the User groups list, each group now shows a 1 in the Users column, confirming that every user is attached to the correct group as outlined in the business scenario.
+
+That’s it – all the users are now part of the appropriate groups and inherit the permissions they need.
