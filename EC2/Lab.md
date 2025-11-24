@@ -33,8 +33,8 @@ What’s happening now:
 
 <img width="1888" height="872" alt="image" src="https://github.com/user-attachments/assets/3b77ff4c-8836-42f6-828e-1498c58630e7" />
 <img width="1893" height="876" alt="image" src="https://github.com/user-attachments/assets/afe6051c-a02d-40af-bb60-fa02b834e4e3" />
-<img width="1911" height="875" alt="image" src="https://github.com/user-attachments/assets/00f7db06-7262-4e80-babb-13ef12d986a3" />
-<img width="1891" height="868" alt="image" src="https://github.com/user-attachments/assets/f19d6bb0-b4db-4d58-ba3c-f4a214cff921" />
+<img width="1902" height="871" alt="image" src="https://github.com/user-attachments/assets/b40102c0-dfd6-4f98-b1d9-8076cf071495" />
+
 
 ***Step 1: Naming my EC2 instance*
 
