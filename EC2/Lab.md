@@ -108,6 +108,30 @@ Now I know my instance is up and running smoothly!
 <img width="1917" height="661" alt="image" src="https://github.com/user-attachments/assets/cf8676a3-87ff-48b6-9725-ae1b75934ab3" />
 <img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/d599499b-9adc-40a1-9923-23bdb345823e" />
 <img width="944" height="248" alt="image" src="https://github.com/user-attachments/assets/f0e00030-79bb-4f69-b34c-ae13f513e6a5" />
+Here's what happened:
+
+I tried to access my web server, but it wasn't working. Here's what I did:
+
+1. Copied the IP address: I copied the public IP address of my EC2 instance.
+2. Tried to access the web server: I pasted the IP address into a web browser, but it didn't work.
+3. Found the problem: I realized that the security group wasn't allowing incoming traffic on port 80 (HTTP).
+4. Updated the security group: I added a new rule to allow HTTP traffic from anywhere.
+5. Refreshed the page: I went back to the web browser and refreshed the page.
+
+And... it worked! I saw the message "Hello From Your Web Server!" because I allowed HTTP traffic in the security group.
+
+What I learned:
+
+- Security groups act like firewalls to control traffic to and from instances.
+- I need to configure security groups to allow specific types of traffic (like HTTP) to reach my instance.
+
+**Task 4: Resize Your Instance: Instance Type and EBS Volume**
+<img width="1913" height="884" alt="image" src="https://github.com/user-attachments/assets/50833700-bdfb-4aaf-bfd3-c664f60ba821" />
+<img width="1025" height="609" alt="image" src="https://github.com/user-attachments/assets/6e6b7134-ff17-4f76-ab02-91235d79f0fa" />
+<img width="1906" height="881" alt="image" src="https://github.com/user-attachments/assets/0203a25b-4079-4dba-99ee-47302f7170ae" />
+<img width="1913" height="882" alt="image" src="https://github.com/user-attachments/assets/00d35dbc-893f-4329-9fdc-28f66469fc70" />
+
+
 
 
 
