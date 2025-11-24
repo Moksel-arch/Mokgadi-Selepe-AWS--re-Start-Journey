@@ -103,3 +103,62 @@ I just walked through adding the three users to the right groups, and here’s w
     - Back in the User groups list, each group now shows a 1 in the Users column, confirming that every user is attached to the correct group as outlined in the business scenario.
 
 That’s it – all the users are now part of the appropriate groups and inherit the permissions they need.
+
+***
+
+***Task 4: Sign in and test user permissions*
+
+This task was about **signing in and testing IAM user permissions** in AWS. The goal was to check what each user can and cannot do based on their assigned permissions.
+
+***
+
+#### **Steps Taken:**
+
+*   **Sign in as user-1 (S3 Support Staff):**
+    *   Used the IAM Sign-in URL in a private browser window.
+    *   Entered credentials:
+        *   Username: `user-1`
+        *   Password: `Lab-Password1`
+    *   Checked **Amazon S3**:
+        *   Could view buckets and their contents (because user-1 is in the S3-Support group).
+    *   Checked **Amazon EC2**:
+        *   Could NOT view instances.
+        *   Message: *You are not authorized to perform this operation.*
+
+***
+
+*   **Sign in as user-2 (EC2 Support Person):**
+    *   Signed out user-1 and signed in with:
+        *   Username: `user-2`
+        *   Password: `Lab-Password2`
+    *   Checked **Amazon EC2**:
+        *   Could view EC2 instances (read-only permissions).
+        *   Tried to stop an instance → Failed.
+            *   Message: *You are not authorized to perform this operation.*
+    *   Checked **Amazon S3**:
+        *   Could NOT view buckets.
+        *   Message: *You don't have permissions to list buckets.*
+
+***
+
+*   **Sign in as user-3 (EC2 Administrator):**
+    *   Signed out user-2 and signed in with:
+        *   Username: `user-3`
+        *   Password: `Lab-Password3`
+    *   Checked **Amazon EC2**:
+        *   Could view EC2 instances.
+        *   Successfully stopped an instance (full EC2 admin permissions).
+
+***
+
+### **Summary of Task**
+
+*   **user-1:** Can view S3 buckets but cannot access EC2.
+*   **user-2:** Can view EC2 instances but cannot stop them; cannot access S3.
+*   **user-3:** Can view and manage EC2 instances (including stopping them).
+
+***
+
+**This exercise shows how IAM policies control what each user can do in AWS.**
+
+
