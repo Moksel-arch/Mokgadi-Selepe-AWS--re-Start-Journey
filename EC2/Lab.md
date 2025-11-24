@@ -56,9 +56,7 @@ What’s happening now:
 
 ***Step 8: Launching an EC2 instance*
 <img width="1898" height="878" alt="image" src="https://github.com/user-attachments/assets/5f5458a7-5847-4091-a3e1-d4fe4270c2cf" />
-<img width="1906" height="873" alt="image" src="https://github.com/user-attachments/assets/b407db68-ab19-46b5-9d3b-436cb93ed4ee" />
-<img width="1906" height="893" alt="image" src="https://github.com/user-attachments/assets/dacbd5eb-0309-4595-a1cf-64a9747e975b" />
-
+<img width="1892" height="887" alt="image" src="https://github.com/user-attachments/assets/14b520be-d7d1-483a-9622-a741f4448c9b" />
 Here's what happened:
 
 I created a virtual server on Amazon Web Services (AWS) called an EC2 instance. Here's what I did:
