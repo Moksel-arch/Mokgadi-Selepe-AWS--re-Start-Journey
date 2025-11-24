@@ -33,10 +33,21 @@ What’s happening now:
 
 <img width="1888" height="872" alt="image" src="https://github.com/user-attachments/assets/3b77ff4c-8836-42f6-828e-1498c58630e7" />
 <img width="1893" height="876" alt="image" src="https://github.com/user-attachments/assets/afe6051c-a02d-40af-bb60-fa02b834e4e3" />
+
+***Step 1 & 2: Naming my EC2 instance and Choosing an Amazon Machine Image (AMI)*
 <img width="1902" height="871" alt="image" src="https://github.com/user-attachments/assets/b40102c0-dfd6-4f98-b1d9-8076cf071495" />
 
+***Step 3: Choosing an instance type*
+<img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/847bc9e5-f242-4093-a8a7-8bb8177ddec5" />
 
-***Step 1: Naming my EC2 instance*
+***Step 4: Configuring a key pair*
+<img width="1214" height="215" alt="image" src="https://github.com/user-attachments/assets/92adadad-205e-4da8-bc03-1097be9eedd1" />
+
+***Step 5: Configuring the network settings *
+
+
+
+
 
 
 
