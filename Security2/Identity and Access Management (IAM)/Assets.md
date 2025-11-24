@@ -115,6 +115,25 @@ That’s it – all the users are now part of the appropriate groups and inherit
 ***Task 4: Sign in and test user permissions*
 <img width="1899" height="885" alt="image" src="https://github.com/user-attachments/assets/c6402b21-8142-4668-b030-98a3087eb273" />
 <img width="1919" height="984" alt="image" src="https://github.com/user-attachments/assets/a7fe0744-6f2e-41d6-9466-51f2cceae97a" />
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/14d1d3fb-f073-4b52-af81-d25e0795df18" />
+<img width="1915" height="978" alt="image" src="https://github.com/user-attachments/assets/08b2b098-4691-4cce-95ba-baec1f154435" />
+<img width="1916" height="869" alt="image" src="https://github.com/user-attachments/assets/8d3db7bd-1c1b-445d-9bed-4c9878fc77ad" />
+<img width="1917" height="965" alt="image" src="https://github.com/user-attachments/assets/a3961ab2-38a7-4b79-bc13-d0930b0efe4e" />
+<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/91f95501-263d-4368-8c5a-4d2d1ead8665" />
+<img width="1919" height="978" alt="image" src="https://github.com/user-attachments/assets/42a1f4fa-b5d0-4ac4-b342-db7dd20b86da" />
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/1be44a82-7ad2-4c3d-bfd1-1a566d680771" />
+<img width="1919" height="789" alt="image" src="https://github.com/user-attachments/assets/9cbf432f-ffe6-4331-9ec2-13d87cdcfa20" />
+<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/96087724-3772-4fa3-9fb8-dd2e747332b9" />
+<img width="1916" height="1009" alt="image" src="https://github.com/user-attachments/assets/acdd5b0e-3d93-45fc-a640-86a19eacdaf9" />
+<img width="1910" height="967" alt="image" src="https://github.com/user-attachments/assets/82febbf7-50e8-4176-93c4-246680e421d4" />
+<img width="1915" height="978" alt="image" src="https://github.com/user-attachments/assets/9ad025c1-218d-41ce-a304-d95c8fad31cd" />
+<img width="1911" height="956" alt="image" src="https://github.com/user-attachments/assets/2df90686-dd0a-40ca-95f3-18ce7b84fcbd" />
+<img width="1919" height="975" alt="image" src="https://github.com/user-attachments/assets/7d92d45c-7a27-43ab-92b7-a56ee1a117e8" />
+<img width="1910" height="976" alt="image" src="https://github.com/user-attachments/assets/3ba8adc3-60f8-42f7-b4c2-b4a61c308a70" />
+<img width="1896" height="1002" alt="image" src="https://github.com/user-attachments/assets/c871ec7e-cba5-4eae-8992-5c6e90c7bedb" />
+<img width="1919" height="978" alt="image" src="https://github.com/user-attachments/assets/63b3b1aa-7bc6-4162-819b-586e67a3abfe" />
+<img width="1919" height="974" alt="image" src="https://github.com/user-attachments/assets/f83da2bc-baee-40a9-a543-2de9b89dedd7" />
+<img width="1919" height="986" alt="image" src="https://github.com/user-attachments/assets/39606327-15bd-45b1-84af-8caba7cdddea" />
 
 This task was about **signing in and testing IAM user permissions** in AWS. The goal was to check what each user can and cannot do based on their assigned permissions.
 
@@ -170,3 +189,16 @@ This task was about **signing in and testing IAM user permissions** in AWS. The 
 **This exercise shows how IAM policies control what each user can do in AWS.**
 
 ***
+
+**Conclusion**
+
+I’m done! Here’s what I’ve wrapped up:
+
+- Created and applied an IAM password policy.
+- Explored the pre‑created IAM users and user groups.
+- Inspected the policies attached to those groups.
+- Added each user to the appropriate group with the right permissions.
+- Located and used the IAM sign‑in URL.
+- Tested how the policies affect access to S3 and EC2.
+
+All set!
