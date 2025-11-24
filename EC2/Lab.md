@@ -57,6 +57,10 @@ What’s happening now:
 ***Step 8: Launching an EC2 instance*
 <img width="1898" height="878" alt="image" src="https://github.com/user-attachments/assets/5f5458a7-5847-4091-a3e1-d4fe4270c2cf" />
 <img width="1892" height="887" alt="image" src="https://github.com/user-attachments/assets/14b520be-d7d1-483a-9622-a741f4448c9b" />
+<img width="1587" height="435" alt="image" src="https://github.com/user-attachments/assets/80022cf0-bd60-47d6-9181-aa0830f68d27" />
+<img width="1579" height="450" alt="image" src="https://github.com/user-attachments/assets/5d665ef7-1ec8-47ea-9493-aecaaf57e7f9" />
+
+
 Here's what happened:
 
 I created a virtual server on Amazon Web Services (AWS) called an EC2 instance. Here's what I did:
@@ -76,7 +80,11 @@ Now, my web server is up and running, and I can access it using its public DNS n
 
 **Task 2: Monitor Your Instance**
 
-
+<img width="1917" height="881" alt="image" src="https://github.com/user-attachments/assets/f12a044d-38c4-43be-9666-a5410a44ea02" />
+<img width="1570" height="444" alt="image" src="https://github.com/user-attachments/assets/de426c6a-dd1e-47e7-ba8e-78e1b9844816" />
+<img width="1543" height="260" alt="image" src="https://github.com/user-attachments/assets/cfa29f11-d765-4dfe-af48-a4e234897eac" />
+<img width="1899" height="882" alt="image" src="https://github.com/user-attachments/assets/164609ba-2529-43f3-a53b-b6bcf1239403" />
+<img width="1899" height="704" alt="image" src="https://github.com/user-attachments/assets/2adb369f-ef96-41b4-95d3-6df309efc998" />
 
 
 
