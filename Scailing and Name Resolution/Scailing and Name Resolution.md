@@ -43,3 +43,6 @@ A confirmation screen popped up showing the new AMI ID – I’ll use that ID wh
 <img width="1899" height="882" alt="image" src="https://github.com/user-attachments/assets/e2d65225-7bed-4263-aedb-92ac2cf34918" />
 <img width="1906" height="884" alt="image" src="https://github.com/user-attachments/assets/4039fc10-e618-439c-9414-383787a8382f" />
 <img width="1896" height="889" alt="image" src="https://github.com/user-attachments/assets/4fddb060-21ff-42ca-a582-b629959ac581" />
+<img width="1899" height="875" alt="image" src="https://github.com/user-attachments/assets/cc2d7ac4-32c3-4668-8319-dc0eb65f1722" />
+<img width="1900" height="879" alt="image" src="https://github.com/user-attachments/assets/7b49ad1b-d078-4a2e-b491-03b671b4227f" />
+<img width="1915" height="880" alt="image" src="https://github.com/user-attachments/assets/27ed21c2-5345-4b80-8e56-a7cebd34c12c" />
