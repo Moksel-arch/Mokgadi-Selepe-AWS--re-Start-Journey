@@ -133,6 +133,8 @@ That’s it – the load balancer is up and routing traffic to the two auto‑sc
 
 ***6: Testing auto scaling*
 <img width="1912" height="874" alt="image" src="https://github.com/user-attachments/assets/0f1315c4-b135-42af-ba1b-2aaa2d867320" />
+<img width="1625" height="422" alt="image" src="https://github.com/user-attachments/assets/cd1b7508-5277-4594-b55c-28104db44296" />
+<img width="1895" height="877" alt="image" src="https://github.com/user-attachments/assets/a07bda5e-e3ce-43c2-aa03-a367f7b27692" />
 
 I just finished testing the auto‑scaling part of the lab, and here’s what happened in plain English:
 
@@ -145,3 +147,15 @@ I just finished testing the auto‑scaling part of the lab, and here’s what ha
 - Result – Now I have more instances running, and the load balancer will start sending traffic to them. When the load drops, the “AlarmLow” will trigger and the extra instances will be terminated, bringing the count back down to the minimum of two.
 
 That’s the whole flow of how I forced the system to scale out and verified it with CloudWatch.
+
+***7: Terminating the Web Server 1 instance*
+<img width="1030" height="551" alt="image" src="https://github.com/user-attachments/assets/ddca6609-16bc-42e3-83b9-cbb0c29446a7" />
+<img width="1916" height="884" alt="image" src="https://github.com/user-attachments/assets/a802d6f1-c0f7-46cb-ae0f-f096e67a81a7" />
+
+I just got rid of the original Web Server 1 instance:
+
+- I opened the EC2 console and selected Web Server 1 (the only one I wanted to delete).
+- From the Instance state dropdown I chose Terminate instance.
+- I clicked Terminate to confirm.
+
+That instance was only used to create the AMI for the Auto Scaling group, so it’s no longer needed.
