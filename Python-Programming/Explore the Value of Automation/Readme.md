@@ -46,14 +46,6 @@ Tool	Features	Ease of Use	Popularity
 
 <img width="630" height="438" alt="image" src="https://github.com/user-attachments/assets/b8608f4d-9166-4d13-9746-1eace046a2d5" />
 
-
-Maven	Dependency mgmt	Medium	High
-Gradle	Flexible builds	Medium	High
-Jenkins	CI/CD automation	Medium	Very High
-Selenium	Web UI testing	Medium	Very High
-JUnit	Unit testing	Easy	High
-Docker	Containerization	Easy	Very High
-Kubernetes	Orchestration	Hard	Very High
 ________________________________________
 ***Key Takeaways*
 
