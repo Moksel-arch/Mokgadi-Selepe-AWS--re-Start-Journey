@@ -34,7 +34,7 @@ As soon as we finish I’m writing the **AWS Certified Cloud Practitioner** exam
 
 More certificates coming soon in 2026 and beyond
 
-I’m still at the beginning, but every certificate feels like proof that I’m moving forward.  
+I’m in the middle of the Cohort and couple of weeks to go write the AWS Cloud compute exam, but every certificate feels like proof that I’m moving forward.  
 Thank you to everyone who supports me on this journey!
 
 ### Let’s connect  
