@@ -23,7 +23,9 @@ ________________________________________
 2. Test Automation
    
 •	What is it?
+
 Uses scripts and tools to test software automatically after changes.
+
 •	Tools: Selenium, JUnit, TestNG, Cypress.
 •	Benefits: Faster than manual testing, reduces human error, supports continuous integration.
 •	Challenges: High setup cost, maintaining scripts takes time, not all tests can be automated.
