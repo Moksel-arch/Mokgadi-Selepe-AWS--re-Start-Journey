@@ -12,13 +12,20 @@ ________________________________________
 
 1. Build Automation
    
-•	What is it?
-Automatically compiles code after changes are made.
-•	Tools: Maven, Gradle, Jenkins, Apache Ant.
-•	Benefits: Saves time, ensures consistent builds, speeds up development.
-•	Challenges: Setup can be complex, needs proper configuration, dependency issues.
-•	Real-world Example: Jenkins used in a CI/CD pipeline for a Java application to automate builds after every commit.
-•	Diagram: Jenkins pipeline showing developer commits → Jenkins builds → artifact stored.
+
+### Build Automation
+- **What is it?**  
+  Automatically compiles code after changes are made.
+- **Tools:**  
+  Maven, Gradle, Jenkins, Apache Ant.
+- **Benefits:**  
+  Saves time, ensures consistent builds, speeds up development.
+- **Challenges:**  
+  Setup can be complex, needs proper configuration, dependency issues.
+- **Real-world Example:**  
+  Jenkins used in a CI/CD pipeline for a Java application to automate builds after every commit.
+- **Diagram:**  
+  Jenkins pipeline showing developer commits → Jenkins builds → artifact stored.
 ________________________________________
 2. Test Automation
    
