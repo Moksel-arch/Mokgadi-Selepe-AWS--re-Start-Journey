@@ -46,7 +46,7 @@ A confirmation screen popped up showing the new AMI ID – I’ll use that ID wh
 <img width="1899" height="875" alt="image" src="https://github.com/user-attachments/assets/cc2d7ac4-32c3-4668-8319-dc0eb65f1722" />
 <img width="1900" height="879" alt="image" src="https://github.com/user-attachments/assets/7b49ad1b-d078-4a2e-b491-03b671b4227f" />
 <img width="1915" height="880" alt="image" src="https://github.com/user-attachments/assets/27ed21c2-5345-4b80-8e56-a7cebd34c12c" />
-I just set up a load balancer in AWS, and here’s what I did in plain English:
+I just set up a load balancer in AWS, and here’s what I did:
 
 - Opened the EC2 console (typed EC2 in the search bar).
 - In the left‑hand menu under Load Balancing, clicked Load Balancers and hit Create load balancer.
@@ -70,4 +70,28 @@ I just set up a load balancer in AWS, and here’s what I did in plain English:
 
 That’s it – I now have a load balancer called LabELB that will spread traffic across the two public subnets, using the Web Security Group and the lab‑target‑group I created.
 
-***3: Creating a launch template *
+***3: Creating a launch template*
+<img width="1912" height="880" alt="image" src="https://github.com/user-attachments/assets/ac5e7079-b82e-486f-b823-b54ed47ec83b" />
+<img width="1903" height="877" alt="image" src="https://github.com/user-attachments/assets/1a7254fc-8dda-4473-8223-292ee41d3050" />
+<img width="1894" height="871" alt="image" src="https://github.com/user-attachments/assets/dcca37ed-8418-49cb-8f1a-2185d5b3da5f" />
+<img width="1918" height="882" alt="image" src="https://github.com/user-attachments/assets/6a68eaaf-74e5-4e93-8934-d383e2d53fd6" />
+<img width="1918" height="875" alt="image" src="https://github.com/user-attachments/assets/8f6f1b65-a39e-4972-9e0e-7d095e5c5a58" />
+<img width="1918" height="883" alt="image" src="https://github.com/user-attachments/assets/78949b76-c14a-4b3b-9dfb-eda5cd6394c4" />
+<img width="1905" height="887" alt="image" src="https://github.com/user-attachments/assets/f381727f-0c90-4c8d-82a6-b817fed9fd22" />
+
+
+I just created a launch template for an Auto Scaling group, and here’s what I did in simple terms:
+
+- Went to the EC2 console (typed EC2 in the search bar).
+- In the left menu under Instances, clicked Launch Templates and hit Create launch template.
+- Launch template name: lab-app-launch-template
+- Template version description: “A web server for the load test app”
+- Turned on Auto Scaling guidance so it helps me set it up for Auto Scaling.
+- AMI: chose the My AMIs tab and selected Web Server AMI (the one I created earlier).
+- Instance type: picked t3.micro.
+- Key pair: left it at “Don’t include in launch template” because I won’t be logging into the instances in this lab.
+- Network settings: chose Web Security Group (allows HTTP).
+- Clicked Create launch template and got a success message.
+- Clicked View launch templates to see the new template listed.
+
+That’s it – I now have a launch template called lab-app-launch-template that Auto Scaling will use to spin up web‑server instances automatically.
