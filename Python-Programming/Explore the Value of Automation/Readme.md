@@ -1,4 +1,4 @@
-**Explore the Value of Automation**
+# **Explore the Value of Automation**
 
 About This Project
 
@@ -43,7 +43,9 @@ ________________________________________
 ***Tool Comparison Table*
 
 Tool	Features	Ease of Use	Popularity
+
 <img width="630" height="438" alt="image" src="https://github.com/user-attachments/assets/b8608f4d-9166-4d13-9746-1eace046a2d5" />
+
 
 Maven	Dependency mgmt	Medium	High
 Gradle	Flexible builds	Medium	High
