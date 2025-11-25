@@ -132,6 +132,7 @@ I just checked that the load balancer is doing its job, and here’s what happen
 That’s it – the load balancer is up and routing traffic to the two auto‑scaled instances.
 
 ***6: Testing auto scaling*
+<img width="1912" height="874" alt="image" src="https://github.com/user-attachments/assets/0f1315c4-b135-42af-ba1b-2aaa2d867320" />
 
 I just finished testing the auto‑scaling part of the lab, and here’s what happened in plain English:
 
@@ -140,9 +141,7 @@ I just finished testing the auto‑scaling part of the lab, and here’s what ha
 - Checked the “AlarmHigh” alarm – it was in an OK state, meaning CPU usage was low and the alarm hadn’t triggered yet.
 - Generated load – I switched back to the Load Test web app, clicked Load Test, and the page started doing heavy calculations. This drove the CPU up on the running instances.
 - Watched the alarm – After a minute or two the AlarmHigh alarm flipped to In alarm (the chart showed CPU crossing the 50 % line). That’s the signal for Auto Scaling to add more instances.
-
 - Auto Scaling launched new instances – I went back to the EC2 Instances page and saw more than two Lab Instance entries appear. Auto Scaling automatically created the extra instances to keep the average CPU around 50 %.
-
 - Result – Now I have more instances running, and the load balancer will start sending traffic to them. When the load drops, the “AlarmLow” will trigger and the extra instances will be terminated, bringing the count back down to the minimum of two.
 
 That’s the whole flow of how I forced the system to scale out and verified it with CloudWatch.
