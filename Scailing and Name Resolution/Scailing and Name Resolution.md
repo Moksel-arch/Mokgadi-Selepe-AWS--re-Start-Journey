@@ -133,6 +133,8 @@ That’s it – the load balancer is up and routing traffic to the two auto‑sc
 
 ***6: Testing auto scaling*
 <img width="1912" height="874" alt="image" src="https://github.com/user-attachments/assets/0f1315c4-b135-42af-ba1b-2aaa2d867320" />
+<img width="1906" height="889" alt="image" src="https://github.com/user-attachments/assets/c14b7c42-6ed7-46db-b6ee-d98ef8db9be5" />
+<img width="1909" height="880" alt="image" src="https://github.com/user-attachments/assets/a4a1ab4c-d08e-4892-a1d5-256c1e6f5096" />
 <img width="1625" height="422" alt="image" src="https://github.com/user-attachments/assets/cd1b7508-5277-4594-b55c-28104db44296" />
 <img width="1895" height="877" alt="image" src="https://github.com/user-attachments/assets/a07bda5e-e3ce-43c2-aa03-a367f7b27692" />
 
