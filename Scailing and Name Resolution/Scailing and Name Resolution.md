@@ -95,3 +95,40 @@ I just created a launch template for an Auto Scaling group, and here’s what I 
 - Clicked View launch templates to see the new template listed.
 
 That’s it – I now have a launch template called lab-app-launch-template that Auto Scaling will use to spin up web‑server instances automatically.
+
+***4: Creating an Auto Scaling group*
+<img width="1906" height="876" alt="image" src="https://github.com/user-attachments/assets/a6820f82-9bd1-4329-9415-27c7c16d5832" />
+<img width="1912" height="880" alt="image" src="https://github.com/user-attachments/assets/d0d007e9-3d3d-4224-9eb8-9ae89c19be77" />
+<img width="1898" height="869" alt="image" src="https://github.com/user-attachments/assets/5882458e-7684-41df-96ba-e4e45e8b6fbc" />
+<img width="1896" height="891" alt="image" src="https://github.com/user-attachments/assets/f57530d3-2624-4aaf-bb2b-b962228ee2dc" />
+<img width="1913" height="877" alt="image" src="https://github.com/user-attachments/assets/1544da7b-9e05-438f-93e2-11122eb1851f" />
+<img width="1889" height="852" alt="image" src="https://github.com/user-attachments/assets/e09fdcff-0d02-4422-9e38-a29db3db8f01" />
+<img width="1916" height="884" alt="image" src="https://github.com/user-attachments/assets/e73aa025-dd92-45f7-bc88-11d29bfb1474" />
+<img width="1910" height="875" alt="image" src="https://github.com/user-attachments/assets/5a38a827-495a-4e01-8fde-f0c285a841ee" />
+<img width="1912" height="881" alt="image" src="https://github.com/user-attachments/assets/416c45b3-bc4a-463e-ad1e-a44607d044fb" />
+<img width="1914" height="757" alt="image" src="https://github.com/user-attachments/assets/a70429f3-648b-4a3d-a4a4-754822139fa4" />
+<img width="1894" height="876" alt="image" src="https://github.com/user-attachments/assets/f1003d80-aae7-4f31-8bdd-1c77e02e5bfb" />
+<img width="1915" height="877" alt="image" src="https://github.com/user-attachments/assets/8e9c0457-ac12-429f-89d6-e3c447ea3a11" />
+<img width="1913" height="678" alt="image" src="https://github.com/user-attachments/assets/89a6aecd-ef2a-469b-8278-8c69f9ec781e" />
+
+***5: Verifying that load balancing is working*
+<img width="1916" height="880" alt="image" src="https://github.com/user-attachments/assets/3051dbf0-f2d6-4764-8141-fe1bba14e2be" />
+<img width="1916" height="883" alt="image" src="https://github.com/user-attachments/assets/e82642a4-f74b-4ea0-ae19-8d91779e9792" />
+<img width="1595" height="558" alt="image" src="https://github.com/user-attachments/assets/c44f096f-4fd1-4eaa-8833-ce606c71bcf6" />
+
+I just checked that the load balancer is doing its job, and here’s what happened in plain English:
+
+- I opened the Instances page and saw two new EC2 instances called Lab Instance.
+    - Auto Scaling launched them automatically.
+    - If they didn’t show up right away, I waited a few seconds and hit Refresh.
+
+- Next I went to Target Groups under Load Balancing and selected lab‑target‑group.
+    - The two Lab Instance targets appeared in the Registered targets list.
+    - I kept hitting Refresh until both showed a Health status of healthy.
+    - “Healthy” means the load balancer’s health check passed and it will start sending traffic to them.
+
+- With the instances healthy, I opened a new browser tab, pasted the DNS name I copied earlier (the load balancer’s URL), and hit Enter.
+    - The Load Test application loaded, which tells me the load balancer received the request, forwarded it to one of the EC2 instances, and returned the response.
+
+That’s it – the load balancer is up and routing traffic to the two auto‑scaled instances.
+
