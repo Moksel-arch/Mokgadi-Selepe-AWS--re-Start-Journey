@@ -1,65 +1,47 @@
-# **Compare and Contrast Automation and Orchestration**
+# **Compare and Contrast: Automation vs Orchestration**
 
-### **Automation vs Orchestration Overview**
+## About This Lab
+This lab was about understanding the difference between automation and orchestration in software development. Both are related but work at different levels. Automation focuses on doing single tasks without human help, while orchestration combines multiple automated tasks into a bigger workflow.
 
-*   **Automation (A):**  
-    Focuses on performing **individual tasks** without human intervention. Example: Running a Python script to configure a server.
-*   **Orchestration (O):**  
-    Coordinates **multiple automated tasks** into a workflow to achieve a larger goal. Example: Deploying an entire application stack across multiple servers.
-*   **Both (B):**  
-    Share common goals like efficiency, consistency, and reducing manual work.
+## What I Learned
+- Automation is about making one task run automatically. For example, running a Python script to configure a server.
+- Orchestration is about managing and connecting many automated tasks so they work together. For example, deploying an entire application stack across multiple servers.
+- Both help save time, reduce errors, and improve consistency.
 
-***
+## Keyword Categorization
+| Keyword                          | Category        | Reason                                                                 |
+|---------------------------------|-----------------|------------------------------------------------------------------------|
+| Management                      | Orchestration   | Orchestration manages multiple processes and systems together.         |
+| Python Script                   | Automation      | Scripts usually automate single tasks.                                 |
+| Provisioning                    | Both            | Can be automated for one server or orchestrated for many environments. |
+| Code                            | Automation      | Automation often uses scripts and code.                                |
+| Single task                     | Automation      | Automation focuses on one task at a time.                              |
+| Process Coordination            | Orchestration   | Orchestration coordinates multiple automated processes.                |
+| Infrastructure                  | Both            | Both can handle infrastructure setup and management.                   |
+| HCL Configuration Language      | Orchestration   | Used in orchestration tools like Terraform.                            |
+| Eliminate repetition            | Both            | Both reduce repetitive manual work.                                    |
+| User-defined function           | Automation      | Functions are used in automation scripts.                              |
+| Increase reliability            | Both            | Both improve reliability by reducing human error.                      |
+| Terraform                       | Orchestration   | Terraform orchestrates infrastructure provisioning.                     |
+| Version control                 | Both            | Supports both automation scripts and orchestration workflows.          |
+| Unit test                       | Automation      | Automates testing of individual code units.                            |
+| Decrease IT cost                | Both            | Both reduce costs by improving efficiency.                              |
+| Thread creation                 | Automation      | Automation can create threads for parallel tasks.                      |
+| Decrease friction among teams   | Orchestration   | Orchestration improves collaboration by managing workflows.            |
+| Increase productivity           | Both            | Both increase productivity by saving time.                              |
+| PyCharm                         | Automation      | IDE used for writing automation scripts.                                |
+| Workflow                        | Orchestration   | Orchestration defines and manages workflows across tasks.              |
 
-### **Keyword Categorization Table**
+## Key Differences
+| Aspect        | Automation                          | Orchestration                                |
+|--------------|-------------------------------------|---------------------------------------------|
+| Scope        | Single task                        | Multiple tasks combined into a workflow    |
+| Goal         | Speed and consistency for tasks    | End-to-end process coordination            |
+| Tools        | Bash, Python scripts, Ansible      | Kubernetes, Terraform, Jenkins pipelines   |
 
-| **Keyword**                       | **A / O / B** | **Reason**                                                                |
-| --------------------------------- | ------------- | ------------------------------------------------------------------------- |
-| **Management**                    | O             | Orchestration manages multiple processes and systems together.            |
-| **Python Script**                 | A             | Scripts typically automate single tasks.                                  |
-| **Provisioning**                  | B             | Can be automated (single server) or orchestrated (multiple environments). |
-| **Code**                          | A             | Automation often uses code/scripts for tasks.                             |
-| **Single task**                   | A             | Automation focuses on one task at a time.                                 |
-| **Process Coordination**          | O             | Orchestration coordinates multiple automated processes.                   |
-| **Infrastructure**                | B             | Both automate and orchestrate infrastructure setup and management.        |
-| **HCL Configuration Language**    | O             | Used in orchestration tools like Terraform for multi-step workflows.      |
-| **Eliminate repetition**          | B             | Both aim to reduce repetitive manual work.                                |
-| **User-defined function**         | A             | Functions are used in automation scripts for specific tasks.              |
-| **Increase reliability**          | B             | Both improve reliability by reducing human error.                         |
-| **Terraform**                     | O             | Terraform orchestrates infrastructure provisioning across environments.   |
-| **Version control**               | B             | Supports both automation scripts and orchestration workflows.             |
-| **Unit test**                     | A             | Automates testing of individual code units.                               |
-| **Decrease IT cost**              | B             | Both reduce costs by improving efficiency.                                |
-| **Thread creation**               | A             | Automation can create threads for parallel tasks.                         |
-| **Decrease friction among teams** | O             | Orchestration improves collaboration by managing workflows.               |
-| **Increase productivity**         | B             | Both increase productivity by saving time.                                |
-| **PyCharm**                       | A             | IDE used for writing automation scripts.                                  |
-| **Workflow**                      | O             | Orchestration defines and manages workflows across tasks.                 |
+## Why It Matters
+- Automation saves time and reduces errors for repetitive tasks.
+- Orchestration ensures smooth coordination of complex processes.
+- Together, they make DevOps faster, more reliable, and scalable.
 
-***
-
-### **Key Differences**
-
-*   **Scale:**
-    *   Automation = Single task
-    *   Orchestration = Multiple tasks combined into a workflow
-*   **Goal:**
-    *   Automation = Speed and consistency for repetitive tasks
-    *   Orchestration = End-to-end process coordination
-*   **Tools:**
-    *   Automation = Scripts, Ansible, Bash
-    *   Orchestration = Kubernetes, Terraform, Jenkins pipelines
-
-***
-
-###  **Why It Matters**
-
-*   **Automation**
-    *   saves time and reduces errors for repetitive tasks.
-*   **Orchestration**
-    *   ensures smooth coordination of complex processes across systems.
-      
-**Together, they improve efficiency, reliability, and scalability in DevOps.**
-
-
--Mokgadi: mokgadi9939@gmail.com
+- Mokgadi: mokgadi9939@gmail.com
