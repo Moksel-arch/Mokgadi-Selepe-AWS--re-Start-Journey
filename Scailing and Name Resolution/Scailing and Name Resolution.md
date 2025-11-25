@@ -115,7 +115,6 @@ That’s it – I now have a launch template called lab-app-launch-template that
 <img width="1916" height="880" alt="image" src="https://github.com/user-attachments/assets/3051dbf0-f2d6-4764-8141-fe1bba14e2be" />
 <img width="1916" height="883" alt="image" src="https://github.com/user-attachments/assets/e82642a4-f74b-4ea0-ae19-8d91779e9792" />
 <img width="1595" height="558" alt="image" src="https://github.com/user-attachments/assets/c44f096f-4fd1-4eaa-8833-ce606c71bcf6" />
-
 I just checked that the load balancer is doing its job, and here’s what happened in plain English:
 
 - I opened the Instances page and saw two new EC2 instances called Lab Instance.
@@ -132,3 +131,18 @@ I just checked that the load balancer is doing its job, and here’s what happen
 
 That’s it – the load balancer is up and routing traffic to the two auto‑scaled instances.
 
+***6: Testing auto scaling*
+
+I just finished testing the auto‑scaling part of the lab, and here’s what happened in plain English:
+
+- Started with two instances – the Auto Scaling group I created has a minimum of 2 and a maximum of 4, so at the moment I’m only running the two base instances.
+- Opened CloudWatch – I went to the CloudWatch console, looked at All alarms, and saw the two alarms that Auto Scaling automatically created (one for scaling up when CPU > 50 % and one for scaling down).
+- Checked the “AlarmHigh” alarm – it was in an OK state, meaning CPU usage was low and the alarm hadn’t triggered yet.
+- Generated load – I switched back to the Load Test web app, clicked Load Test, and the page started doing heavy calculations. This drove the CPU up on the running instances.
+- Watched the alarm – After a minute or two the AlarmHigh alarm flipped to In alarm (the chart showed CPU crossing the 50 % line). That’s the signal for Auto Scaling to add more instances.
+
+- Auto Scaling launched new instances – I went back to the EC2 Instances page and saw more than two Lab Instance entries appear. Auto Scaling automatically created the extra instances to keep the average CPU around 50 %.
+
+- Result – Now I have more instances running, and the load balancer will start sending traffic to them. When the load drops, the “AlarmLow” will trigger and the extra instances will be terminated, bringing the count back down to the minimum of two.
+
+That’s the whole flow of how I forced the system to scale out and verified it with CloudWatch.
