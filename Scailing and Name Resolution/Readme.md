@@ -14,14 +14,14 @@ This repo captures the steps I followed to set up a highly‑available web envir
 ---
 
 2. Creating an Amazon Machine Image (AMI)
-1. Open the EC2 console (type EC2 in the AWS search bar).
-2. Go to Instances → find Web Server 1 (it’s running).
-3. Select it, click Actions → Image and templates → Create image.
-4. Fill in:
+. Open the EC2 console (type EC2 in the AWS search bar).
+. Go to Instances → find Web Server 1 (it’s running).
+. Select it, click Actions → Image and templates → Create image.
+. Fill in:
     - Image name: Web Server AMI
     - Image description: Lab AMI for Web Server (optional)
-5. Click Create image.
-6. A confirmation screen shows the new AMI ID – I saved this for later.
+. Click Create image.
+. A confirmation screen shows the new AMI ID – I saved this for later.
 
 ---
 
