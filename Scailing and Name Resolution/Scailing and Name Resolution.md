@@ -1,6 +1,6 @@
 # **Scailing and Name Resolution**
 
-**
+***
 
 ***Here’s what the lab is about:*
 
