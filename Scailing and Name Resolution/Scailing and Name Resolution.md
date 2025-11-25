@@ -46,3 +46,28 @@ A confirmation screen popped up showing the new AMI ID – I’ll use that ID wh
 <img width="1899" height="875" alt="image" src="https://github.com/user-attachments/assets/cc2d7ac4-32c3-4668-8319-dc0eb65f1722" />
 <img width="1900" height="879" alt="image" src="https://github.com/user-attachments/assets/7b49ad1b-d078-4a2e-b491-03b671b4227f" />
 <img width="1915" height="880" alt="image" src="https://github.com/user-attachments/assets/27ed21c2-5345-4b80-8e56-a7cebd34c12c" />
+I just set up a load balancer in AWS, and here’s what I did in plain English:
+
+- Opened the EC2 console (typed EC2 in the search bar).
+- In the left‑hand menu under Load Balancing, clicked Load Balancers and hit Create load balancer.
+- Chose Application Load Balancer and clicked Create.
+- Basic configuration
+    - Named it LabELB.
+- Network mapping
+    - Selected Lab VPC.
+    - Mapped both Availability Zones – Public Subnet 1 in the first AZ and Public Subnet 2 in the second AZ.
+- Security groups
+    - Removed the default security group (clicked the “X”).
+    - Chose Web Security Group (it already allows HTTP traffic).
+- Listeners and routing
+    - Clicked the Create target group link (opened a new tab).
+    - Set target type to Instances and named it lab‑target‑group, then clicked Next and Create target group.
+    - Closed the target‑group tab and went back to the load‑balancer page.
+    - Hit Refresh next to the “Forward to” dropdown and selected lab‑target‑group.
+- Clicked Create load balancer at the bottom.
+- Got a success message: “Successfully created load balancer: LabELB”.
+- Clicked View load balancer, copied the DNS name (it looks something like LabELB-123456789.us-east-1.elb.amazonaws.com) and pasted it into a text editor – I’ll need that later.
+
+That’s it – I now have a load balancer called LabELB that will spread traffic across the two public subnets, using the Web Security Group and the lab‑target‑group I created.
+
+***3: Creating a launch template *
