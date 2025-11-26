@@ -17,6 +17,7 @@ I’m putting everything I learn here, one folder at a time:
 - Servers   
 
 Every day I finish a lab I feel like I understand the cloud a little bit more. From basic Linux commands to building databases on RDS and Aurora – it’s a lot, but I’m loving it!
+**NB!!** I will keep updating this folder everytime I add some more information.
 
 ### What’s Next?
 I Keep pushing until 26 December, practing hard to pass this exam.I still have so much to learn but I’m enjoying every single day.
