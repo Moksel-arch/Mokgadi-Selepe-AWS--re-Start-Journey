@@ -1,5 +1,5 @@
 # **Bash Scripting Lab – Sequential File Generator**
----
+
 **Author:** *Mokgadi Selepe*
 
 ## Objective
@@ -128,3 +128,7 @@ A safe, intelligent file-generation script that:
 * Works every time, indefinitely
 
 Perfect for labs, automation tasks, or interviews.
+
+**Contact:**
+**[mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)**
+
