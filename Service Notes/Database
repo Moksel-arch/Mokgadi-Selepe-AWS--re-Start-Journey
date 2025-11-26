@@ -1,393 +1,231 @@
-# **AWS re/Start Database Labs Portfolio**
+Got it ✅ — I’ll turn your AWS re/Start Database Labs Portfolio into a clean, professional **GitHub‑ready Markdown README**. This version will keep the structure, highlight commands, and make it easy to read and navigate.  
+
+Here’s the polished Markdown:
+
+```markdown
+# AWS re/Start Database Labs Portfolio
+
 **Author:** Mokgadi Selepe  
 **Date:** November 26, 2025  
 
-## Overview
-This README summarizes my hands-on experiences from multiple AWS re/Start labs focused on databases. These include setting up relational databases using Amazon RDS and Aurora, performing SQL operations (selecting, inserting, updating, deleting, organizing, and using functions), conditional searches, and working with NoSQL databases like Amazon DynamoDB. All labs were conducted using AWS Management Console, EC2 instances for command hosts, and SQL clients like MySQL/MariaDB.
+---
+
+## 📖 Overview
+This portfolio summarizes hands-on experiences from multiple AWS re/Start labs focused on databases.  
 
 Key themes:
-- Relational database management with RDS and Aurora.
-- SQL query fundamentals and advanced operations on sample "world" database (countries, cities, languages).
-- NoSQL table creation, item management, and queries in DynamoDB.
+- **Relational database management** with Amazon RDS and Aurora  
+- **SQL query fundamentals** and advanced operations on the sample *world* database (countries, cities, languages)  
+- **NoSQL operations** with Amazon DynamoDB  
 
-This portfolio demonstrates practical skills in database setup, querying, and management for cloud applications.
+This demonstrates practical skills in database setup, querying, and management for cloud applications.
 
 ---
 
-## Lab 1: Build Your DB Server and Interact With Your DB Using an App (Amazon RDS)
+## 🧩 Lab 1: Build Your DB Server and Interact With Your DB Using an App (Amazon RDS)
+
 **Objective:** Launch an RDS DB instance, configure connections from a web server, and test interactions via a web app.
 
-### Steps and Key Actions
-1. **Create Security Group for RDS:** 
-   - Created "DB Security Group" allowing MySQL/Aurora (port 3306) from "Web Security Group".
-   - Purpose: Firewall to permit web server access to DB.
+### Steps
+1. **Create Security Group for RDS**  
+   - Allowed MySQL/Aurora (port 3306) from Web Security Group  
 
-2. **Create DB Subnet Group:**
-   - Selected two private subnets in different Availability Zones.
-   - Named "DB Subnet Group" for high availability and security.
+2. **Create DB Subnet Group**  
+   - Selected two private subnets in different AZs for high availability  
 
-3. **Create Amazon RDS DB Instance:**
-   - Engine: MySQL (latest version).
-   - Template: Dev/Test.
-   - Instance class: db.t3.medium.
-   - Storage: General Purpose SSD.
-   - Deployment: Multi-AZ for high availability.
-   - VPC: LabVPC, Subnet group: dbsubnetgroup.
-   - Security group: DBSecurityGroup.
-   - Database name: world, Username: admin, Password: admin123.
-   - Endpoint obtained after creation for connections.
+3. **Create Amazon RDS DB Instance**  
+   - Engine: MySQL  
+   - Instance class: `db.t3.medium`  
+   - Storage: GP SSD  
+   - Deployment: Multi-AZ  
+   - Database: `world`  
 
-4. **Interact with Database via Web App:**
-   - Copied web server IP and opened the app.
-   - Configured app with RDS endpoint, username, password.
-   - Tested by adding/editing/removing contacts; data stored in RDS.
+4. **Interact via Web App**  
+   - Configured app with RDS endpoint, username, password  
+   - Tested CRUD operations  
 
 ### Key Learnings
-- RDS handles database management, allowing focus on apps.
-- Multi-AZ ensures availability; security groups control access.
-- Web apps can integrate with RDS for real-time data interactions.
-
-| Concept | Description |
-|---------|-------------|
-| Multi-AZ Deployment | Primary and standby instances in different AZs for failover. |
-| Endpoint | URL to connect to the DB (e.g., aurora-instance-1.abcdefg.us-west-2.rds.amazonaws.com:3306). |
-| Security Groups | Virtual firewalls for inbound/outbound traffic. |
+- RDS handles management, enabling focus on apps  
+- Multi-AZ ensures availability  
+- Security groups control access  
 
 ---
 
-## Lab 2: Database Table Operations
+## 🧩 Lab 2: Database Table Operations
+
 **Objective:** Perform common operations like creating, showing, altering, and dropping databases/tables using SQL.
-
-### Steps and Key Actions
-1. **Connect to Command Host:**
-   - Used AWS Console to connect via Session Manager.
-   - Ran setup commands and connected to MySQL with `mysql -u root -p` (password: re:St@rt!9).
-
-2. **Create Database and Table:**
-   - `CREATE DATABASE world;`
-   - `CREATE TABLE world.country (Code CHAR(3), Name CHAR(52), Continent CHAR(13), ...);` (multiple columns).
-   - Fixed misspelling: `ALTER TABLE world.country CHANGE Conitinent Continent ENUM(...);`
-
-3. **Challenge 1:** Created `city` table with `Name CHAR(52), Region CHAR(26)`.
-
-4. **Drop Tables:**
-   - `DROP TABLE world.city;`
-   - `DROP TABLE world.country;`
-
-5. **Drop Database:**
-   - `DROP DATABASE world;`
-   - Verified with `SHOW DATABASES;`
 
 ### Key SQL Commands
 ```sql
--- Create database
 CREATE DATABASE world;
 
--- Create table (example)
 CREATE TABLE world.country (
-  Code CHAR(3) NOT NULL DEFAULT '',
-  Name CHAR(52) NOT NULL DEFAULT '',
-  Continent ENUM('Asia','Europe','North America','Africa','Oceania','Antarctica','South America') NOT NULL DEFAULT 'Asia',
-  -- ... other columns
+  Code CHAR(3) NOT NULL,
+  Name CHAR(52) NOT NULL,
+  Continent ENUM('Asia','Europe','North America','Africa','Oceania','Antarctica','South America') NOT NULL,
   PRIMARY KEY (Code)
 );
 
--- Alter table
-ALTER TABLE world.country CHANGE Conitinent Continent ENUM('Asia','Europe',...) NOT NULL DEFAULT 'Asia';
+ALTER TABLE world.country CHANGE Conitinent Continent ENUM('Asia','Europe', ...) NOT NULL;
 
--- Drop table
 DROP TABLE world.country;
-
--- Drop database
 DROP DATABASE world;
 ```
 
 ### Key Learnings
-- CREATE for new DB/tables, SHOW to view, ALTER to modify, DROP to delete.
-- Importance of primary keys and data types.
-
-| Statement | Purpose |
-|-----------|---------|
-| CREATE | Create DB or table. |
-| SHOW | View DB/tables. |
-| ALTER | Modify table structure. |
-| DROP | Delete DB or table. |
+- `CREATE` for new DB/tables  
+- `SHOW` to view  
+- `ALTER` to modify  
+- `DROP` to delete  
 
 ---
 
-## Lab 3: Inserting Data into a Database
+## 🧩 Lab 3: Inserting Data into a Database
+
 **Objective:** Insert, update, delete data in tables; import from SQL file.
-
-### Steps and Key Actions
-1. **Connect to Database:**
-   - Same as previous: Session Manager to Command Host, `mysql -u root -p`.
-
-2. **Insert Data:**
-   - `INSERT INTO world.country VALUES ('IRL', 'Ireland', 'Europe', ...);`
-   - `INSERT INTO world.country VALUES ('AUS', 'Australia', 'Oceania', ...);`
-   - Verified with `SELECT * FROM world.country WHERE Code IN ('IRL', 'AUS');`
-
-3. **Update Rows:**
-   - `UPDATE world.country SET Population = 0;`
-   - `UPDATE world.country SET Population = 100, SurfaceArea = 100;`
-   - Verified changes with SELECT.
-
-4. **Delete Rows:**
-   - `SET FOREIGN_KEY_CHECKS = 0;`
-   - `DELETE FROM world.country;`
-   - Verified with `SELECT * FROM world.country;`
-
-5. **Import Data from SQL File:**
-   - Exited MySQL, verified `world.sql` file.
-   - `mysql -u root -p < /home/ec2-user/world.sql`
-   - Reconnected and verified tables/data with `SHOW TABLES;` and SELECT.
 
 ### Key SQL Commands
 ```sql
--- Insert
-INSERT INTO world.country (Code, Name, Continent, ...) VALUES ('IRL', 'Ireland', 'Europe', ...);
-
--- Update
-UPDATE world.country SET Population = 0;
-
--- Delete
+INSERT INTO world.country VALUES ('IRL', 'Ireland', 'Europe', ...);
+UPDATE world.country SET Population = 100, SurfaceArea = 100;
 DELETE FROM world.country;
-
--- Import (from shell)
 mysql -u root -p < world.sql
 ```
 
 ### Key Learnings
-- INSERT adds new rows, UPDATE modifies, DELETE removes.
-- Importing from SQL files for bulk data load.
-- Disable foreign key checks temporarily for deletes.
+- `INSERT` adds rows  
+- `UPDATE` modifies rows  
+- `DELETE` removes rows  
+- Import SQL files for bulk data  
 
 ---
 
-## Lab 4: Introduction to Amazon Aurora
-**Objective:** Create an Aurora DB instance, connect from EC2, create tables, insert/query data.
+## 🧩 Lab 4: Introduction to Amazon Aurora
 
-### Steps and Key Actions
-1. **Create Aurora Instance:**
-   - Engine: Amazon Aurora (MySQL compatible).
-   - Instance class: db.t3.medium.
-   - VPC: LabVPC, Subnet group: dbsubnetgroup.
-   - Security group: DBSecurityGroup.
-   - DB name: world, Username: admin, Password: admin123.
-
-2. **Connect to EC2 Linux Instance (Command Host):**
-   - Used Session Manager to connect.
-
-3. **Configure EC2 to Connect to Aurora:**
-   - Installed MariaDB client: `sudo yum install mariadb`.
-   - Copied Aurora endpoint.
-   - Connected: `mysql -u admin -p -h <endpoint>`
-
-4. **Create Table and Insert/Query Records:**
-   - `CREATE TABLE country (Code CHAR(3), Name CHAR(52), ...);`
-   - Inserted 5 records (e.g., Australia, Thailand).
-   - Queried: `SELECT * FROM country WHERE GNP > 35000 AND Population > 10000000;`
+**Objective:** Create Aurora DB instance, connect from EC2, create tables, insert/query data.
 
 ### Key SQL Commands
 ```sql
--- Create table
 CREATE TABLE country (
   Code CHAR(3) NOT NULL,
-  Name CHAR(52) NOT NULL,
-  -- ... other columns
+  Name CHAR(52) NOT NULL
 );
 
--- Insert
 INSERT INTO country VALUES ('AUS', 'Australia', 'Oceania', ...);
 
--- Query
 SELECT * FROM country WHERE GNP > 35000 AND Population > 10000000;
 ```
 
 ### Key Learnings
-- Aurora is high-performance, MySQL-compatible, managed by RDS.
-- Connect from EC2 using MySQL client and endpoint.
+- Aurora is high-performance, MySQL-compatible  
+- Connect from EC2 using MySQL client and endpoint  
 
 ---
 
-## Lab 5: Introduction to Amazon DynamoDB
+## 🧩 Lab 5: Introduction to Amazon DynamoDB
+
 **Objective:** Create NoSQL table, add/modify items, query/scan, delete table.
 
-### Steps and Key Actions
-1. **Create New Table:**
-   - Table name: Music.
-   - Partition key: Artist (String), Sort key: Song (String).
-   - Default settings.
-
-2. **Add Data:**
-   - Added items: Pink Floyd - Money (Album: The Dark Side of the Moon, Year: 1973).
-   - John Lennon - Imagine (Year: 1971, Genre: Soft rock).
-   - Psy - Gangnam Style (Year: 2012, LengthSeconds: 219).
-
-3. **Modify Existing Item:**
-   - Updated Psy's release year from 2011 to 2012.
-
-4. **Query the Table:**
-   - Query for Psy - Gangnam Style.
-   - Scan for items with Year = 1971.
-
-5. **Delete the Table:**
-   - Selected table and deleted it.
+### Operations
+- **Create Table:** `Music` with partition key `Artist`, sort key `Song`  
+- **Add Items:** Pink Floyd – Money, John Lennon – Imagine, Psy – Gangnam Style  
+- **Modify Item:** Updated Psy’s release year  
+- **Query/Scan:** Query by keys, scan by filters  
+- **Delete Table**  
 
 ### Key Learnings
-- DynamoDB is flexible NoSQL; no fixed schema.
-- Partition/sort keys for efficient queries.
-- Query for specific keys, Scan for full table search.
-
-| Operation | Description |
-|-----------|-------------|
-| Create Table | Define keys for data organization. |
-| Create Item | Add data with attributes. |
-| Query | Fast lookup using keys. |
-| Scan | Search entire table with filters. |
-| Delete Table | Remove table and data. |
+- DynamoDB is schema-less and flexible  
+- Partition/sort keys enable efficient queries  
+- Query vs Scan for lookups  
 
 ---
 
-## Lab 6: Organizing Data
-**Objective:** Use GROUP BY and OVER for aggregation and window functions.
+## 🧩 Lab 6: Organizing Data (GROUP BY & OVER)
 
-### Steps and Key Actions
-1. **Connect to Command Host:** Same as previous labs.
-
-2. **Query with GROUP BY and OVER:**
-   - `SELECT * FROM country WHERE Region = 'Australia and New Zealand' ORDER BY Population DESC;`
-   - `SELECT Region, SUM(Population) AS TotalPopulation FROM country WHERE Region = 'Australia and New Zealand' GROUP BY Region;`
-   - `SELECT Name, Population, SUM(Population) OVER () AS RunningTotal FROM country WHERE Region = 'Australia and New Zealand';`
-   - Ranked by population using RANK() OVER.
-
-3. **Challenge:** Ranked countries by population within each region.
-
-### Key SQL Commands
 ```sql
--- Group By
 SELECT Region, SUM(Population) AS TotalPopulation FROM country GROUP BY Region;
 
--- Over
-SELECT Name, Population, RANK() OVER (PARTITION BY Region ORDER BY Population DESC) AS Rank FROM country;
+SELECT Name, Population,
+       RANK() OVER (PARTITION BY Region ORDER BY Population DESC) AS Rank
+FROM country;
 ```
 
-### Key Learnings
-- GROUP BY for aggregations per group.
-- OVER for window functions like running totals, ranks.
+**Learnings:**  
+- `GROUP BY` for aggregations  
+- `OVER` for window functions (running totals, ranks)  
 
 ---
 
-## Lab 7: Performing a Conditional Search
-**Objective:** Use WHERE, BETWEEN, LIKE for filtering.
+## 🧩 Lab 7: Conditional Search
 
-### Steps and Key Actions
-1. **Connect to Command Host.**
-
-2. **Query with Conditions:**
-   - `SELECT * FROM country WHERE Population BETWEEN 50000000 AND 100000000;`
-   - `SELECT * FROM country WHERE Continent = 'Europe';`
-   - `SELECT SUM(Population) AS TotalPopulation FROM country WHERE Continent = 'Europe';`
-   - Used LOWER for case-insensitive LIKE searches.
-
-3. **Challenge:** Summed surface area and population for North America.
-
-### Key SQL Commands
 ```sql
--- Between
-SELECT * FROM country WHERE Population BETWEEN 50000000 AND 10000000;
-
--- Like
-SELECT * FROM country WHERE Region LIKE '%Southern%';
-
--- Sum with Where
+SELECT * FROM country WHERE Population BETWEEN 50000000 AND 100000000;
+SELECT * FROM country WHERE Continent = 'Europe';
 SELECT SUM(Population) AS TotalPopulation FROM country WHERE Continent = 'Europe';
 ```
 
-### Key Learnings
-- WHERE filters rows.
-- BETWEEN for ranges, LIKE for patterns.
+**Learnings:**  
+- `WHERE` filters rows  
+- `BETWEEN` for ranges  
+- `LIKE` for patterns  
 
 ---
 
-## Lab 8: Selecting Data from a Database
-**Objective:** Use SELECT with operators, ORDER BY, aliases.
+## 🧩 Lab 8: Selecting Data
 
-### Steps and Key Actions
-1. **Connect to Command Host.**
-
-2. **Basic Select Queries:**
-   - `SELECT * FROM country;`
-   - `SELECT Name, Capital, Region, SurfaceArea AS 'Surface Area', Population FROM country;`
-   - `SELECT Name, Capital, Region, SurfaceArea, Population FROM country ORDER BY Population DESC;`
-   - `SELECT Name, Capital, Region, SurfaceArea, Population FROM country WHERE Population > 50000000 AND Continent = 'Europe';`
-
-3. **Challenge:** Selected country in Southern Europe with population > 50M.
-
-### Key SQL Commands
 ```sql
--- Select with Alias
 SELECT Name, SurfaceArea AS 'Surface Area' FROM country;
-
--- Order By
 SELECT * FROM country ORDER BY Population DESC;
-
--- Where
-SELECT * FROM country WHERE Population > 50000000;
+SELECT * FROM country WHERE Population > 50000000 AND Continent = 'Europe';
 ```
 
-### Key Learnings
-- SELECT retrieves data.
-- AS for column aliases, ORDER BY for sorting.
+**Learnings:**  
+- `SELECT` retrieves data  
+- `AS` for aliases  
+- `ORDER BY` for sorting  
 
 ---
 
-## Lab 9: Working with Functions
-**Objective:** Use aggregate/string functions with SELECT/WHERE.
+## 🧩 Lab 9: Working with Functions
 
-### Steps and Key Actions
-1. **Connect to Command Host.**
-
-2. **Aggregate Functions:**
-   - `SELECT SUM(Population), AVG(Population), MAX(Population), MIN(Population), COUNT(*) FROM country;`
-
-3. **String Functions:**
-   - `SELECT SUBSTRING_INDEX(Region, '/', 1) AS 'Region Name 1' FROM country;`
-   - `SELECT Region, LENGTH(Region) FROM country WHERE LENGTH(Region) < 10;`
-   - `SELECT DISTINCT Region FROM country;`
-
-3. **Challenge:** Split 'Micronesia/Caribbean' region into two columns.
-
-### Key SQL Commands
 ```sql
--- Aggregates
-SELECT SUM(Population) AS TotalPopulation FROM country;
+SELECT SUM(Population), AVG(Population), MAX(Population), MIN(Population), COUNT(*) FROM country;
 
--- String
-SELECT SUBSTRING_INDEX(Region, '/', 1) AS 'Region Name 1', SUBSTRING_INDEX(Region, '/', -1) AS 'Region Name 2' FROM country WHERE Region = 'Micronesia/Caribbean';
+SELECT SUBSTRING_INDEX(Region, '/', 1) AS 'Region Name 1',
+       SUBSTRING_INDEX(Region, '/', -1) AS 'Region Name 2'
+FROM country WHERE Region = 'Micronesia/Caribbean';
 
--- Distinct
 SELECT DISTINCT Region FROM country;
 ```
 
-### Key Learnings
-- Aggregates: SUM, AVG, MAX, MIN, COUNT.
-- String: SUBSTRING_INDEX, LENGTH, TRIM.
-- DISTINCT removes duplicates.
+**Learnings:**  
+- Aggregates: `SUM`, `AVG`, `MAX`, `MIN`, `COUNT`  
+- String functions: `SUBSTRING_INDEX`, `LENGTH`, `TRIM`  
+- `DISTINCT` removes duplicates  
 
 ---
 
-## Overall Key Concepts Learned
+## 🏆 Overall Key Concepts Learned
 
-| Category | Concepts/Tools |
-|----------|---------------|
-| Relational DB Setup | RDS, Aurora, Multi-AZ, Security Groups, Subnet Groups, Endpoints. |
-| SQL Basics | CREATE, DROP, ALTER, INSERT, UPDATE, DELETE, SELECT, WHERE, ORDER BY. |
-| Advanced SQL | GROUP BY, OVER, RANK, SUM, AVG, BETWEEN, LIKE, SUBSTRING_INDEX, DISTINCT. |
-| NoSQL | DynamoDB tables, Partition/Sort keys, Items, Query, Scan. |
+| Category              | Concepts/Tools |
+|------------------------|----------------|
+| Relational DB Setup    | RDS, Aurora, Multi-AZ, Security Groups, Subnet Groups, Endpoints |
+| SQL Basics             | CREATE, DROP, ALTER, INSERT, UPDATE, DELETE, SELECT, WHERE, ORDER BY |
+| Advanced SQL           | GROUP BY, OVER, RANK, SUM, AVG, BETWEEN, LIKE, SUBSTRING_INDEX, DISTINCT |
+| NoSQL                  | DynamoDB tables, Partition/Sort keys, Items, Query, Scan |
 
-These labs provided practical experience in building and querying databases in AWS, essential for cloud-based applications.
+---
 
-Well done to myself on completing these!
+**Well done to myself on completing these!** 🎉  
+Contact: mokgadi9939@gmail.com
 ```
--Mokgadi: mokgadi9939@gmail.com
+
+---
+
+✨ This version is **GitHub‑ready**:  
+- Clear headings with emojis for readability  
+- Syntax‑highlighted SQL blocks  
+- Tables for concepts  
+- Concise summaries under each lab  
+
+Would you like me to also add a **Table of Contents with quick links** at the top so readers can jump to each lab easily?
