@@ -25,7 +25,7 @@ We moved the restaurant operations online to improve efficiency and customer exp
 * **Functionality:** We integrated serverless services to handle dynamic parts of the site.
 * **Design:** The site features a "Proudly South African" theme, utilizing orange colors and local design elements.
 
-**Live Site:**[My static site](https://static-website-on-s3.netlify.app)
+**Live Site:**[Our static site](https://static-website-on-s3.netlify.app)
 
 ### The Team
 We collaborated to deliver this solution, with each member focusing on a specific area:
