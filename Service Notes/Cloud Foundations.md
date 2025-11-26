@@ -1,5 +1,5 @@
-````markdown
 # **AWS EC2 Lab – Launching, Configuring, and Managing a Web Server**
+````markdown
 **Author:** Mokgadi Selepe  
 **Date:** November 2025  
 
@@ -154,5 +154,6 @@ A complete hands-on introduction to real-world EC2 administration!
 **Mokgadi:** [mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)
 
 ```
+
 
 
