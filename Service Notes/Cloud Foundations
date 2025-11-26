@@ -1,27 +1,38 @@
-# **AWS EC2 Lab – Launching, Configuring, and Managing a Web Server** 
+````markdown
+# AWS EC2 Lab – Launching, Configuring, and Managing a Web Server
 **Author:** Mokgadi Selepe  
 **Date:** November 2025  
 
+---
+
 ## Objective
-Practice core Amazon EC2 skills: launching instances, configuring security groups, monitoring, resizing (instance type & EBS), user-data scripting, and termination protection.
+Practice core Amazon EC2 operational skills, including:
 
-## Task 1: Launch an EC2 Web Server Instance
+- Launching EC2 instances  
+- Configuring security groups  
+- Monitoring and troubleshooting  
+- Resizing instance types and EBS volumes  
+- Using user data scripts for automation  
+- Enabling/validating termination protection  
 
-**Specifications:**
-- Name: `Web Server`
-- AMI: Amazon Linux 2023 (64-bit x86)
-- Instance type: `t3.micro` (2 vCPUs, 1 GiB RAM) – Free Tier eligible
-- Key pair: Created new key pair (for potential SSH – later disabled)
-- Network settings:
-  - Default VPC
-  - Auto-assign public IP: Enabled
-- Security Group: Custom SG created
-  - Initially allowed only SSH (port 22) – intentionally restrictive
-  - Later modified (see Task 3)
-- Storage: 8 GiB gp3 EBS volume (default)
-- Termination Protection: Enabled
-- User Data script (run on launch):
+---
 
+# Task 1: Launch an EC2 Web Server Instance
+
+### **Instance Specifications**
+- **Name:** `Web Server`
+- **AMI:** Amazon Linux 2023 (64-bit x86)
+- **Instance Type:** `t3.micro` (Free Tier)
+- **Key Pair:** Newly created (later not needed)
+- **Networking:**
+  - Default VPC  
+  - Auto-assign public IP enabled  
+- **Security Group (initial):**
+  - SSH (22) only
+- **Storage:** 8 GiB gp3 (default)
+- **Termination Protection:** Enabled
+
+### **User Data Script**
 ```bash
 #!/bin/bash
 yum update -y
@@ -29,98 +40,118 @@ yum install httpd -y
 systemctl start httpd
 systemctl enable httpd
 echo "<h1>Hello From Your Web Server!</h1>" > /var/www/html/index.html
-```
+````
 
-**Outcome:** Instance launched successfully and Apache web server auto-installed and started.
+### Outcome
 
----
-
-## Task 2: Monitor the Instance
-
-- Navigated to EC2 → Instances → Selected instance → **Status Checks** tab  
-  → Both 2/2 checks passed  
-- **Monitoring** tab: Viewed CloudWatch metrics (CPU utilization, network in/out, etc.)
-- Took **instance screenshot** via Actions → Monitor and troubleshoot → Get system log / screenshot  
-  → Confirmed OS boot and Apache service running
+The EC2 instance launched successfully, installed Apache automatically, and served a custom HTML message.
 
 ---
 
-## Task 3: Update Security Group & Access Web Server
+# Task 2: Monitor the Instance
 
-**Problem:** Browsing to public IP showed "This site can’t be reached"  
-**Root Cause:** Security group blocked inbound HTTP (port 80)
-
-**Fix:**
-- Added inbound rule:
-  - Type: HTTP
-  - Protocol: TCP
-  - Port: 80
-  - Source: 0.0.0.0/0 (Anywhere-IPv4)
-- Refreshed browser → Successfully displayed **"Hello From Your Web Server!"**
-
-**Key Learning:** Security groups act as a virtual firewall. Even if the web server is running, traffic must be explicitly allowed.
+* Viewed **2/2 status checks** under the EC2 Status Checks tab
+* Observed metrics via **CloudWatch graphs** (CPU, network traffic, etc.)
+* Captured **instance screenshot and system logs** to verify successful boot and Apache service
 
 ---
 
-## Task 4: Resize Instance (Instance Type + EBS Volume)
+# Task 3: Update Security Group & Access Web Server
 
-### 4.1 Change Instance Type
-- Stopped the instance
-- Actions → Instance settings → Change instance type
-- Upgraded from `t3.micro` → `t3.small` (2 vCPUs, 2 GiB RAM)
-- Started instance → Confirmed successful boot and web server still accessible
+### Issue
 
-### 4.2 Increase EBS Volume Size
-- EC2 → Volumes → Modified root volume from 8 GiB → 10 GiB
-- After modification completed, logged in via SSH and extended the filesystem:
+The web server wasn’t accessible in the browser.
+
+### Root Cause
+
+HTTP (port 80) was not allowed in the security group.
+
+### Fix Applied
+
+Added inbound rule:
+
+| Type | Protocol | Port | Source    |
+| ---- | -------- | ---- | --------- |
+| HTTP | TCP      | 80   | 0.0.0.0/0 |
+
+### Result
+
+`Hello From Your Web Server!` successfully displayed in the browser.
+
+### Key Learning
+
+Security groups are **stateful firewalls**—even if the server is running, traffic won't reach it unless rules allow it.
+
+---
+
+# Task 4: Resize Instance (Instance Type + EBS Volume)
+
+## **4.1 Change Instance Type**
+
+Steps:
+
+1. Stopped the instance
+2. Changed instance type → `t3.small`
+3. Restarted instance
+4. Verified web server still running
+
+## **4.2 Increase EBS Volume Size**
+
+* Modified volume from **8 GiB → 10 GiB**
+* Extended filesystem inside the instance:
 
 ```bash
-# Check current partitions
 lsblk
-
-# Extend the partition (usually xvda1)
 sudo growpart /dev/xvda 1
-
-# Resize the XFS filesystem (default on Amazon Linux 2023)
 sudo xfs_growfs -d /
 ```
 
-**Result:** Disk space increased without data loss
+### Result
 
-**Key Learning:**  
-- You can upgrade/downgrade instance types (when stopped)  
-- EBS volumes can be resized on-the-fly, but the OS filesystem must be extended afterward
+Disk space successfully expanded with no data loss.
 
----
+### Key Learning
 
-## Task 5: Test Termination Protection
-
-- Attempted to terminate instance → Operation blocked with error  
-  → "Instance has termination protection enabled"
-- Disabled termination protection:
-  - Instance settings → Disable termination protection
-- Terminated instance successfully
-
-**Key Learning:** Termination protection prevents accidental deletion – great for production!
+* Instance must be **stopped** to change instance type
+* EBS volumes can be resized while running, but filesystem must be manually extended
 
 ---
 
-## Summary of Key AWS Concepts Learned
+# Task 5: Test Termination Protection
 
-| Concept                  | Learned From Task       | Key Takeaway |
-|--------------------------|-------------------------|--------------|
-| EC2 Instance Launch      | Task 1                  | AMI, instance type, key pairs, user data |
-| Security Groups          | Task 1 & 3              | Act as stateful firewall – must allow port 80 for HTTP |
-| User Data Scripts        | Task 1                  | Automate setup on first boot |
-| Monitoring & Status      | Task 2                  | CloudWatch metrics + instance screenshots |
-| Instance Type Changes   | Task 4                  | Must stop instance first |
-| EBS Volume Resizing      | Task 4                  | Resize volume → extend partition → grow filesystem |
-| Termination Protection   | Task 5                  | Safety net against accidental deletion |
+* Attempted instance termination → **blocked** due to protection
+* Disabled protection → Instance successfully terminated
+
+### Key Learning
+
+Termination protection prevents accidental deletion—great for production environments.
 
 ---
 
-**Final Status:** Successfully launched, configured, secured, scaled, monitored, and safely terminated an EC2 web server.
+# Summary of Key AWS Concepts Learned
 
-Perfect hands-on introduction to real-world EC2 operations!
+| Concept                | Task Reference | Key Takeaway                              |
+| ---------------------- | -------------- | ----------------------------------------- |
+| EC2 Instance Launch    | Task 1         | AMI, instance type, user data, key pairs  |
+| Security Groups        | Tasks 1 & 3    | Must allow inbound HTTP for web access    |
+| User Data Scripts      | Task 1         | Automates initial server configuration    |
+| Monitoring             | Task 2         | Use CloudWatch graphs and system logs     |
+| Instance Type Resizing | Task 4         | Requires stopping the instance            |
+| EBS Volume Expansion   | Task 4         | Resize → grow partition → grow filesystem |
+| Termination Protection | Task 5         | Prevents accidental deletion              |
+
+---
+
+# Final Status
+
+Successfully launched, configured, secured, scaled, monitored, and safely terminated an EC2 web server instance.
+
+A complete hands-on introduction to real-world EC2 administration!
+
+---
+
+**Contact:**
+**Mokgadi:** [mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)
+
 ```
-Mokgadi: mokgadi9939@gmail.com
+
