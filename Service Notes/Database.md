@@ -254,7 +254,6 @@ These labs provided practical experience in cloud-based database management, SQL
 **Contact:**
 **[mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)**
 
-```
 
 
 
