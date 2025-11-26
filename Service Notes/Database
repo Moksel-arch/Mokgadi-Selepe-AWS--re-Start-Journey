@@ -1,61 +1,52 @@
-Got it ✅ — I’ll turn your AWS re/Start Database Labs Portfolio into a clean, professional **GitHub‑ready Markdown README**. This version will keep the structure, highlight commands, and make it easy to read and navigate.  
+Here is your file **strictly formatted for GitHub Markdown**, clean, consistent, and ready to paste directly into a README.md.
 
-Here’s the polished Markdown:
+---
 
-```markdown
+````markdown
 # AWS re/Start Database Labs Portfolio
-
 **Author:** Mokgadi Selepe  
 **Date:** November 26, 2025  
 
 ---
 
-## 📖 Overview
-This portfolio summarizes hands-on experiences from multiple AWS re/Start labs focused on databases.  
+## Overview
+This portfolio summarizes the database-focused labs completed during the AWS re/Start program. These labs covered:
 
-Key themes:
-- **Relational database management** with Amazon RDS and Aurora  
-- **SQL query fundamentals** and advanced operations on the sample *world* database (countries, cities, languages)  
-- **NoSQL operations** with Amazon DynamoDB  
+- Relational database setup using **Amazon RDS** and **Amazon Aurora**
+- SQL operations: SELECT, INSERT, UPDATE, DELETE, ALTER, GROUP BY, window functions
+- Data filtering with WHERE, BETWEEN, LIKE
+- NoSQL data modeling using **Amazon DynamoDB**
+- EC2 as a command host with MySQL/MariaDB
 
-This demonstrates practical skills in database setup, querying, and management for cloud applications.
+This showcases hands-on experience in deploying and managing cloud-based databases.
 
 ---
 
-## 🧩 Lab 1: Build Your DB Server and Interact With Your DB Using an App (Amazon RDS)
-
-**Objective:** Launch an RDS DB instance, configure connections from a web server, and test interactions via a web app.
+# Lab 1: Build Your DB Server and Interact With Your DB Using an App (Amazon RDS)
+**Objective:** Launch an RDS MySQL database, configure access, and test using a web application.
 
 ### Steps
-1. **Create Security Group for RDS**  
-   - Allowed MySQL/Aurora (port 3306) from Web Security Group  
-
-2. **Create DB Subnet Group**  
-   - Selected two private subnets in different AZs for high availability  
-
-3. **Create Amazon RDS DB Instance**  
-   - Engine: MySQL  
-   - Instance class: `db.t3.medium`  
-   - Storage: GP SSD  
-   - Deployment: Multi-AZ  
-   - Database: `world`  
-
-4. **Interact via Web App**  
-   - Configured app with RDS endpoint, username, password  
-   - Tested CRUD operations  
+1. **Created RDS Security Group** (port 3306 open to Web SG)  
+2. **Created DB Subnet Group** across two private subnets  
+3. **Launched RDS Instance**
+   - MySQL engine  
+   - db.t3.medium  
+   - Multi-AZ enabled  
+   - DB name: `world`  
+   - User: `admin`  
+4. **Connected Web App** using DB endpoint and tested CRUD operations
 
 ### Key Learnings
-- RDS handles management, enabling focus on apps  
-- Multi-AZ ensures availability  
-- Security groups control access  
+- Multi-AZ provides failover
+- Security groups control access
+- RDS integrates easily with applications
 
 ---
 
-## 🧩 Lab 2: Database Table Operations
+# Lab 2: Database Table Operations
+**Objective:** Create, modify, and delete databases and tables using SQL.
 
-**Objective:** Perform common operations like creating, showing, altering, and dropping databases/tables using SQL.
-
-### Key SQL Commands
+### Key SQL Examples
 ```sql
 CREATE DATABASE world;
 
@@ -66,166 +57,216 @@ CREATE TABLE world.country (
   PRIMARY KEY (Code)
 );
 
-ALTER TABLE world.country CHANGE Conitinent Continent ENUM('Asia','Europe', ...) NOT NULL;
+ALTER TABLE world.country CHANGE Conitinent Continent ENUM('Asia','Europe');
 
 DROP TABLE world.country;
 DROP DATABASE world;
-```
+````
 
 ### Key Learnings
-- `CREATE` for new DB/tables  
-- `SHOW` to view  
-- `ALTER` to modify  
-- `DROP` to delete  
+
+* CREATE, SHOW, ALTER, and DROP are essential SQL admin tools
+* Primary keys ensure unique identification
 
 ---
 
-## 🧩 Lab 3: Inserting Data into a Database
+# Lab 3: Inserting Data into a Database
 
-**Objective:** Insert, update, delete data in tables; import from SQL file.
+**Objective:** Use INSERT, UPDATE, DELETE, and import SQL files.
 
-### Key SQL Commands
+### Key SQL Examples
+
 ```sql
-INSERT INTO world.country VALUES ('IRL', 'Ireland', 'Europe', ...);
-UPDATE world.country SET Population = 100, SurfaceArea = 100;
+INSERT INTO world.country VALUES ('IRL','Ireland','Europe', ...);
+
+UPDATE world.country SET Population = 0;
+
+SET FOREIGN_KEY_CHECKS = 0;
 DELETE FROM world.country;
-mysql -u root -p < world.sql
+
+mysql -u root -p < /home/ec2-user/world.sql
 ```
 
 ### Key Learnings
-- `INSERT` adds rows  
-- `UPDATE` modifies rows  
-- `DELETE` removes rows  
-- Import SQL files for bulk data  
+
+* INSERT adds new data
+* UPDATE modifies existing rows
+* DELETE removes rows
+* SQL file imports enable fast data loading
 
 ---
 
-## 🧩 Lab 4: Introduction to Amazon Aurora
+# Lab 4: Introduction to Amazon Aurora
 
-**Objective:** Create Aurora DB instance, connect from EC2, create tables, insert/query data.
+**Objective:** Create and connect to an Aurora MySQL cluster.
 
-### Key SQL Commands
+### SQL Examples
+
 ```sql
 CREATE TABLE country (
-  Code CHAR(3) NOT NULL,
-  Name CHAR(52) NOT NULL
+  Code CHAR(3),
+  Name CHAR(52)
 );
 
-INSERT INTO country VALUES ('AUS', 'Australia', 'Oceania', ...);
+INSERT INTO country VALUES ('AUS','Australia','Oceania', ...);
 
-SELECT * FROM country WHERE GNP > 35000 AND Population > 10000000;
+SELECT * FROM country 
+WHERE GNP > 35000 AND Population > 10000000;
 ```
 
 ### Key Learnings
-- Aurora is high-performance, MySQL-compatible  
-- Connect from EC2 using MySQL client and endpoint  
+
+* Aurora is MySQL-compatible and highly performant
+* EC2 can connect to Aurora via the MySQL client
 
 ---
 
-## 🧩 Lab 5: Introduction to Amazon DynamoDB
+# Lab 5: Introduction to Amazon DynamoDB
 
-**Objective:** Create NoSQL table, add/modify items, query/scan, delete table.
+**Objective:** Create a NoSQL DynamoDB table and manage items.
 
 ### Operations
-- **Create Table:** `Music` with partition key `Artist`, sort key `Song`  
-- **Add Items:** Pink Floyd – Money, John Lennon – Imagine, Psy – Gangnam Style  
-- **Modify Item:** Updated Psy’s release year  
-- **Query/Scan:** Query by keys, scan by filters  
-- **Delete Table**  
+
+* Created table: **Music** (PK: Artist, SK: Song)
+* Added and updated items
+* Performed Query and Scan operations
+* Deleted table
 
 ### Key Learnings
-- DynamoDB is schema-less and flexible  
-- Partition/sort keys enable efficient queries  
-- Query vs Scan for lookups  
+
+* DynamoDB is schema-less
+* Query = key-based lookup
+* Scan = full-table search
 
 ---
 
-## 🧩 Lab 6: Organizing Data (GROUP BY & OVER)
+# Lab 6: Organizing Data
+
+**Objective:** Use GROUP BY and window functions.
+
+### SQL Examples
 
 ```sql
-SELECT Region, SUM(Population) AS TotalPopulation FROM country GROUP BY Region;
+SELECT Region, SUM(Population) AS TotalPopulation
+FROM country
+GROUP BY Region;
 
 SELECT Name, Population,
        RANK() OVER (PARTITION BY Region ORDER BY Population DESC) AS Rank
 FROM country;
 ```
 
-**Learnings:**  
-- `GROUP BY` for aggregations  
-- `OVER` for window functions (running totals, ranks)  
+### Key Learnings
+
+* GROUP BY aggregates data
+* OVER enables ranking and advanced analytics
 
 ---
 
-## 🧩 Lab 7: Conditional Search
+# Lab 7: Performing a Conditional Search
+
+**Objective:** Use WHERE, BETWEEN, LIKE for filtering.
+
+### SQL Examples
 
 ```sql
-SELECT * FROM country WHERE Population BETWEEN 50000000 AND 100000000;
-SELECT * FROM country WHERE Continent = 'Europe';
-SELECT SUM(Population) AS TotalPopulation FROM country WHERE Continent = 'Europe';
+SELECT * FROM country 
+WHERE Population BETWEEN 50000000 AND 100000000;
+
+SELECT * FROM country 
+WHERE Region LIKE '%Southern%';
+
+SELECT SUM(Population)
+FROM country
+WHERE Continent = 'Europe';
 ```
 
-**Learnings:**  
-- `WHERE` filters rows  
-- `BETWEEN` for ranges  
-- `LIKE` for patterns  
+### Key Learnings
+
+* WHERE filters rows
+* BETWEEN handles ranges
+* LIKE performs pattern matching
 
 ---
 
-## 🧩 Lab 8: Selecting Data
+# Lab 8: Selecting Data from a Database
+
+**Objective:** Use SELECT, aliases, and ORDER BY.
+
+### SQL Examples
 
 ```sql
 SELECT Name, SurfaceArea AS 'Surface Area' FROM country;
+
 SELECT * FROM country ORDER BY Population DESC;
-SELECT * FROM country WHERE Population > 50000000 AND Continent = 'Europe';
+
+SELECT Name, Capital, Region
+FROM country
+WHERE Population > 50000000
+  AND Continent = 'Europe';
 ```
 
-**Learnings:**  
-- `SELECT` retrieves data  
-- `AS` for aliases  
-- `ORDER BY` for sorting  
+### Key Learnings
+
+* SELECT retrieves specific columns
+* ORDER BY sorts results
+* Aliases (AS) improve readability
 
 ---
 
-## 🧩 Lab 9: Working with Functions
+# Lab 9: Working with Functions
+
+**Objective:** Use aggregate and string functions.
+
+### SQL Examples
 
 ```sql
-SELECT SUM(Population), AVG(Population), MAX(Population), MIN(Population), COUNT(*) FROM country;
+SELECT SUM(Population), AVG(Population), COUNT(*) FROM country;
 
-SELECT SUBSTRING_INDEX(Region, '/', 1) AS 'Region Name 1',
-       SUBSTRING_INDEX(Region, '/', -1) AS 'Region Name 2'
-FROM country WHERE Region = 'Micronesia/Caribbean';
+SELECT SUBSTRING_INDEX(Region, '/', 1) AS Region1,
+       SUBSTRING_INDEX(Region, '/', -1) AS Region2
+FROM country;
 
 SELECT DISTINCT Region FROM country;
 ```
 
-**Learnings:**  
-- Aggregates: `SUM`, `AVG`, `MAX`, `MIN`, `COUNT`  
-- String functions: `SUBSTRING_INDEX`, `LENGTH`, `TRIM`  
-- `DISTINCT` removes duplicates  
+### Key Learnings
+
+* Aggregation: SUM, AVG, MAX, MIN, COUNT
+* String functions: SUBSTRING_INDEX, LENGTH
+* DISTINCT removes duplicates
 
 ---
 
-## 🏆 Overall Key Concepts Learned
+# Overall Concepts Learned
 
-| Category              | Concepts/Tools |
-|------------------------|----------------|
-| Relational DB Setup    | RDS, Aurora, Multi-AZ, Security Groups, Subnet Groups, Endpoints |
-| SQL Basics             | CREATE, DROP, ALTER, INSERT, UPDATE, DELETE, SELECT, WHERE, ORDER BY |
-| Advanced SQL           | GROUP BY, OVER, RANK, SUM, AVG, BETWEEN, LIKE, SUBSTRING_INDEX, DISTINCT |
-| NoSQL                  | DynamoDB tables, Partition/Sort keys, Items, Query, Scan |
+| Category         | Concepts                                              |
+| ---------------- | ----------------------------------------------------- |
+| Relational Setup | RDS, Aurora, Multi-AZ, Subnet Groups, Security Groups |
+| SQL Basics       | CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT   |
+| Advanced SQL     | GROUP BY, OVER, RANK, LIKE, BETWEEN, DISTINCT         |
+| NoSQL            | DynamoDB Tables, Items, Query, Scan                   |
 
 ---
 
-**Well done to myself on completing these!** 🎉  
-Contact: mokgadi9939@gmail.com
+# Conclusion
+
+These labs provided practical experience in cloud-based database management, SQL querying, and NoSQL data modeling. This portfolio reflects strong foundational skills in cloud data operations.
+
+---
+
+**Contact:**
+📧 **[mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)**
+
 ```
 
 ---
 
-✨ This version is **GitHub‑ready**:  
-- Clear headings with emojis for readability  
-- Syntax‑highlighted SQL blocks  
-- Tables for concepts  
-- Concise summaries under each lab  
+If you want, I can also generate:
 
-Would you like me to also add a **Table of Contents with quick links** at the top so readers can jump to each lab easily?
+✅ A Table of Contents  
+✅ Badges (AWS, SQL, DynamoDB)  
+✅ A polished GitHub portfolio version with sections + styling  
+
+Just tell me!
+```
