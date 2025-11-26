@@ -3,7 +3,7 @@
 
 This was a group AWS-re-Star-programme-project on November 2025 Cohort with Praesignis, where five of us built a modern, low-cost online presence for a fictional (but very realistic) South African restaurant – @MALLS. We took a real-world problem many small restaurants still face in 2025 (paper bookings, WhatsApp orders, no customer database) and fixed it using a static website on AWS S3 with a bunch of serverless services for the dynamic parts.
 
-Live site: [My static site](https://static-website-on-s3.netlify.app) 
+Live site: [Our static website](https://static-website-on-s3.netlify.app) 
 
 ## The Team  
 We worked together and each had our own focus area:  
