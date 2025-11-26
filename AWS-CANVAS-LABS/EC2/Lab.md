@@ -1,4 +1,3 @@
-
 # **Introduction to Amazon EC2**
 
 **Overview**
@@ -147,7 +146,7 @@ I just resized my EC2 instance and its disk, and here’s what I did:
 - Resized the EBS volume – I went to Volumes under Elastic Block Store, selected my 8 GiB root disk, chose Modify Volume, and bumped it up to 10 GiB.
 - Started the instance again – Back on the Instances page I selected the stopped instance and clicked Start.
 
-Now the web server runs on a larger t3.small instance with a 10 GiB root disk, and everything is back up and running.
+Now the web server runs on a larger t3.small instance with a 10 GiB root disk, and everything is back up and running.
 
 **Task 5: Test Termination Protection**
 <img width="1019" height="546" alt="image" src="https://github.com/user-attachments/assets/cd98f1df-1f71-4ea5-87d4-c13646f3129b" />
@@ -171,3 +170,14 @@ What I learned:
 - Termination protection is a feature that prevents accidental deletion of instances.
 - I need to disable termination protection before I can delete an instance.
 - Once termination protection is disabled, I can delete the instance.
+
+
+
+
+
+
+
+
+
+
+
