@@ -1,1 +1,70 @@
+# **PICTURES USED FOR THE PROJECT: @MALLS RESTAURANT**
 
+
+![The Ancestral Braai](https://github.com/user-attachments/assets/727baf93-921d-4b41-b03b-75796c10572e)
+
+![Stewilicious](https://github.com/user-attachments/assets/f307e673-46d0-482e-a581-afec628181f9)
+
+![Steak Sandwiches](https://github.com/user-attachments/assets/37e168ab-dcb4-41d2-865a-89b99f51a663)
+
+![south african ports](https://github.com/user-attachments/assets/26022bce-50be-40c2-95d8-39221bafbf93)
+
+![Seven colours](https://github.com/user-attachments/assets/43622117-c72b-4e30-83fd-593b3163fa8a)
+
+<img width="500" height="500" alt="SA tone" src="https://github.com/user-attachments/assets/4472f91a-5849-4ba2-8ef6-051dfe60007e" />
+
+![Power Salad with Avocado_Eggs   Spinach Fuel Bowl](https://github.com/user-attachments/assets/a6fbc7ea-e433-47fd-a43d-fd43cf4d2d35)
+
+![Potjikos](https://github.com/user-attachments/assets/585a3497-1e52-481c-8f31-2c793d353456)
+
+![Pine apple munchie shake](https://github.com/user-attachments/assets/1eccf024-9b7c-40b7-89a8-867821bd7ddd)
+
+![Our staff](https://github.com/user-attachments/assets/900c4022-60ed-443f-b906-424fcd5f9545)
+
+![Mushroom   meat](https://github.com/user-attachments/assets/3a1b51f6-e429-472a-8d48-d9437b623a6f)
+
+![Meatilicious2](https://github.com/user-attachments/assets/445b0f39-4ab7-4a2b-b4ff-ea55cf585d3b)
+
+![Meatilicious](https://github.com/user-attachments/assets/b05dbc48-e124-4ac9-a772-b2fdc5c20e0e)
+
+![Malva pudding](https://github.com/user-attachments/assets/9c4e2f74-0ff3-4afa-bc6f-251e2815c444)
+
+![Mala   Mogodu](https://github.com/user-attachments/assets/69950e0f-9296-402d-861d-722c2ace4c78)
+
+<img width="500" height="500" alt="Lekotla" src="https://github.com/user-attachments/assets/bec2c059-726b-41d5-9071-a88e190791d0" />
+
+![Kota or Bunny chow](https://github.com/user-attachments/assets/da00d8d0-1d39-4e60-a515-29f424c70b36)
+
+![Juice Cure using herbs](https://github.com/user-attachments/assets/15bc6eaf-0af2-4edf-8259-1c2c68558c40)
+
+![istockphoto-882548344-612x612](https://github.com/user-attachments/assets/dcb9dfcd-309e-4347-9c9f-3de908418c21)
+
+![istockphoto-637145496-612x612](https://github.com/user-attachments/assets/f1b8055d-3318-4d15-97d6-aee5d90b83cc)
+
+![Healthy salad](https://github.com/user-attachments/assets/e2abd8eb-b50b-483f-bce5-92c06e86fabe)
+
+![Garlic Herb Roasted Veggies](https://github.com/user-attachments/assets/887e30fd-a98c-409a-8d4f-0592ad945b5c)
+
+![Favicon](https://github.com/user-attachments/assets/43552f5e-d4e0-4010-b490-5915ccf77c2a)
+
+<img width="500" height="500" alt="community" src="https://github.com/user-attachments/assets/78eaee9f-37bf-4c27-8d77-a7ba833255d7" />
+
+![Chocolate shake](https://github.com/user-attachments/assets/d2f2680c-a4d5-4a81-9d25-9f975d448a8c)
+
+<img width="500" height="500" alt="Chefs Association" src="https://github.com/user-attachments/assets/7b1fb4eb-a34d-4343-b684-bf7ad10e61b9" />
+
+![Cheesy pap with spinach](https://github.com/user-attachments/assets/30e615c4-4943-4bdf-9112-eb60af028c33)
+
+![Breakfast salad](https://github.com/user-attachments/assets/e2844e4a-0188-4c10-ae80-879df6a33925)
+
+![Braai platter](https://github.com/user-attachments/assets/2047c58f-8aac-42d3-8517-0d82cbf558b6)
+
+![Braai pap with chops corn and chakalaka](https://github.com/user-attachments/assets/c9a8aaee-487f-4426-a95b-74b9be28ee35)
+
+![Bobotjie](https://github.com/user-attachments/assets/1b92f3b3-da89-4bc8-a4f1-c7c12a3a87f8)
+
+![Africanizm](https://github.com/user-attachments/assets/f427f75c-b200-4a76-b2a5-94acf4036a05)
+
+![African Fist](https://github.com/user-attachments/assets/7b580306-815f-410e-a0fe-2d200d5ef4ad)
+
+![WhatsApp Image 2025-11-03 at 15 43 34_d89fba77](https://github.com/user-attachments/assets/4897e4a2-b693-4507-8699-ad199a2e4467)
