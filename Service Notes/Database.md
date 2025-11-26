@@ -1,7 +1,3 @@
-Here is your file **strictly formatted for GitHub Markdown**, clean, consistent, and ready to paste directly into a README.md.
-
----
-
 ````markdown
 # AWS re/Start Database Labs Portfolio
 **Author:** Mokgadi Selepe  
@@ -256,17 +252,8 @@ These labs provided practical experience in cloud-based database management, SQL
 ---
 
 **Contact:**
-📧 **[mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)**
+**[mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)**
 
 ```
 
----
 
-If you want, I can also generate:
-
-✅ A Table of Contents  
-✅ Badges (AWS, SQL, DynamoDB)  
-✅ A polished GitHub portfolio version with sections + styling  
-
-Just tell me!
-```
