@@ -19,8 +19,10 @@ Lab – Automation with CloudFormation
 <img width="1916" height="869" alt="image" src="https://github.com/user-attachments/assets/4c6eb235-0e6c-44e5-b818-171bc5e54ce5" />
 <img width="1900" height="879" alt="image" src="https://github.com/user-attachments/assets/14afbb29-c63e-4c96-bf2e-824bb09207cf" />
 <img width="1895" height="880" alt="image" src="https://github.com/user-attachments/assets/c0547941-14c5-4492-a26a-c7fbacb35718" />
+<img width="1915" height="896" alt="image" src="https://github.com/user-attachments/assets/53e054fa-5b83-43be-ab71-508331a946c8" />
+<img width="1912" height="452" alt="image" src="https://github.com/user-attachments/assets/2fbc46ba-115f-4764-bac8-145c9dd514fc" />
+
 Lab – Deploy a CloudFormation Stack
-Explain what happened here in simple English
 
 I downloaded a CloudFormation template called task1.yaml. It’s written in YAML, which just tells AWS what resources to create. Here’s the short version of what the template does and how I used it.
 
@@ -54,7 +56,18 @@ What I learned
 - Parameters let you input values; Outputs give you quick info after creation.
 - Deleting the stack removes every resource it created.
 
-That’s the whole process in plain English. I’ll update this README as I add more projects.
 
 ***2: Add an Amazon S3 Bucket to the Stack*
+<img width="1908" height="873" alt="image" src="https://github.com/user-attachments/assets/901f4358-3979-4253-8763-d5958fa811e5" />
+<img width="1909" height="623" alt="image" src="https://github.com/user-attachments/assets/b6933b9d-30a3-4fde-affc-1d1588d57662" />
+<img width="1895" height="877" alt="image" src="https://github.com/user-attachments/assets/02f65e33-20ce-4961-8513-ae9698c316c2" />
+<img width="1913" height="866" alt="image" src="https://github.com/user-attachments/assets/c37b0d1d-cd0f-453c-ab02-57d763b3e7c7" />
+<img width="1918" height="868" alt="image" src="https://github.com/user-attachments/assets/3c916e74-5796-4b9c-9ba7-e99e5c22fbb0" />
+<img width="1912" height="862" alt="image" src="https://github.com/user-attachments/assets/2488943c-0d35-4430-83db-885837a61104" />
+Here is what I did:
+*I edited task1.yaml to add an S3 bucket under Resources (MyS3Bucket: Type: AWS::S3::Bucket). 
+*Then I updated the Lab stack by uploading the file and clicking Update. 
+*The stack finished with UPDATE_COMPLETE and the bucket appeared in the Resources list. 
+*I also checked it in the S3 console. 
 
+***3: Add an Amazon EC2 Instance to the Stack*
