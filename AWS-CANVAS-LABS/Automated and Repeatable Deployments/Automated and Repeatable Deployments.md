@@ -45,6 +45,7 @@ That’s the whole lab in a nutshell.
 
 ***2: Add an Amazon S3 Bucket to the Stack*
 <img width="1908" height="873" alt="image" src="https://github.com/user-attachments/assets/901f4358-3979-4253-8763-d5958fa811e5" />
+<img width="487" height="880" alt="image" src="https://github.com/user-attachments/assets/9ac25ef5-561a-4c25-a87b-894660368d00" />
 <img width="1909" height="623" alt="image" src="https://github.com/user-attachments/assets/b6933b9d-30a3-4fde-affc-1d1588d57662" />
 <img width="1895" height="877" alt="image" src="https://github.com/user-attachments/assets/02f65e33-20ce-4961-8513-ae9698c316c2" />
 <img width="1913" height="866" alt="image" src="https://github.com/user-attachments/assets/c37b0d1d-cd0f-453c-ab02-57d763b3e7c7" />
@@ -58,6 +59,11 @@ Here is what I did:
 - I also checked it in the S3 console. 
 
 ***3: Add an Amazon EC2 Instance to the Stack*
+<img width="769" height="886" alt="image" src="https://github.com/user-attachments/assets/50d119fc-916a-47cc-9e77-f8481e6d750f" />
+<img width="505" height="875" alt="image" src="https://github.com/user-attachments/assets/92e914b5-db3f-49cb-af30-067a99682ac7" />
+<img width="1894" height="878" alt="image" src="https://github.com/user-attachments/assets/a8f7c683-8985-4590-9c76-6b59bfc3dcb8" />
+<img width="1916" height="696" alt="image" src="https://github.com/user-attachments/assets/717910d8-581f-41ce-8192-73f2ccf6531a" />
+<img width="1891" height="835" alt="image" src="https://github.com/user-attachments/assets/aba06f79-cff2-4f5a-9067-48935641d3d3" />
 
 - I added a parameter called AmazonLinuxAMIID to fetch the latest Amazon Linux AMI from SSM.
 - I edited the template under Resources to create an EC2 instance.
