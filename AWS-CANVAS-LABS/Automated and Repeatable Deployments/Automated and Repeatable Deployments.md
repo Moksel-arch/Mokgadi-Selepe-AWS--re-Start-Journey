@@ -87,3 +87,6 @@ Here is what i finally did:
 - I clicked Delete and confirmed the deletion when prompted.
 - The stack showed DELETE_IN_PROGRESS and after a few minutes it vanished.
 - I optionally checked the S3 console, EC2 console, and VPC console to verify the bucket, instance, and VPC were removed.
+
+---
+Contact: mokgadi9939@gmail.com
