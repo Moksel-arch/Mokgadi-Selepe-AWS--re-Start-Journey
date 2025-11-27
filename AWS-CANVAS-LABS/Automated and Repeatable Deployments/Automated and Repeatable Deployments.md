@@ -65,9 +65,10 @@ What I learned
 <img width="1918" height="868" alt="image" src="https://github.com/user-attachments/assets/3c916e74-5796-4b9c-9ba7-e99e5c22fbb0" />
 <img width="1912" height="862" alt="image" src="https://github.com/user-attachments/assets/2488943c-0d35-4430-83db-885837a61104" />
 Here is what I did:
-*I edited task1.yaml to add an S3 bucket under Resources (MyS3Bucket: Type: AWS::S3::Bucket). 
-*Then I updated the Lab stack by uploading the file and clicking Update. 
-*The stack finished with UPDATE_COMPLETE and the bucket appeared in the Resources list. 
-*I also checked it in the S3 console. 
+
+- I edited task1.yaml to add an S3 bucket under Resources (MyS3Bucket: Type: AWS::S3::Bucket).
+- Then I updated the Lab stack by uploading the file and clicking Update.
+- The stack finished with UPDATE_COMPLETE and the bucket appeared in the Resources list.
+- I also checked it in the S3 console. 
 
 ***3: Add an Amazon EC2 Instance to the Stack*
