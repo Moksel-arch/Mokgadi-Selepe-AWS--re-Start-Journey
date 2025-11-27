@@ -21,41 +21,27 @@ Lab – Automation with CloudFormation
 <img width="1895" height="880" alt="image" src="https://github.com/user-attachments/assets/c0547941-14c5-4492-a26a-c7fbacb35718" />
 <img width="1915" height="896" alt="image" src="https://github.com/user-attachments/assets/53e054fa-5b83-43be-ab71-508331a946c8" />
 <img width="1912" height="452" alt="image" src="https://github.com/user-attachments/assets/2fbc46ba-115f-4764-bac8-145c9dd514fc" />
+Here is what i did here:
 
-Lab – Deploy a CloudFormation Stack
+- I downloaded a CloudFormation template called task1.yaml.
+- The file is written in YAML and tells AWS what resources to create.
+- The template has three parts:
+    - Parameters – asks for two CIDR ranges (VPC and subnet); defaults are already set.
+    - Resources – defines a VPC and a Security Group.
+    - Outputs – shows the default Security Group ID after the stack is built.
+- Here’s what I did to deploy the stack:
+    - Saved the file by right‑clicking the link and choosing “Save as task1.yaml”.
+    - Opened it in a plain‑text editor to look at the three sections.
+    - Went to the AWS console → Services → CloudFormation.
+    - Clicked Create stack, chose Upload a template file, selected task1.yaml, and clicked Next.
+    - Named the stack Lab (the parameters were already filled with defaults).
+    - Skipped the Options page, kept the defaults, and clicked Next.
+    - On the Review page I acknowledged the custom‑name warning and clicked Create stack.
+    - Watched the progress: the Events tab showed each step (VPC → Security Group) and the Resources tab listed everything being created in the right order.
+    - Waited until the status changed to CREATE_COMPLETE (refreshed a few times).
+    - (Optional) Checked the new VPC in the VPC console, then went back to CloudFormation.
 
-I downloaded a CloudFormation template called task1.yaml. It’s written in YAML, which just tells AWS what resources to create. Here’s the short version of what the template does and how I used it.
-
----
-
-What the template contains
-- Parameters – asks for two CIDR ranges (VPC and subnet). Defaults are already set.
-- Resources – defines the VPC and a Security Group.
-- Outputs – shows the default Security Group ID after the stack is built.
-
----
-
-How I deployed the stack
-1. Download the template (right‑click the link → save as task1.yaml).
-2. Open it in a plain‑text editor to see the three sections.
-3. In the AWS console, go to Services → CloudFormation.
-4. Click Create stack → Upload a template file → select task1.yaml → Next.
-5. Name the stack Lab (parameters already have defaults).
-6. Skip the Options page (keep defaults) and click Next.
-7. On the Review page, acknowledge the custom‑name warning and click Create stack.
-8. Watch the stack:
-    - Events tab shows each step (VPC → Security Group).
-    - Resources tab lists what’s being created, in the right order.
-9. Wait until the status changes to CREATE_COMPLETE (refresh if needed).
-10. (Optional) Verify the new VPC in the VPC console, then return to CloudFormation.
-
----
-
-What I learned
-- YAML is strict about indentation and hyphens.
-- Parameters let you input values; Outputs give you quick info after creation.
-- Deleting the stack removes every resource it created.
-
+That’s the whole lab in a nutshell.
 
 ***2: Add an Amazon S3 Bucket to the Stack*
 <img width="1908" height="873" alt="image" src="https://github.com/user-attachments/assets/901f4358-3979-4253-8763-d5958fa811e5" />
@@ -72,3 +58,11 @@ Here is what I did:
 - I also checked it in the S3 console. 
 
 ***3: Add an Amazon EC2 Instance to the Stack*
+
+- I added a parameter called AmazonLinuxAMIID to fetch the latest Amazon Linux AMI from SSM.
+- I edited the template under Resources to create an EC2 instance.
+- The instance uses ImageId: !Ref AmazonLinuxAMIID, InstanceType: t3.micro, SecurityGroupIds: - !Ref AppSecurityGroup, SubnetId: !Ref PublicSubnet, and Tags: - Key: Name Value: App Server.
+- I uploaded the updated template and clicked Update on the Lab stack.
+- The stack updated successfully and the new instance appeared in the Resources tab.
+- I verified the App Server in the EC2 console.
+- Finally, I deleted the Lab stack, which removed the EC2 instance, S3 bucket, and VPC.
