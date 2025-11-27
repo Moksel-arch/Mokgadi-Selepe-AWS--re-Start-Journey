@@ -65,4 +65,3 @@ Here is what I did:
 - I uploaded the updated template and clicked Update on the Lab stack.
 - The stack updated successfully and the new instance appeared in the Resources tab.
 - I verified the App Server in the EC2 console.
-- Finally, I deleted the Lab stack, which removed the EC2 instance, S3 bucket, and VPC.
