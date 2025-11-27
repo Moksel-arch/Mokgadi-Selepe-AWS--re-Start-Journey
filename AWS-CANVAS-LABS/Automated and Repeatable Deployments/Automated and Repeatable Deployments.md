@@ -64,6 +64,8 @@ Here is what I did:
 <img width="1894" height="878" alt="image" src="https://github.com/user-attachments/assets/a8f7c683-8985-4590-9c76-6b59bfc3dcb8" />
 <img width="1916" height="696" alt="image" src="https://github.com/user-attachments/assets/717910d8-581f-41ce-8192-73f2ccf6531a" />
 <img width="1891" height="835" alt="image" src="https://github.com/user-attachments/assets/aba06f79-cff2-4f5a-9067-48935641d3d3" />
+<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/bee817cb-50d0-4971-b17c-bdcecc2011e7" />
+<img width="1913" height="872" alt="image" src="https://github.com/user-attachments/assets/398906bb-e9f1-4a87-939a-c2e833ec870d" />
 
 - I added a parameter called AmazonLinuxAMIID to fetch the latest Amazon Linux AMI from SSM.
 - I edited the template under Resources to create an EC2 instance.
@@ -71,3 +73,17 @@ Here is what I did:
 - I uploaded the updated template and clicked Update on the Lab stack.
 - The stack updated successfully and the new instance appeared in the Resources tab.
 - I verified the App Server in the EC2 console.
+
+***4: Delete the Stack*
+<img width="1912" height="864" alt="image" src="https://github.com/user-attachments/assets/ed8a256d-425c-40c2-90bc-afd08200621f" />
+<img width="1918" height="849" alt="image" src="https://github.com/user-attachments/assets/6fc94b01-2b75-4600-a47a-44fbd480d6b0" />
+<img width="1917" height="880" alt="image" src="https://github.com/user-attachments/assets/2be2b72d-a605-410b-a2c7-a49e58fe63ad" />
+<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/72931f1d-f38c-4fbe-888c-c338332ab9b9" />
+<img width="1909" height="862" alt="image" src="https://github.com/user-attachments/assets/d55049bd-cb4d-44f8-892e-226a06be15e4" />
+<img width="1903" height="881" alt="image" src="https://github.com/user-attachments/assets/acfa46a3-7823-44c3-afd0-aa6ebce71c27" />
+
+Here is what i finally did:
+- I opened the CloudFormation console and selected the Lab stack.
+- I clicked Delete and confirmed the deletion when prompted.
+- The stack showed DELETE_IN_PROGRESS and after a few minutes it vanished.
+- I optionally checked the S3 console, EC2 console, and VPC console to verify the bucket, instance, and VPC were removed.
