@@ -1,6 +1,7 @@
 # **Networking - Service Notes** 
 
-***Written by Mokgadi Selepe*  
+***Written by Mokgadi Selepe* 
+
 **Date:** December 01, 2025  
 **Overview:** These are my combined service notes from all the AWS networking labs I did. I acted as a cloud support engineer helping different customers with VPC setup, IP addresses, and internet connectivity. Each part is from one lab, and I kept everything in simple English. No icons or fancy stuff – just the key points.
 
@@ -129,4 +130,6 @@ Mokgadi
 **Status**  
 Waiting for Bob to reply. As soon as he says go ahead, I will attach the Elastic IP and the problem is gone forever.  
 
-That’s all from my labs! If you need more, email me at mokgadi9939@gmail.com.
+That’s all from my labs! If you need more, 
+
+Email me: mokgadi9939@gmail.com
