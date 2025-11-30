@@ -1,6 +1,6 @@
 # **AWS Lab – Static vs Dynamic Public IP Addresses**
 
-*My own notes from the lab – written by Mokgadi Selepe*
+***Written by Mokgadi Selepe*
 
 ### What the customer (Bob) was complaining about  
 Bob has an EC2 instance called “Public Instance”.  
