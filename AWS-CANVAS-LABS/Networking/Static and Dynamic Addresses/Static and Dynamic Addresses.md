@@ -11,5 +11,4 @@ In this lab, I must:
 - Develop a solution to the customers issue found within this lab; after developing a solution, summarize and describe your findings
 <img width="1909" height="878" alt="image" src="https://github.com/user-attachments/assets/a2573262-ae7c-4820-945d-95a6afd00bba" />
 <img width="1912" height="885" alt="image" src="https://github.com/user-attachments/assets/cd415361-a89c-4286-a208-98dda3340372" />
-<img width="1913" height="888" alt="image" src="https://github.com/user-attachments/assets/90b98bd5-d96e-48ed-9268-b90d1552cdb9" />
 <img width="1911" height="915" alt="image" src="https://github.com/user-attachments/assets/1c8138a0-bbd4-442d-b639-b21ae711ad1d" />
