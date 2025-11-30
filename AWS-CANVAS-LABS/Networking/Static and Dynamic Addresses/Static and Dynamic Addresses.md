@@ -19,4 +19,7 @@ In this lab, I must:
 <img width="1027" height="616" alt="image" src="https://github.com/user-attachments/assets/60d6ee89-40cf-4314-8ccb-7da209eae15e" />
 <img width="1913" height="884" alt="image" src="https://github.com/user-attachments/assets/a21fb29b-e289-4f5f-993e-8515099c8ddf" />
 <img width="1913" height="889" alt="image" src="https://github.com/user-attachments/assets/577402ac-a0d5-4085-a105-e8f620549e8a" />
+<img width="1915" height="882" alt="image" src="https://github.com/user-attachments/assets/39ad849a-645d-450c-87b5-ebbc5406db56" />
+<img width="1913" height="882" alt="image" src="https://github.com/user-attachments/assets/03f14f27-41d8-4a52-8e60-b93c520c0f0c" />
+<img width="1915" height="882" alt="image" src="https://github.com/user-attachments/assets/8c47407c-1a8c-42df-8529-eba0d0b331dc" />
 
