@@ -15,4 +15,8 @@ In this lab, I must:
 <img width="1913" height="884" alt="image" src="https://github.com/user-attachments/assets/e092024b-ed99-404d-a649-9740e361daf7" />
 <img width="1914" height="889" alt="image" src="https://github.com/user-attachments/assets/f4868c64-0157-4a2f-b9a9-e4e45dbd712c" />
 <img width="1919" height="893" alt="image" src="https://github.com/user-attachments/assets/7729fdfd-b3f6-42f5-ac35-51ddf1be1bd9" />
+<img width="1912" height="886" alt="image" src="https://github.com/user-attachments/assets/6fd65f4c-c99a-4cf7-aab8-eb782e3ca60f" />
+<img width="1027" height="616" alt="image" src="https://github.com/user-attachments/assets/60d6ee89-40cf-4314-8ccb-7da209eae15e" />
+<img width="1913" height="884" alt="image" src="https://github.com/user-attachments/assets/a21fb29b-e289-4f5f-993e-8515099c8ddf" />
+<img width="1913" height="889" alt="image" src="https://github.com/user-attachments/assets/577402ac-a0d5-4085-a105-e8f620549e8a" />
 
