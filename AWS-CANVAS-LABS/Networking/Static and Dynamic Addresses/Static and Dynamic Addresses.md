@@ -52,3 +52,14 @@ Group activity
 - Person 2 will explain the findings to me in plain language.
 - We’ll keep it short – about 5‑10 minutes – and then share a quick summary with the class.
 
+***Recap*
+What happened"
+
+I looked at the customer’s setup and found the problem: the public EC2 instance kept getting a new IP every time it was stopped and started. That made it impossible to reach it reliably.
+
+- Investigated the environment and used the usual troubleshooting steps.
+- Discovered the instance was using a dynamic public IP address (it changes on stop/start).
+- Suggested attaching an Elastic IP (EIP) to make the address permanent.
+- Tested the fix by SSH‑ing into the instance, stopping it, starting it again, and confirming the IP stayed the same.
+
+That solved the customer’s issue and gave them a stable address for their instance.
