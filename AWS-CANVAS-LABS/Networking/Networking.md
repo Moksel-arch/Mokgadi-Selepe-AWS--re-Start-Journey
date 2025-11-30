@@ -44,6 +44,7 @@ I started by looking at the customer’s setup. Jess told me she has two EC2 ins
 That’s the quick rundown of what I observed and what I need to investigate further.
 
 ***2: Use SSH to connect to an Amazon Linux EC2 instance*
+
 <img width="593" height="537" alt="image" src="https://github.com/user-attachments/assets/c98b0350-d7e0-4bb0-be95-1cf964e7f08b" />
 <img width="818" height="518" alt="image" src="https://github.com/user-attachments/assets/b9913f32-63a4-4b29-8a13-ff54de8fcc8a" />
 <img width="603" height="542" alt="image" src="https://github.com/user-attachments/assets/904b4cbe-ce1b-4701-96f2-08f12fa0c1d8" />
