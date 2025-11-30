@@ -13,4 +13,6 @@ In this lab, I must:
 <img width="1912" height="885" alt="image" src="https://github.com/user-attachments/assets/cd415361-a89c-4286-a208-98dda3340372" />
 <img width="1911" height="915" alt="image" src="https://github.com/user-attachments/assets/1c8138a0-bbd4-442d-b639-b21ae711ad1d" />
 <img width="1913" height="884" alt="image" src="https://github.com/user-attachments/assets/e092024b-ed99-404d-a649-9740e361daf7" />
+<img width="1914" height="889" alt="image" src="https://github.com/user-attachments/assets/f4868c64-0157-4a2f-b9a9-e4e45dbd712c" />
+<img width="1919" height="893" alt="image" src="https://github.com/user-attachments/assets/7729fdfd-b3f6-42f5-ac35-51ddf1be1bd9" />
 
