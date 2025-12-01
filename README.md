@@ -25,7 +25,7 @@ Right now I am busy with hands-on labs in:
 
 Cloud computing is transforming the way businesses and individuals build, deploy, and scale applications. What fascinates me most is how the cloud brings **flexibility, scalability, and cost-efficiency** to technology solutions. With services like **AWS**, you can launch servers in minutes, store data securely, and integrate advanced tools like AI and machine learning—all without managing physical infrastructure.
 
-For me, the cloud represents **innovation and opportunity**. It’s not just about hosting applications; it’s about enabling creativity, solving real-world problems, and making technology accessible to everyone. My goal is to master these concepts and eventually become an **AWS Solutions Architect**, helping organizations design secure, reliable, and scalable systems.
+For me, the cloud represents **innovation and opportunity**. It’s not just about hosting applications; it’s about enabling creativity, solving real-world problems, and making technology accessible to everyone. My goal is to master these concepts and eventually become an **AWS Solutions Architect** one day, helping organizations design secure, reliable, and scalable systems.
 
 ## My Technology Skills & Certificates
 
@@ -40,7 +40,7 @@ Before AWS re/Start I spent a lot of time learning programming and data science.
 
 ### Data Science & Analytics
 
-*   Data Science Programme Certificate (Zaio – September 2025)
+*   Data Science Programme Certificate (Zaio – 2025)
 *   Introduction to Data Science
 *   Exploratory Data Analysis
 *   Statistical Techniques for Data Science
@@ -49,8 +49,8 @@ Before AWS re/Start I spent a lot of time learning programming and data science.
 
 ### Artificial Intelligence
 
-*   AI Practitioner Learning Plan (Zaio – August 2025)
-*   Generative AI for Decision Makers (Zaio – August 2025)
+*   AI Practitioner Learning Plan (2025)
+*   Generative AI for Decision Makers (2025)
 
 ### Other Skills
 
