@@ -5,7 +5,7 @@ Hi! My name is Mokgadi Selepe and welcome to my GitHub profile.
 ## AWS re/Start Journey
 I started the **AWS re/Start Cloud Computing Programme** on **06 October 2025** and I will finish on **26 December 2025**.  
 Every day I learn something new about the cloud and I am enjoying the journey a lot.  
-My big goal is to write and pass the **AWS Certified Cloud Practitioner** exam early in 2026.
+My big goal is to know more about this Cloud journey and later Solution Architect. 
 
 Right now I am busy with hands-on labs in:
 - Cloud Foundations
