@@ -1,33 +1,62 @@
-# **Mokgadi-Selepe-AWS--re-Start-Journey**
+# **Mokgadi Selepe – About Me**
+```markdown
+Hi! My name is Mokgadi Selepe and welcome to my GitHub profile.
 
-Hi there!  
-My name is Mokgadi and this is my little corner on GitHub where I’m keeping everything from my **AWS re/Start** journey.
+## AWS re/Start Journey
+I started the **AWS re/Start Cloud Computing Programme** on **06 October 2025** and I will finish on **26 December 2025**.  
+Every day I learn something new about the cloud and I am enjoying the journey a lot.  
+My big goal is to write and pass the **AWS Certified Cloud Practitioner** exam early in 2026.
 
-I started the program on **06 October 2025** and we finish on **26 December 2025**. Time is moving so fast! After that I’m planning to write the **AWS Cloud Practitioner** exam early 2026 – I’m nervous but also super excited..
+Right now I am busy with hands-on labs in:
+- Cloud Foundations
+- Linux basics
+- Networking
+- Security & IAM
+- Python programming
+- Databases (RDS, DynamoDB)
+- Servers and compute (EC2, Lambda)
 
-### Labs I’ve Completed So Far
-I’m putting everything I learn here, one folder at a time:
+## My Technology Skills & Certificates
+Before AWS re/Start I spent a lot of time learning programming and data science. Here is what I have completed so far:
 
-- Cloud Foundations  
-- Linux  
-- Networking  
-- Security  
-- Python Programming  
-- Databases   
-- Servers   
+### Full Stack & Web Development
+- Full Stack Development Certificate (FNB App Academy – 32 credits, July 2025)
+- HTML & CSS (multiple projects: Netflix clone, Tesla landing page, virtual business cards)
+- Introduction to Python Programming
+- Object-Oriented Programming with Python
 
-Every day I finish a lab I feel like I understand the cloud a little bit more. From basic Linux commands to building databases on RDS and Aurora – it’s a lot, but I’m loving it!
+### Data Science & Analytics
+- Data Science Programme Certificate (Zaio – September 2025)
+- Introduction to Data Science
+- Exploratory Data Analysis
+- Statistical Techniques for Data Science
+- SQL – A Practical Guide (completed several times)
+- Machine Learning basics
 
-**NB!!** I will keep updating this folder everytime I add some more information.
+### Artificial Intelligence
+- AI Practitioner Learning Plan (Zaio – August 2025)
+- Generative AI for Decision Makers (Zaio – August 2025)
 
-### What’s Next?
-I Keep pushing until 26 December, practing hard to pass this exam.I still have so much to learn but I’m enjoying every single day.
+### Other Skills
+- Digital Literacy
+- GitHub and basic Git commands
+- Problem-solving and learning how to learn
 
-If you’re also doing AWS re/Start or just starting with cloud – let’s connect and motivate each other!
+## What’s Next for Me?
+- Finish AWS re/Start strong (December 2025)
+- Pass AWS Cloud Practitioner exam (early 2026)
+- Start preparing for AWS Solutions Architect – Associate
+- Keep building small projects and adding them here
 
-### Get in touch
-Email: mokgadi9939@gmail.com
+I love learning new things in tech and I am always happy to connect with others who are also on their cloud or coding journey.
 
-Thank you for visiting my repo!  
-Lots of love from South Africa 
+## Get in Touch
+- Phone: 067 719 3860  
+- Email: mokgadi9939@gmail.com  
+
+Thank you for stopping by!  
 Mokgadi
+``` 
+
+Just copy and paste this into your `README.md` or `aboutme.md` – it’s clean, simple, and written exactly like you would say it.
+```
