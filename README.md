@@ -1,5 +1,5 @@
 # **Mokgadi Selepe – About Me**
-```markdown
+
 Hi! My name is Mokgadi Selepe and welcome to my GitHub profile.
 
 ## AWS re/Start Journey
@@ -58,5 +58,3 @@ Thank you for stopping by!
 Mokgadi
 ``` 
 
-Just copy and paste this into your `README.md` or `aboutme.md` – it’s clean, simple, and written exactly like you would say it.
-```
