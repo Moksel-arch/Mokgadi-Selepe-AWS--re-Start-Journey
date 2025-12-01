@@ -19,7 +19,7 @@ Right now I am busy with hands-on labs in:
 *   Python programming
 *   Databases (RDS, DynamoDB)
 *   Servers and compute (EC2, Lambda)
-      <img width="650" height="681" alt="image" src="https://github.com/user-attachments/assets/079afca3-f127-4ea5-88f0-5cdb777bbd16" />
+  <img width="650" height="681" alt="image" src="https://github.com/user-attachments/assets/079afca3-f127-4ea5-88f0-5cdb777bbd16" />
   ***Achievement Unlocked: AWS Cloud Quest Badge*
 I am proud to have earned the AWS Cloud Quest: Cloud Practitioner Trained badge!
 This badge represents my hands-on experience in building cloud solutions and understanding AWS fundamentals.
