@@ -16,12 +16,12 @@
 
 **AWS Quest Cloud Practitioner**
 
+<img width="1319" height="870" alt="image" src="https://github.com/user-attachments/assets/755847d7-ac2c-49fd-ad28-34f149fcef3b" />
+
+**Core Security Concepts**
+
 
 <img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/c5467a34-c79c-48b6-86d4-0f1921cbf709" />
 
 **AWS Cloud Quest Practitioner Training Badge**
 
-
-<img width="1319" height="870" alt="image" src="https://github.com/user-attachments/assets/755847d7-ac2c-49fd-ad28-34f149fcef3b" />
-
-**Core Security Concepts**
