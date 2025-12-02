@@ -24,3 +24,9 @@ I worked through a lab that shows how to manage data on an Amazon EBS volume.
 - Use Amazon S3 sync to copy files from an EBS volume to an S3 bucket.
 
 - Use Amazon S3 versioning to retrieve deleted files.
+
+***1: Creating and configuring resources*
+In this task, I must create an Amazon S3 bucket and configure the "Command Host" EC2 instance to have secure access to other AWS resources.
+<img width="1909" height="874" alt="image" src="https://github.com/user-attachments/assets/5bdc31f8-fec8-4229-9eee-c10378247f9b" />
+
+***1.1: Create an S3 bucket*
