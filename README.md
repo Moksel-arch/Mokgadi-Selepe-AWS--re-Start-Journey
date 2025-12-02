@@ -52,6 +52,7 @@ Before AWS re/Start I spent a lot of time learning programming and data science.
 *   Statistical Techniques for Data Science
 *   SQL – A Practical Guide (completed several times)
 *   Machine Learning basics
+*   Jupyter Notebook
 
 ### Artificial Intelligence
 
