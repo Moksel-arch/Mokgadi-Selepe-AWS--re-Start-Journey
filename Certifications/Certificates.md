@@ -21,6 +21,11 @@
 **Core Security Concepts**
 
 
+<img width="1250" height="868" alt="image" src="https://github.com/user-attachments/assets/930c4303-e0a6-4d43-854f-db64d0b32916" />
+
+**Networking Concepts**
+
+
 <img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/c5467a34-c79c-48b6-86d4-0f1921cbf709" />
 
 **AWS Cloud Quest Practitioner Training Badge**
