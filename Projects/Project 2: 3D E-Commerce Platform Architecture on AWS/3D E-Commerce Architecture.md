@@ -12,12 +12,12 @@
  **Title:      Designing a 3D E‑Commerce Platform on AWS**
 ---
 
-***1. Introduction*
+#***1. Introduction*
 
 We are a startup team building a new kind of online shop where customers can see and play with 3D models of products (furniture, gadgets, clothes, etc.) before they buy. 
 We chose AWS because it can help us serve millions of people worldwide, keep the site fast, safe, and it is not too expensive.
 
-***2. What the project needs*
+#***2. What the project needs*
 
  * Always online (24/7)
  * Can handle huge traffic spikes (for example Black Friday) 
