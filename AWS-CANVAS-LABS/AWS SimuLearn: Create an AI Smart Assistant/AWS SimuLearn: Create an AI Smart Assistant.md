@@ -51,4 +51,22 @@ I opened the left navigation pane and clicked Knowledge Bases, then on the Knowl
 
 I clicked Knowledge Bases in the left navigation pane, hit Create, chose “Knowledge Base with vector store” from the dropdown, and then moved on to the next step.
 <img width="1886" height="882" alt="image" src="https://github.com/user-attachments/assets/5561aeef-8732-4bed-ad47-0074458ec630" />
+<img width="1898" height="876" alt="image" src="https://github.com/user-attachments/assets/09bc0318-42eb-4a22-af80-72f6717cfb45" />
+
+I typed hr-knowledge-base into the Knowledge Base name field in the “Provide Knowledge Base details” step and then moved on to the next step.
+<img width="1891" height="870" alt="image" src="https://github.com/user-attachments/assets/9b70df0d-3917-481a-bfaf-3e08ece013df" />
+
+I chose Use an existing service role, selected Bedrock_KB_Role, set the data source to Amazon S3, scrolled to the bottom, hit Next, and moved on to the next step.
+<img width="1904" height="873" alt="image" src="https://github.com/user-attachments/assets/24e901ce-cf5e-498a-a971-e76403b5ffa4" />
+
+I typed hr-data-source as the data source name, clicked Browse S3 for the S3 URI, and then moved on to the next step.
+<img width="1898" height="878" alt="image" src="https://github.com/user-attachments/assets/a94b9ddc-1ba1-42b3-a30c-adb62b811c0d" />
+<img width="1758" height="554" alt="image" src="https://github.com/user-attachments/assets/a5691727-1700-4dd7-baa8-f4281a715e21" />
+
+I selected the bucket that starts with knowledge‑base‑bucket‑, clicked Choose, scrolled to the bottom of the Configure data source page and hit Next, then moved on to the next step.
+<img width="1759" height="542" alt="image" src="https://github.com/user-attachments/assets/47302ea1-b97b-4348-a6b4-92da7557ab5c" />
+
+
+
+
 
