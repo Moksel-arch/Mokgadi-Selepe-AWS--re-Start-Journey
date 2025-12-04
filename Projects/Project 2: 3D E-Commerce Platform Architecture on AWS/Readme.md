@@ -1,5 +1,6 @@
+## GROUP PROJECT: 
+# [Mokgadi], [Kazizwe], [Tiisetso], [Lufhuno] & [Ivyn]
 ***
-
 # AWS 3D E-Commerce Architecture
 <img width="796" height="714" alt="image" src="https://github.com/user-attachments/assets/0ed70c0c-4d3a-4b38-8b3c-773bdbb2c32c" />
 
@@ -96,4 +97,5 @@ Our AWS-based design delivers a **fast, secure, and scalable 3D shopping experie
 Contacts:
 - Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
+
 
