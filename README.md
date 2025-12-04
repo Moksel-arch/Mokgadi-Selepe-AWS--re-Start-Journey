@@ -2,7 +2,7 @@
 
 # *Mokgadi Selepe – About Me*
 
-Hi! My name is Mokgadi Selepe and welcome to my GitHub profile.
+Hi! Welcome to my GitHub profile.
 
 ## AWS re/Start Journey
 
