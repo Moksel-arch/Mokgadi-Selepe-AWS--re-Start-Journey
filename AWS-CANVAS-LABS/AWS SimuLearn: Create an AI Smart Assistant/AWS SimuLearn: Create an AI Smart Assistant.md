@@ -107,12 +107,15 @@ I pasted the agent prompt I’d copied earlier into the Instructions for the Age
 
 I scrolled down to Knowledge Bases, hit Add, and moved on to the next step.
 <img width="1914" height="887" alt="image" src="https://github.com/user-attachments/assets/e8602085-c0e5-48e3-98f4-a743b7e2ecc3" />
-<img width="1891" height="877" alt="image" src="https://github.com/user-attachments/assets/d5ff9e5d-dced-4b59-a2d8-bd7873425767" />
-
 
 I chose hr‑knowledge‑base from the Select Knowledge Base dropdown, reviewed the note about adding instructions when using multiple knowledge bases, clicked Add, and moved on to the next step.
 <img width="1891" height="877" alt="image" src="https://github.com/user-attachments/assets/d5ff9e5d-dced-4b59-a2d8-bd7873425767" />
 
+I checked the success alert, hit Save under Agent builder, then clicked Prepare, and moved on to the next step.
+<img width="1894" height="879" alt="image" src="https://github.com/user-attachments/assets/93630a07-a069-4945-bcf3-ffbfd7328224" />
+<img width="1895" height="882" alt="image" src="https://github.com/user-attachments/assets/e7d0b28f-e3f1-42d7-9ed7-3bd218c84332" />
+
+I reviewed the success alert, typed “What are the standard work hours?” into the Test Agent pane, hit Run, and moved on to the next step
 
 
 
