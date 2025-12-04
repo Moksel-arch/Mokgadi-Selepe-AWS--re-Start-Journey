@@ -19,6 +19,19 @@ Right now I am busy with hands-on labs in:
 *   Python programming
 *   Databases (RDS, DynamoDB)
 *   Servers and compute (EC2, Lambda)
+*   AWS Architecture
+*   Systems Operations
+*   Tooling and Automation
+*   Servers
+*   Scailing and Name Resolution
+*   Serverless and Containers
+*   AWS Database Services
+*   AWS Networking Services
+*   Storage and Archiving
+*   Monitoring and Security
+*   Managing Resource Consumption
+*   Automated and Repeatable Deployments
+*   AWS Machine Learning and Generative AI
   
   <img width="650" height="681" alt="image" src="https://github.com/user-attachments/assets/079afca3-f127-4ea5-88f0-5cdb777bbd16" />
   
