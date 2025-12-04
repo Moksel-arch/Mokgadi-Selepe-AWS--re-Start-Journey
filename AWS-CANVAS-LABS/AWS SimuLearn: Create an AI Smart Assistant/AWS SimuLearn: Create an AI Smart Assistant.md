@@ -47,3 +47,8 @@ I typed “bedrock” into the top navigation bar search box, clicked Amazon Bed
 <img width="1886" height="874" alt="image" src="https://github.com/user-attachments/assets/70a297b0-a877-404b-b544-09dc54e1dab3" />
 
 I opened the left navigation pane and clicked Knowledge Bases, then on the Knowledge Bases tab I clicked Create, selected “Knowledge Base with vector store”, and moved on to the next step.
+<img width="1895" height="877" alt="image" src="https://github.com/user-attachments/assets/80056b9f-b25e-4701-8ec5-cd5f531a0b38" />
+
+I clicked Knowledge Bases in the left navigation pane, hit Create, chose “Knowledge Base with vector store” from the dropdown, and then moved on to the next step.
+<img width="1886" height="882" alt="image" src="https://github.com/user-attachments/assets/5561aeef-8732-4bed-ad47-0074458ec630" />
+
