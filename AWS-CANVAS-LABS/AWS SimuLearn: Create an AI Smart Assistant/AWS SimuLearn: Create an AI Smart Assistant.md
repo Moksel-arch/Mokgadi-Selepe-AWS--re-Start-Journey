@@ -19,4 +19,10 @@ I selected the agent‑prompt.txt file, copied its contents, and pasted them
 <img width="1914" height="464" alt="image" src="https://github.com/user-attachments/assets/72b00750-775e-4963-a583-27f70b9a2610" />
 
 I went back to the Amazon S3 console, opened the General purpose buckets tab, and clicked the bucket whose name starts with knowledge-base-bucket-. Then I moved on to the next step.
+
+I opened the Objects tab and saw the list of files—​employee_handbook.txt (used in the current Practice section) and compensation_handbook.txt (used later in the DIY section). I could click either file to review its contents, then I moved on to the next step.
 <img width="1908" height="875" alt="image" src="https://github.com/user-attachments/assets/33273e09-87bc-4363-93c2-9e10e50988b4" />
+
+I typed “opensearch” into the top‑navigation search box and clicked Amazon OpenSearch Service under “Services” in the results.
+<img width="1916" height="881" alt="image" src="https://github.com/user-attachments/assets/d09ffce7-e736-4b2c-b221-119ba5aebe6b" />
+
