@@ -66,6 +66,46 @@ I typed hr-data-source as the data source name, clicked Browse S3 for the S3 URI
 I selected the bucket that starts with knowledge‑base‑bucket‑, clicked Choose, scrolled to the bottom of the Configure data source page and hit Next, then moved on to the next step.
 <img width="1759" height="542" alt="image" src="https://github.com/user-attachments/assets/47302ea1-b97b-4348-a6b4-92da7557ab5c" />
 
+I clicked Select model for the Embeddings model in the Configure data storage and processing step, then moved on to the next step.
+<img width="1897" height="879" alt="image" src="https://github.com/user-attachments/assets/68bea1ca-cfa4-4d8e-854b-1cf0e50d2cb1" />
+
+I chose Titan Text Embeddings V2 from the models list, clicked Apply, and then moved on to the next step.
+<img width="1027" height="855" alt="image" src="https://github.com/user-attachments/assets/a3782f2a-a21b-4b1b-892e-75bbfd421ee8" />
+
+I selected Use an existing vector store, chose OpenSearch Serverless as the vector store type, pasted the ARN I’d copied earlier into the Collection ARN field, and typed bedrock-knowledge-base-index for the vector index name.
+<img width="1888" height="881" alt="image" src="https://github.com/user-attachments/assets/2126ef89-6b63-4538-aca7-f71d050b0932" />
+
+I entered bedrock-knowledge-base-vector as the Vector field name, AMAZON_BEDROCK_TEXT_CHUNK as the Text field name, and AMAZON_BEDROCK_METADATA as the Bedrock‑managed metadata field name, clicked Next, and moved on to the next step.
+<img width="1886" height="871" alt="image" src="https://github.com/user-attachments/assets/86622b73-c27d-496f-8184-3fd756e217f8" />
+
+I scrolled to the bottom of the Review and create page and hit Create Knowledge Base, then moved on to the next step
+<img width="1904" height="885" alt="image" src="https://github.com/user-attachments/assets/fa943531-face-4eb0-8c31-9fbbb4c3a2fc" />
+
+I checked the information alert to confirm the knowledge base had finished building, waited until the Status switched to Available (about five minutes), and then moved on to the next step.
+<img width="1890" height="880" alt="image" src="https://github.com/user-attachments/assets/f78f5ce1-f87c-4fe5-ac38-32bc56f8fe12" />
+
+I scrolled down to Data source, checked the box to select the available data source, hit Sync, waited for the sync to finish, and then moved on to the next step.
+<img width="1899" height="881" alt="image" src="https://github.com/user-attachments/assets/147e73b1-af5f-4baa-a011-b1fd049e7512" />
+
+I opened the left navigation pane, clicked Agents, then hit Create agent in the Agents section, and moved on to the next step.
+<img width="1891" height="887" alt="image" src="https://github.com/user-attachments/assets/6b963605-7289-4f9b-ba34-fa249ece465b" />
+
+I typed hr-assistant-agent into the Name field in the pop‑up, hit Create, and then moved on to the next step.
+<img width="742" height="580" alt="image" src="https://github.com/user-attachments/assets/bf93eccf-39bc-40b6-9916-854cbab5e933" />
+
+I confirmed the agent was created, selected the “Use an existing service role” radio button, chose Bedrock_Agent_Role from the dropdown, scrolled down to the Select model section, and moved on to the next step.
+<img width="1910" height="881" alt="image" src="https://github.com/user-attachments/assets/5adbb580-1363-4673-8b07-c52505733c70" />
+
+I clicked the pencil icon next to Select model to change the model, then moved on to the next step.
+<img width="1025" height="887" alt="image" src="https://github.com/user-attachments/assets/6f36f8fa-cbb1-438f-af33-381a730eb455" />
+
+I chose Nova Pro under Models, clicked Apply, and moved on to the next step.
+<img width="1019" height="884" alt="image" src="https://github.com/user-attachments/assets/a671cf88-82e1-4645-909f-d79265475ea8" />
+
+I pasted the agent prompt I’d copied earlier into the Instructions for the Agent field, scrolled to the top of the page and clicked Save, then moved on to the next step.
+
+
+
 
 
 
