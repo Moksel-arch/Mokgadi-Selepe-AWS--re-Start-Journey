@@ -19,11 +19,11 @@ We chose AWS because it can help us serve millions of people worldwide, keep the
 
 ***2. What the project needs*
 
- 	Always online (24/7) 
- 	Can handle huge traffic spikes (for example Black Friday) 
- 	Super fast loading of 3D models 
- 	Very secure (protect customer data and payments) 
- 	Not waste money
+ * Always online (24/7)
+ * Can handle huge traffic spikes (for example Black Friday) 
+ * Super fast loading of 3D models 
+ * Very secure (protect customer data and payments) 
+ * Not waste money
 
 ***3. Our 3D Diagram-Architecture Diagram*
 <img width="834" height="679" alt="image" src="https://github.com/user-attachments/assets/4f04ed1e-ee49-4857-b0a2-66aa7c9590e7" />
