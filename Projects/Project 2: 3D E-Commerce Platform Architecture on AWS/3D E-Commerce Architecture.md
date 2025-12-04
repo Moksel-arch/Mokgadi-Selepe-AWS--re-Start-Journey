@@ -84,4 +84,5 @@ We checked our design against the official AWS rules (6 pillars):
 ---
 **Submission Statement**
 
-- We, the group 2 members listed above, confirm that this is our own group work. All sources are cited and we all contributed to the design and document.
+- We, the group 2 members listed above, confirm that this is our own group work.
+- All sources are cited and we all contributed to the design and document.
