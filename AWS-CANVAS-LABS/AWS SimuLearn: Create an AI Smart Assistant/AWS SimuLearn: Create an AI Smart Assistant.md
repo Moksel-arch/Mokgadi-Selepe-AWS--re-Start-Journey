@@ -24,6 +24,9 @@ I opened the Objects tab and saw the list of files—​employee_handbook.txt (u
 <img width="1908" height="875" alt="image" src="https://github.com/user-attachments/assets/33273e09-87bc-4363-93c2-9e10e50988b4" />
 
 I typed “opensearch” into the top‑navigation search box and clicked Amazon OpenSearch Service under “Services” in the results.
+<img width="1919" height="884" alt="image" src="https://github.com/user-attachments/assets/3faa3b8d-aa3a-4abc-8577-c64fa9e3668c" />
+
+I opened the left navigation pane, clicked Collections under Serverless, and then selected the bedrock‑knowledge‑base collection in the Collections section.
 <img width="1916" height="881" alt="image" src="https://github.com/user-attachments/assets/d09ffce7-e736-4b2c-b221-119ba5aebe6b" />
 
 <img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/d39c079a-4395-4d88-acce-7ffc4cfb66ee" />
