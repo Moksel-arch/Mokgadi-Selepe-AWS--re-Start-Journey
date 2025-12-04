@@ -116,6 +116,7 @@ I checked the success alert, hit Save under Agent builder, then clicked Prepare,
 <img width="1895" height="882" alt="image" src="https://github.com/user-attachments/assets/e7d0b28f-e3f1-42d7-9ed7-3bd218c84332" />
 
 I reviewed the success alert, typed “What are the standard work hours?” into the Test Agent pane, hit Run, and moved on to the next step
+<img width="1917" height="880" alt="image" src="https://github.com/user-attachments/assets/98289abe-1f36-45a2-afc3-cffc13f2166c" />
 
 
 
