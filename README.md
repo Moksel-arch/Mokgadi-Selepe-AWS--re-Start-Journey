@@ -60,7 +60,7 @@ For me, the cloud represents *innovation and opportunity. It’s not just about 
 
 ***
 
-## My Technology Skills & Certificates
+## My Technology Skills
 
 ### Full Stack & Web Development
 
