@@ -1,14 +1,14 @@
 ***
 
-# **Mokgadi Selepe – About Me**
+# *Mokgadi Selepe – About Me*
 
 Hi! My name is Mokgadi Selepe and welcome to my GitHub profile.
 
 ## AWS re/Start Journey
 
-I started the **AWS re/Start Cloud Computing Programme** on **06 October 2025** and I will finish on **26 December 2025**.  
+I started the *AWS re/Start Cloud Computing Programme* on *06 October 2025* and I will finish on *26 December 2025*.  
 Every day I learn something new about the cloud and I am enjoying the journey a lot.  
-My big goal is to know more about this Cloud journey and later become a **Solutions Architect**.
+My big goal is to know more about this Cloud journey and later become a *Solutions Architect*.
 
 Right now I am busy with hands-on labs in:
 
@@ -23,7 +23,7 @@ Right now I am busy with hands-on labs in:
 *   Systems Operations
 *   Tooling and Automation
 *   Servers
-*   Scailing and Name Resolution
+*   Scaling and Name Resolution
 *   Serverless and Containers
 *   AWS Database Services
 *   AWS Networking Services
@@ -32,38 +32,49 @@ Right now I am busy with hands-on labs in:
 *   Managing Resource Consumption
 *   Automated and Repeatable Deployments
 *   AWS Machine Learning and Generative AI
-  
-  <img width="650" height="681" alt="image" src="https://github.com/user-attachments/assets/079afca3-f127-4ea5-88f0-5cdb777bbd16" />
-  
-  ***Achievement Unlocked: AWS Cloud Quest Badge*
-I am proud to have earned the AWS Cloud Quest: Cloud Practitioner Trained badge!
+
+<https://github.com/user-attachments/assets/079afca3-f127-4ea5-88f0-5cdb777bbd16>
+
+**Achievement Unlocked: AWS Cloud Quest Badge**  
+I am proud to have earned the AWS Cloud Quest: Cloud Practitioner Trained badge!  
 This badge represents my hands-on experience in building cloud solutions and understanding AWS fundamentals.
-!AWS Cloud Quest Badge
+
+***
+
+## *About This Repository*
+
+This repository contains my learning journey and projects from the AWS re/Start program.  
+It includes practical exercises and labs covering *cloud foundations, Linux, networking, security, IAM, Python programming, databases, compute services (EC2, Lambda), serverless, containers, automation, monitoring, scaling, and even machine learning with generative AI*.
+
+The goal is to build a strong foundation in AWS and cloud computing while applying best practices for *security, scalability, and cost optimization*.  
+If you are also learning AWS or exploring cloud careers, you’ll find examples and notes here that can help you understand real-world cloud architecture.
+
+***
 
 ## Why Cloud Computing Excites Me
 
-Cloud computing is transforming the way businesses and individuals build, deploy, and scale applications. What fascinates me most is how the cloud brings **flexibility, scalability, and cost-efficiency** to technology solutions. With services like **AWS**, you can launch servers in minutes, store data securely, and integrate advanced tools like AI and machine learning—all without managing physical infrastructure.
+Cloud computing is transforming the way businesses and individuals build, deploy, and scale applications. What fascinates me most is how the cloud brings *flexibility, scalability, and cost-efficiency* to technology solutions. With services like *AWS*, you can launch servers in minutes, store data securely, and integrate advanced tools like AI and machine learning—all without managing physical infrastructure.
 
-For me, the cloud represents **innovation and opportunity**. It’s not just about hosting applications; it’s about enabling creativity, solving real-world problems, and making technology accessible to everyone. My goal is to master these concepts and eventually become an **AWS Solutions Architect** one day, helping organizations design secure, reliable, and scalable systems.
+For me, the cloud represents *innovation and opportunity. It’s not just about hosting applications; it’s about enabling creativity, solving real-world problems, and making technology accessible to everyone. My goal is to master these concepts and eventually become an **AWS Solutions Architect* one day, helping organizations design secure, reliable, and scalable systems.
+
+***
 
 ## My Technology Skills & Certificates
-
-Before AWS re/Start I spent a lot of time learning programming and data science. Here is what I have completed so far:
 
 ### Full Stack & Web Development
 
 *   Full Stack Development Certificate (FNB App Academy – 32 credits, July 2025)
-*   HTML & CSS (multiple projects: Netflix clone, Tesla landing page, virtual business cards)
+*   HTML, CSS & Javascript (projects: Netflix clone, Tesla landing page, virtual business cards)
 *   Introduction to Python Programming
 *   Object-Oriented Programming with Python
 
-### Data Science & Analytics
+### Data Science & Analytics 
 
-*   Data Science Programme Certificate (Zaio – 2025)
+*   Data Science Programme Certificate
 *   Introduction to Data Science
 *   Exploratory Data Analysis
 *   Statistical Techniques for Data Science
-*   SQL – A Practical Guide (completed several times)
+*   SQL – A Practical Guide
 *   Machine Learning basics
 *   Jupyter Notebook
 
@@ -78,6 +89,8 @@ Before AWS re/Start I spent a lot of time learning programming and data science.
 *   GitHub and basic Git commands
 *   Problem-solving and learning how to learn
 
+***
+
 ## What’s Next for Me?
 
 *   Finish AWS re/Start strong (December 2025)
@@ -85,7 +98,7 @@ Before AWS re/Start I spent a lot of time learning programming and data science.
 *   Start preparing for AWS Solutions Architect – Associate
 *   Keep building small projects and adding them here
 
-I love learning new things in tech and I am always happy to connect with others who are also on their cloud or coding journey.
+***
 
 ## Get in Touch
 
@@ -93,6 +106,6 @@ I love learning new things in tech and I am always happy to connect with others 
 *   Email: <mokgadi9939@gmail.com>
 
 Thank you for stopping by!  
-Mokgadi
+*Mokgadi*
 
 ***
