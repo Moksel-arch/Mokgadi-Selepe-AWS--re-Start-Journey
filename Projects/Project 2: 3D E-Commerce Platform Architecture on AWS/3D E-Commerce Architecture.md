@@ -52,3 +52,35 @@ Main AWS pieces we use:
 * Route 53: smart DNS that switches to a backup if needed 
 * CloudWatch & Trusted Advisor: help us see problems and lower the bill
 
+**5. How our design meets the requirements**
+<img width="699" height="256" alt="image" src="https://github.com/user-attachments/assets/45bb2621-9bc1-466a-8c79-79364b831249" />
+
+**6. Trade-offs we noticed**
+* EC2 with GPUs is fast but costs more → we only use it when really needed
+* Lambda is cheap but can be slow the first time (cold start) → we use it only for short jobs
+* CloudFront makes the site fast but adds a small monthly cost → totally worth it
+* Using two databases (RDS + DynamoDB) is a bit more work, but gives the best speed
+
+**7. What we learned as a team**
+* Speed for 3D shopping is everything – caching and CDN are a must
+* Never build everything yourself; AWS managed services save tons of time
+* Auto Scaling and serverless are the best way to survive traffic spikes without spending too much
+* Security and cost must be planned from day one, not added later
+* CloudWatch is like a free doctor for your system – it tells you exactly what’s wrong
+
+**8. Quick look at AWS Well-Architected Framework**
+We checked our design against the official AWS rules (6 pillars):
+<img width="716" height="379" alt="image" src="https://github.com/user-attachments/assets/1bae6826-aff4-4efd-829e-b6bfdecd513a" />
+
+**9. Conclusion**
+- With S3, CloudFront, EC2, Lambda, RDS, DynamoDB, ELB, Route 53, and CloudWatch we built a real-world 3D shopping platform that is fast, always online, secure, and doesn’t cost a fortune.
+- This design can grow with our startup and give customers an amazing experience.
+
+**10. References**
+
+- AWS Well-Architected Framework – https://aws.amazon.com/architecture/well-architected/ 
+- AWS Documentation – https://docs.aws.amazon.com/
+
+---
+**Submission Statement**
+
