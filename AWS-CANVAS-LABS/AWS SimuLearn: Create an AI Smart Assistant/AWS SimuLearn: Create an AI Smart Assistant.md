@@ -30,5 +30,12 @@ I opened the left navigation pane, clicked Collections under Serverless, and the
 <img width="1916" height="881" alt="image" src="https://github.com/user-attachments/assets/d09ffce7-e736-4b2c-b221-119ba5aebe6b" />
 
 <img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/d39c079a-4395-4d88-acce-7ffc4cfb66ee" />
+<img width="1915" height="396" alt="image" src="https://github.com/user-attachments/assets/01c2c114-1cd6-4ae6-8e03-69f2aa5cb52f" />
+<img width="1899" height="875" alt="image" src="https://github.com/user-attachments/assets/d3879931-d425-4d7c-b981-643f51ace792" />
 
+I copied the Collection ARN from the Overview tab, pasted it into a text editor, opened OpenSearch Dashboards, and clicked the Indexes tab before moving on to the next step.
+<img width="1910" height="697" alt="image" src="https://github.com/user-attachments/assets/e2a0c158-f2ca-4ee2-9f8b-d2964262b97d" />
+
+I clicked the bedrock‑knowledge‑base‑index under “Index name” and then moved on to the next step.
+<img width="1908" height="882" alt="image" src="https://github.com/user-attachments/assets/31f113c9-ae64-4bb6-b891-99fa6e6ff7ad" />
 
