@@ -103,6 +103,11 @@ I chose Nova Pro under Models, clicked Apply, and moved on to the next step.
 <img width="1019" height="884" alt="image" src="https://github.com/user-attachments/assets/a671cf88-82e1-4645-909f-d79265475ea8" />
 
 I pasted the agent prompt I’d copied earlier into the Instructions for the Agent field, scrolled to the top of the page and clicked Save, then moved on to the next step.
+<img width="1909" height="879" alt="image" src="https://github.com/user-attachments/assets/e4988aa4-74ed-4943-b4b2-d35865bb609f" />
+
+I scrolled down to Knowledge Bases, hit Add, and moved on to the next step.
+<img width="1914" height="887" alt="image" src="https://github.com/user-attachments/assets/e8602085-c0e5-48e3-98f4-a743b7e2ecc3" />
+<img width="1891" height="877" alt="image" src="https://github.com/user-attachments/assets/d5ff9e5d-dced-4b59-a2d8-bd7873425767" />
 
 
 
