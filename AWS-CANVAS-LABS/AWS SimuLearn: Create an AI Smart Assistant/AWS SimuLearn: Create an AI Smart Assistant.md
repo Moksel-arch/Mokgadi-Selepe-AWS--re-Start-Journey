@@ -110,6 +110,8 @@ I scrolled down to Knowledge Bases, hit Add, and moved on to the next step.
 <img width="1891" height="877" alt="image" src="https://github.com/user-attachments/assets/d5ff9e5d-dced-4b59-a2d8-bd7873425767" />
 
 
+I chose hr‑knowledge‑base from the Select Knowledge Base dropdown, reviewed the note about adding instructions when using multiple knowledge bases, clicked Add, and moved on to the next step.
+<img width="1891" height="877" alt="image" src="https://github.com/user-attachments/assets/d5ff9e5d-dced-4b59-a2d8-bd7873425767" />
 
 
 
