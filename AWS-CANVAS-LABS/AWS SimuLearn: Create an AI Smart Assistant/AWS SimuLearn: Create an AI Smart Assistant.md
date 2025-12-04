@@ -39,3 +39,11 @@ I copied the Collection ARN from the Overview tab, pasted it into a text editor,
 I clicked the bedrock‑knowledge‑base‑index under “Index name” and then moved on to the next step.
 <img width="1908" height="882" alt="image" src="https://github.com/user-attachments/assets/31f113c9-ae64-4bb6-b891-99fa6e6ff7ad" />
 
+I reviewed the other configurations associated with the vector index and then moved on to the next step
+<img width="1913" height="867" alt="image" src="https://github.com/user-attachments/assets/06c530dc-7734-43f2-a966-93dc9b65cf8b" />
+
+I typed “bedrock” into the top navigation bar search box, clicked Amazon Bedrock under Services, and moved on to the next step.
+<img width="1909" height="852" alt="image" src="https://github.com/user-attachments/assets/b25464fe-b61a-4d58-851a-3db59a9e7cba" />
+<img width="1886" height="874" alt="image" src="https://github.com/user-attachments/assets/70a297b0-a877-404b-b544-09dc54e1dab3" />
+
+I opened the left navigation pane and clicked Knowledge Bases, then on the Knowledge Bases tab I clicked Create, selected “Knowledge Base with vector store”, and moved on to the next step.
