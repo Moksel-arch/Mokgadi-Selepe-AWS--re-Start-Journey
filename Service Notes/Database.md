@@ -250,9 +250,10 @@ SELECT DISTINCT Region FROM country;
 These labs provided practical experience in cloud-based database management, SQL querying, and NoSQL data modeling. This portfolio reflects strong foundational skills in cloud data operations.
 
 ---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
 
-**Contact:**
-**[mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)**
 
 
 
