@@ -1,9 +1,9 @@
 # **AWS SimuLearn: Create an AI Smart Assistant**
 **Use Amazon Bedrock to create a knowledge base and an agent**
-Before:
+- Before AI Agent:
 <img width="940" height="554" alt="image" src="https://github.com/user-attachments/assets/b7cef42e-ca98-4933-8657-68e1db8ca632" />
 
-After:
+- After AI Agent:
 
 <img width="966" height="621" alt="image" src="https://github.com/user-attachments/assets/f24edce6-f461-4d70-92ca-11bd277cabf0" />
 
