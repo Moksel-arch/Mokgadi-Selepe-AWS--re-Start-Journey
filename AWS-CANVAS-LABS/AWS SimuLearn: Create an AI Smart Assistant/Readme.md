@@ -1,5 +1,5 @@
 # **AWS SimuLearn: Create an AI Smart Assistant**
----
+
 **"Explaination of what has happened here!"**
 
 I followed an **AWS SimuLearn lab** to build a **simple AI Smart Assistant** using **Amazon Bedrock**. 
