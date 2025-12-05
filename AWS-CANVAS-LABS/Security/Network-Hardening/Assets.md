@@ -27,3 +27,7 @@
 <img width="602" height="279" alt="Picture25" src="https://github.com/user-attachments/assets/e217d497-738a-4a1c-90ca-05dd9d082374" />
 <img width="602" height="278" alt="Picture26" src="https://github.com/user-attachments/assets/0520a090-1dc8-4944-b1c3-6576433b4e51" />
 <img width="602" height="560" alt="Picture27" src="https://github.com/user-attachments/assets/2c2f7abf-3a8b-422e-bbf6-9bda11ab6d74" />
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
