@@ -26,6 +26,7 @@ It shows how I practiced creating, updating, and deleting resources using templa
 ---
 
 This repo is for learning purposes only. It’s not meant for production use.
-
-### Contacts
+---
+Contacts:
+- Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
