@@ -60,4 +60,8 @@ I’ve walked through creating a stricter password policy, explored the pre‑cr
 
 All set! 
 
--Mokgadi: mokgadi9939@gmail.com
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
