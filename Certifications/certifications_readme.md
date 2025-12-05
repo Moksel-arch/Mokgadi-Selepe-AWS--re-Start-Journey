@@ -36,9 +36,10 @@ More certificates coming soon in 2026 and beyond
 
 I’m in the middle of the Cohort and couple of weeks to go to write the final AWS Cloud compute exam, but every certificate feels like proof that I’m moving forward.  
 Thank you to everyone who supports me on this journey!
-
-### Let’s connect  
--Mokgadi: mokgadi9939@gmail.com
+--- 
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
 
 
 
