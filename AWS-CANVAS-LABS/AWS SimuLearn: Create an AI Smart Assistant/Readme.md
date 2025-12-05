@@ -63,3 +63,9 @@ I successfully set up a full workflow for the AI assistant:
 * **Refinement:** Fine-tune the Bedrock model if needed for better conversational flow and response accuracy.
 
 Feel free to explore the code and let me know if anything’s unclear!
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
+
