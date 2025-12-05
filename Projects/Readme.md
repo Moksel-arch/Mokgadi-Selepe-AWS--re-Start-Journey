@@ -85,6 +85,6 @@ We collaborated to deliver this solution:
 *This section will be updated once the third project is completed.*
 
 ---
-
-Contact: Mokgadi: 067 719 3860
+Contacts:
+- Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
