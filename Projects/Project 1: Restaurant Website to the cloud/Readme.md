@@ -83,4 +83,7 @@ This project started as a simple “deploy a static site to S3” assignment and
 Feel free to fork, steal ideas, or hit us up if you want help doing something similar for your own business!
 
 Made with ☕ braai vibes and a lot of late nights in November 2025  
-– The @MALLS Squad: mokgadi9939@gmail.com
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
