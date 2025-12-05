@@ -59,4 +59,7 @@ Definitely turning this on everywhere I work from now on.
 
 That's it – short, practical, and now I have my own notes if I ever need to do this again.
 
-– Mokgadi: mokgadi9939@gmail.com
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
