@@ -128,7 +128,9 @@ A safe, intelligent file-generation script that:
 * Works every time, indefinitely
 
 Perfect for labs, automation tasks, or interviews.
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
 
-**Contact:**
-**[mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)**
 
