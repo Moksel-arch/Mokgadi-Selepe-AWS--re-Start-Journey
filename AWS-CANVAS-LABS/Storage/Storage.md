@@ -44,4 +44,7 @@
 <img width="1891" height="904" alt="image" src="https://github.com/user-attachments/assets/804aa7e5-c714-47cd-b355-da902c17fec9" />
 <img width="1890" height="903" alt="image" src="https://github.com/user-attachments/assets/66777c56-802a-46a6-9451-17adc6f111db" />
 
-
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
