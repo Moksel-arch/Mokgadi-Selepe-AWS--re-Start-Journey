@@ -1,10 +1,10 @@
 # **Networking - Service Notes** 
 
 ***Written by Mokgadi Selepe* 
-
+---
 **Date:** December 01, 2025  
 **Overview:** These are my combined service notes from all the AWS networking labs I did. I acted as a cloud support engineer helping different customers with VPC setup, IP addresses, and internet connectivity. Each part is from one lab, and I kept everything in simple English. No icons or fancy stuff – just the key points.
-
+---
 ### Lab 1: Creating a VPC and Subnets  
 **Customer:** Paulo Santos (startup owner)  
 **Issue:** New to AWS, needs help setting up a VPC with about 15,000 private IPs in 192.x.x.x range and a public subnet with at least 50 IPs.  
@@ -34,7 +34,7 @@ Mokgadi
 
 **Status**  
 Lab completed, VPC created and checked. Waiting for Paulo to reply and say if he wants me to build it in his real account.  
-
+---
 ### Lab 2: Creating Networking Resources in a VPC  
 **Customer:** Brock (startup owner)  
 **Issue:** Has a VPC but cannot ping the internet from his instance.  
@@ -72,7 +72,7 @@ Mokgadi
 
 **Status**  
 Lab done – everything connects to the internet fine. Waiting for Brock to say yes so I can fix his real setup.  
-
+---
 ### Lab 3: Public vs Private IP Addresses  
 **Customer:** Jess  
 **Issue:** One EC2 instance can reach the internet, the other cannot, even though they look the same.  
@@ -101,7 +101,7 @@ Mokgadi
 
 **Status**  
 Waiting for Jess to reply. As soon as she says yes, I will add the Elastic IP and test again.  
-
+---
 ### Lab 4: Static vs Dynamic Public IP Addresses  
 **Customer:** Bob (Cloud Admin)  
 **Issue:** Public IP changes every time the instance stops and starts, breaking other systems.  
@@ -131,7 +131,7 @@ Mokgadi
 Waiting for Bob to reply. As soon as he says go ahead, I will attach the Elastic IP and the problem is gone forever.  
 
 That’s all from my labs! If you need more, 
-
+---
 Contacts:
 - Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
