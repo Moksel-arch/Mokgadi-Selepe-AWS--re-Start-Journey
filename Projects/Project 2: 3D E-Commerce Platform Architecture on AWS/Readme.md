@@ -97,8 +97,3 @@ Our AWS-based design delivers a **fast, secure, and scalable 3D shopping experie
 Contacts:
 - Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
-
-
-
-
-
