@@ -120,6 +120,31 @@ I checked the success alert, hit Save under Agent builder, then clicked Prepare,
 
 I reviewed the success alert, typed “What are the standard work hours?” into the Test Agent pane, hit Run, and moved on to the next step
 <img width="1917" height="880" alt="image" src="https://github.com/user-attachments/assets/98289abe-1f36-45a2-afc3-cffc13f2166c" />
+<img width="1906" height="887" alt="image" src="https://github.com/user-attachments/assets/e7cce492-fb19-4fa3-aec5-589b90cb0cf7" />
+
+I checked that the agent’s response came from the employee handbook (and peeked at the .txt files in S3), typed “What is the vacation policy?” into the input box, hit Run, and moved on to the next step.
+<img width="1910" height="884" alt="image" src="https://github.com/user-attachments/assets/aa1cb462-efdd-4b5e-a4c5-fce5cd3d8814" />
+<img width="1919" height="880" alt="image" src="https://github.com/user-attachments/assets/83ea9fd5-8421-4c12-a7e2-7a7e844d0100" />
+
+I scrolled down to Action groups in the Agent builder pane, hit Add, and moved on to the next step.
+<img width="1913" height="875" alt="image" src="https://github.com/user-attachments/assets/fca8a505-cc31-41ce-93ef-453b14b7fda7" />
+
+I typed submit_leave_action as the Action group name, scrolled down to Action group invocation, and moved on.
+<img width="1912" height="888" alt="image" src="https://github.com/user-attachments/assets/e6bc8ad7-0507-41e0-84da-70447922b543" />
+
+I chose Select an existing Lambda function, picked submit_leave, scrolled down to Action group function 1, and moved on to the next step.
+<img width="1912" height="890" alt="image" src="https://github.com/user-attachments/assets/fd2d2dac-842f-4be7-aaac-eccaa15ca4ec" />
+
+I typed submit_leave for the name, scrolled down to Parameters, and moved on.
+<img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/88eeae82-7578-4f34-aaeb-58a650970ef5" />
+
+I clicked Add parameter, entered employee_name as the name, typed “Name of employee” for the description, set Required to True, and moved on to the next step.
+<img width="1911" height="877" alt="image" src="https://github.com/user-attachments/assets/a37fd1c5-f360-48bc-8104-fae852eeb695" />
+
+I clicked Add parameter twice to create two more parameters, set Name to startDate (description “Start date of leave”) and endDate (description “End date of leave”), confirmed all three parameters were required, then saved and exited.
+<img width="1897" height="869" alt="image" src="https://github.com/user-attachments/assets/c46bff46-e71c-4043-9356-1d2c2ea19291" />
+
+
 
 
 
