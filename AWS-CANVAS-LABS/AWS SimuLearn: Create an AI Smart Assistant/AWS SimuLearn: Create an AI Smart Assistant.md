@@ -57,6 +57,7 @@ I clicked Knowledge Bases in the left navigation pane, hit Create, chose “Know
 
 I typed hr-knowledge-base into the Knowledge Base name field in the “Provide Knowledge Base details” step and then moved on to the next step.
 <img width="1891" height="870" alt="image" src="https://github.com/user-attachments/assets/9b70df0d-3917-481a-bfaf-3e08ece013df" />
+<img width="1900" height="890" alt="image" src="https://github.com/user-attachments/assets/ba6316b1-302c-46da-870f-c7fae106c695" />
 
 I chose Use an existing service role, selected Bedrock_KB_Role, set the data source to Amazon S3, scrolled to the bottom, hit Next, and moved on to the next step.
 <img width="1904" height="873" alt="image" src="https://github.com/user-attachments/assets/24e901ce-cf5e-498a-a971-e76403b5ffa4" />
