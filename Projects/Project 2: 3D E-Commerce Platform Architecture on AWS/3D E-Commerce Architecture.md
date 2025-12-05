@@ -85,5 +85,7 @@ We checked our design against the official AWS rules (6 pillars):
 ---
 **Submission Statement**
 
+<img width="439" height="677" alt="image" src="https://github.com/user-attachments/assets/8422779b-1d96-496f-8616-d8f0125542b1" />
+
 - We, the group 2 members listed above, confirm that this is our own group work.
 - All sources are cited and we all contributed to the design and document.
