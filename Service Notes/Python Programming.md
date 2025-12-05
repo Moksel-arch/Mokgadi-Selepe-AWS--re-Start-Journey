@@ -1,7 +1,5 @@
 # **Service Note – Python Programming Lab**
 
-```markdown
-
 ## Purpose
 This note explains the main goal of my Python Programming lab.  
 The lab focused on understanding the difference between **automation** and **orchestration** in software development.
