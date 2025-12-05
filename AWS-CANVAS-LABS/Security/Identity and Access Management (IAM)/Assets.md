@@ -1,4 +1,4 @@
-**Introduction to AWS Identity and Access Management (IAM)**
+# **Introduction to AWS Identity and Access Management (IAM)**
 
 I just read the intro to the IAM lab, and here’s what it says:
 
