@@ -2,7 +2,7 @@
 
 Welcome to my project portfolio. This repository documents my journey in cloud computing. It currently features a group project from the AWS re/Start program (06 October 2025 Cohort).
 
-I will be updating this file with two more upcoming projects soon.
+I will be updating this file with one more upcoming project soon.
 
 ---
 
