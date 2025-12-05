@@ -149,9 +149,9 @@ Successfully launched, configured, secured, scaled, monitored, and safely termin
 A complete hands-on introduction to real-world EC2 administration!
 
 ---
-
-**Contact:**
-**Mokgadi:** [mokgadi9939@gmail.com](mailto:mokgadi9939@gmail.com)
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
 
 
 
