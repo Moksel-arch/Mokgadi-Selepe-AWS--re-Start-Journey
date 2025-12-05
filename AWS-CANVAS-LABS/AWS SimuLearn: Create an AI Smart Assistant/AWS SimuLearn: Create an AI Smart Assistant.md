@@ -7,6 +7,10 @@
 
 <img width="966" height="621" alt="image" src="https://github.com/user-attachments/assets/f24edce6-f461-4d70-92ca-11bd277cabf0" />
 
+---
+
+Ok! Here is the steps I followed to Create an AI Smart Assistant
+
 I read the lab goals, hit “Start Lab” (or opened the AWS Console), followed the step‑by‑step instructions using the navigation arrows, and noted that unused AWS services are disabled and the used ones are limited to the lab’s needs.
 <img width="1912" height="882" alt="image" src="https://github.com/user-attachments/assets/faa32c1a-078f-48dc-adea-8a64149bef56" />
 
