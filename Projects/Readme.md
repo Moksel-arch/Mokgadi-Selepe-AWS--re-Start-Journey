@@ -1,6 +1,6 @@
 # **AWS Cloud Projects Portfolio**
 
-Welcome to my project portfolio. This repository documents my journey in cloud computing. It currently features a group project from the AWS re/Start program (November 2025 Cohort).
+Welcome to my project portfolio. This repository documents my journey in cloud computing. It currently features a group project from the AWS re/Start program (06 October 2025 Cohort).
 
 I will be updating this file with two more upcoming projects soon.
 
@@ -8,7 +8,7 @@ I will be updating this file with two more upcoming projects soon.
 
 ## Project 1: Moving a Traditional South African Restaurant Online (@MALLS)
 
-**Context:** A Group Project for the AWS re/Start Program (Praesignis)
+**Context:** Group Project: Static Website on S3
 
 ### Overview
 For this project, our team of five built a modern, low-cost online presence for a fictional, yet realistic, South African restaurant called @MALLS.
@@ -40,7 +40,7 @@ We collaborated to deliver this solution, with each member focusing on a specifi
 
 ## Project 2: Coming Soon
 
-*This section will be updated once the second project is completed.*
+**Context:** Group Project: 3D E-Commerce Architecture on AWS
 
 ---
 
