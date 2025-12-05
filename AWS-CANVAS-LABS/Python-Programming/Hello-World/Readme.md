@@ -54,4 +54,8 @@ If you’re like me and already deep into data science / ML — come hang out an
 
 Stick around. I’ll keep pushing every lab as I go.
 
-— Mokgadi: mokgadi9939@gmail.com
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
