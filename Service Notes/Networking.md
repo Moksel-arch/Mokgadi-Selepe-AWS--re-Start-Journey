@@ -132,4 +132,6 @@ Waiting for Bob to reply. As soon as he says go ahead, I will attach the Elastic
 
 That’s all from my labs! If you need more, 
 
-Email me: mokgadi9939@gmail.com
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
