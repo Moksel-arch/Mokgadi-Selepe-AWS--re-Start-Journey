@@ -40,7 +40,45 @@ We collaborated to deliver this solution, with each member focusing on a specifi
 
 ## Project 2: Coming Soon
 
-**Context:** Group Project: 3D E-Commerce Architecture on AWS
+**Context:** Group Project: AWS 3D E-Commerce Architecture
+
+AWS 3D E‑Commerce Architecture
+
+Overview
+We have built an online shop that lets customers look at and spin around 3D models of products (think furniture, gadgets, clothes) before they buy. We chose AWS because it lets us stay online all the time, handle huge traffic spikes, and keep costs under control.
+
+The Challenge
+- Keep the site up 24/7.
+- Handle sudden traffic bursts (like Black Friday).
+- Load 3D models super fast.
+- Keep customer data and payments secure.
+- Stay cheap enough for a startup.
+
+The Solution
+We put together a cloud setup using AWS services:
+
+- S3 stores the 3D files and images.
+- CloudFront delivers them from the nearest edge location.
+- EC2 with GPU power renders the models quickly.
+- Lambda runs tiny tasks without a full server.
+- RDS holds product details, orders, and customer info.
+- DynamoDB handles fast‑changing cart data.
+- Elastic Load Balancer spreads traffic across instances.
+- Route 53 provides DNS and fail‑over.
+- CloudWatch & Trusted Advisor monitor performance and keep costs in check.
+
+This mix gives us high availability, automatic scaling, fast loading, strong security, and cost‑effective operation.We learned that a good CDN and caching are essential for 3D content, and that using managed services saves a lot of time.
+
+Feel free to explore the repo, and if you need more details, just give me a shout!
+
+### The Team
+We collaborated to deliver this solution:
+
+* **Mokgadi M.** 
+* **Kazizwe C.** 
+* **Tiisetso K.** 
+* **Lufhuno N.** 
+* **Ivyn N.**
 
 ---
 
