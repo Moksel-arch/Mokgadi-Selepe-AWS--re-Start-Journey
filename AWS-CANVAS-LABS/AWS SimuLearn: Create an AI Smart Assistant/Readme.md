@@ -1,4 +1,4 @@
-# **AWS SimuLearn: Create an AI Smart Assistant**
+# **AWS SimuLearn: Creating an AI Smart Assistant**
 
 **"Explaination of what has happened here!"**
 
