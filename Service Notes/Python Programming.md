@@ -26,8 +26,6 @@ The lab focused on understanding the difference between **automation** and **orc
 
 ---
 
-## Contact
-Mokgadi: mokgadi9939@gmail.com
-```
-
-Would you like me to also create a **general template** for service notes so you can reuse it across all your labs (CloudFormation, Automation, Hello World, etc.) to keep your GitHub repo consistent?
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
