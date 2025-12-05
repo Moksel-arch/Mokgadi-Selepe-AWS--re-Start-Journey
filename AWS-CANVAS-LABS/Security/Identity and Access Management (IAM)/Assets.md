@@ -202,3 +202,8 @@ I’m done! Here’s what I’ve wrapped up:
 - Tested how the policies affect access to S3 and EC2.
 
 All set!
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
