@@ -30,6 +30,10 @@
 
 **File Systems in the Cloud(Storage)**
 
+![WhatsApp Image 2025-12-05 at 22 49 51_07904484](https://github.com/user-attachments/assets/c34dbefb-7154-4521-851f-f3908db4c965)
+
+**AWS Billing Cost Management**
+
 <img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/c5467a34-c79c-48b6-86d4-0f1921cbf709" />
 
 **AWS Cloud Quest Practitioner Training Badge**
