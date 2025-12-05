@@ -44,7 +44,7 @@ We collaborated to deliver this solution, with each member focusing on a specifi
 
 AWS 3D E‑Commerce Architecture
 
-Overview
+### Overview
 We have built an online shop that lets customers look at and spin around 3D models of products (think furniture, gadgets, clothes) before they buy. We chose AWS because it lets us stay online all the time, handle huge traffic spikes, and keep costs under control.
 
 The Challenge
