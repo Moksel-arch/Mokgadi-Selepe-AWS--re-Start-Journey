@@ -94,4 +94,6 @@ Result: the group starts with 0 instances, but Auto Scaling immediately launches
 - All other resources (load balancer, target group, launch template, Auto Scaling group) can be deleted from the AWS console when the lab is finished.
 
 ---
--Mokgadi: mokgadi9939@gmail.com
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
