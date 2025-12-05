@@ -92,6 +92,6 @@
 
 ***
 
-## **Contact**
-
-**<mokgadi9939@gmail.com>**
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
