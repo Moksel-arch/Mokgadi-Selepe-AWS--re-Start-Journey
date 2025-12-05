@@ -1,5 +1,5 @@
 # **AWS SimuLearn: Create an AI Smart Assistant**
-
+**Use Amazon Bedrock to create a knowledge base and an agent**
 <img width="966" height="621" alt="image" src="https://github.com/user-attachments/assets/f24edce6-f461-4d70-92ca-11bd277cabf0" />
 
 I read the lab goals, hit “Start Lab” (or opened the AWS Console), followed the step‑by‑step instructions using the navigation arrows, and noted that unused AWS services are disabled and the used ones are limited to the lab’s needs.
