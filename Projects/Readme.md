@@ -38,7 +38,7 @@ We collaborated to deliver this solution, with each member focusing on a specifi
 
 ---
 
-## Project 2: Coming Soon
+## Project 2: AWS 3D E‑Commerce Architecture
 
 **Context:** Group Project: AWS 3D E-Commerce Architecture
 
