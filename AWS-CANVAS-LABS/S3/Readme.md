@@ -1,8 +1,9 @@
-# README.md
+# **Amazon S3**
 
 This is a simple practice lab I did on AWS to host a static website using S3.  
 I followed the steps, made a few changes, and got the website running.  
-Here is exactly what I did (in my own words).
+
+Here is exactly what I did:
 
 ## What I did
 
@@ -27,6 +28,11 @@ Here is exactly what I did (in my own words).
 10. I turned on static website hosting:
     - Chose **Enable**
     - Hosting type: **Host a static website**
+   
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
     - Index document: `index.html`
     - Error document: `error.html`
 
@@ -51,3 +57,8 @@ The bucket name starts with `website-bucket-` (the full name is different for ev
 The lab is complete and the test servers found the `waves.html` file without any problem.
 
 Feel free to use this repo as a quick reminder of how to set up a basic static website on S3!
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
