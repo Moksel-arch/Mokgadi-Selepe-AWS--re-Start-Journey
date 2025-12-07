@@ -1,5 +1,8 @@
 **AWS CERTIFICATIONS**
 
+<img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/c5467a34-c79c-48b6-86d4-0f1921cbf709" />
+
+**AWS Cloud Quest Practitioner Training Badge**
 
 
 ![AI Practitioner Learning Plan](https://github.com/user-attachments/assets/4dd7c18d-1123-49ec-be80-4a054b6fa45f)
@@ -34,9 +37,21 @@
 
 **AWS Billing Cost Management**
 
-<img width="601" height="601" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/c5467a34-c79c-48b6-86d4-0f1921cbf709" />
 
-**AWS Cloud Quest Practitioner Training Badge**
+![WhatsApp Image 2025-12-07 at 22 24 16_82f3f9a4](https://github.com/user-attachments/assets/9a24a506-5a7c-4b28-b84e-52bc9a060a77)
+
+**AWS SimuLearn: Cloud First Steps**
+
+
+![WhatsApp Image 2025-12-07 at 22 25 34_fe168a27](https://github.com/user-attachments/assets/f8f30ae1-8198-42ff-801a-e3de098b40f0)
+
+**Cloud Computing Essentials**
+
+
+![WhatsApp Image 2025-12-07 at 23 33 31_c00a29f8](https://github.com/user-attachments/assets/c2b53eea-6ceb-47a9-9f83-31a8417b1880)
+
+**Explore the Amazon Bedrock Playgrounds**
+
 
 Contact:
 - Mokgadi: 067 719 3860
