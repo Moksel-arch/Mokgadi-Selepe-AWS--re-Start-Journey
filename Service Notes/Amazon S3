@@ -1,0 +1,43 @@
+# **Service Notes – Amazon S3 Static Website Hosting Lab**  
+
+Date: 08 Dec 2025  
+Technician: Mokgadi Selepe 
+
+**Job Summary**  
+I finished the AWS S3 static website hosting practice lab. Took an existing bucket, turned on static website hosting, renamed a couple of files as the lab asked, and got the site live on the S3 website endpoint. 
+Everything works perfectly.
+
+**Steps I did**
+
+1. Searched for S3 in the console and opened it.  
+2. Went to General purpose buckets and opened the one that starts with website-bucket- (already created by the lab).  
+3. Copied the full bucket name to my notepad – needed it later.  
+4. In the Objects tab I saw the five website files that were pre-loaded.  
+5. Renamed text.html → error.html (this will be the custom error page).  
+6. Checked Permissions → Block all public access was already OFF (good, otherwise the site wouldn’t load).  
+7. Bucket policy was already there and allows public GetObject – fine for the lab, I know in real projects we lock it down more.  
+8. Went to Properties → Static website hosting → Edit.  
+9. Enabled it:  
+   - Hosting type: Host a static website  
+   - Index document: index.html  
+   - Error document: error.html  
+10. Saved changes.  
+11. Copied the Bucket website endpoint that appeared after saving.  
+12. Opened a new tab, pasted the endpoint → the “Beach Wave Conditions” website loaded straight away. Looks great!  
+13. For the final validation step, I renamed index.html → waves.html (lab checks for that name).  
+14. Refreshed the page – still works because S3 now serves waves.html as the new start page.
+
+**Final files in the bucket**  
+- waves.html (was index.html)  
+- error.html (was text.html)  
+- style.css, images, etc. – all untouched  
+
+**Result**  
+Website is live and reachable at the S3 website endpoint. Lab validation passed without any issues.
+
+Done and dusted. Ready for the next one!
+
+---
+Mokgadi  
+067 719 3860  
+mokgadi9939@gmail.com
