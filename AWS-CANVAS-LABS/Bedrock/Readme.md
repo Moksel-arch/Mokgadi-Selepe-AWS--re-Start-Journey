@@ -39,4 +39,7 @@ Feel free to fork, use the HTML, change the prompt, whatever you want.
 
 That’s it! Simple lab, but I think it’s pretty awesome what you can do with Bedrock now.
 
-– me, December 2025
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
