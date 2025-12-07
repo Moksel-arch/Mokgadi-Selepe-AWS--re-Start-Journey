@@ -101,6 +101,9 @@ For me, the cloud represents *innovation and opportunity. It’s not just about 
 
 ***
 
+Feel free to check my AWS Certificates..
+[My static site](mokgadi-selepe-aws-certification.netlify.app)
+
 ## Get in Touch
 
 *   Phone: 067 719 3860
