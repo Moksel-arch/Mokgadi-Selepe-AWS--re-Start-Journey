@@ -101,9 +101,8 @@ For me, the cloud represents *innovation and opportunity. It’s not just about 
 
 ***
 
-Feel free to check my AWS Certificates..
+Feel free to check my AWS Certificates:
 [My static site](mokgadi-selepe-aws-certification.netlify.app)
-[My static site]https://static-website-on-s3.netlify.app
 
 ## Get in Touch
 
