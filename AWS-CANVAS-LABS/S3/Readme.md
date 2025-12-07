@@ -1,4 +1,4 @@
-# **Amazon S3**
+# **Amazon S3!**
 
 This is a simple practice lab I did on AWS to host a static website using S3.  
 I followed the steps, made a few changes, and got the website running.  
