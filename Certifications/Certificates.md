@@ -61,6 +61,10 @@
 **Generate Code for a Webpage**
 ---
 
+![Secure Conversational AI with Guradrails](https://github.com/user-attachments/assets/7c4749ca-50f6-474b-9bcf-8ab1d5f3d6a7)
+
+**Secure Conversational AI with Guradrails**
+---
 
 Contact:
 - Mokgadi: 067 719 3860
