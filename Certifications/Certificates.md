@@ -66,6 +66,11 @@
 **Secure Conversational AI with Guradrails**
 ---
 
+![Create an Enterprise Knowledge Assistant](https://github.com/user-attachments/assets/a42943ef-c596-4568-a680-1b749b1da0c4)
+
+**Create an Enterprise Knowledge Assistant**
+---
+
 Contact:
 - Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
