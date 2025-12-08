@@ -72,6 +72,7 @@
 ---
 
 **Create an AI Smart Assistant**
+---
 
 Contact:
 - Mokgadi: 067 719 3860
