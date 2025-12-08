@@ -56,6 +56,10 @@
 **Explore the Amazon Bedrock Playgrounds**
 ---
 
+![Generate Code for a Webpage](https://github.com/user-attachments/assets/e93aa45b-9711-46fb-bc21-c57d10b78c76)
+
+**Generate Code for a Webpage**
+---
 
 
 Contact:
