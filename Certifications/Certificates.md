@@ -71,6 +71,8 @@
 **Create an Enterprise Knowledge Assistant**
 ---
 
+**Create an AI Smart Assistant**
+
 Contact:
 - Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
