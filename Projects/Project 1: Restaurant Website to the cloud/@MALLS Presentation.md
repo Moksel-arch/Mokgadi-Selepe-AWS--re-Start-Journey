@@ -261,8 +261,7 @@ Leah: Thank you class, we now going to take questions and answers!!
 
 (Open the floor for questions.) Lets all as a group listen and be ready to answer questions!!
 
-
-This is for my Team mates..
+**Thank you speach from Mokgadi to my Team mates!!**
 
 I can’t thank you enough for how brilliantly we’ve been pulling together. From the late‑night crunch sessions to the instant support whenever anyone calls, you’ve turned sleepless nights into victories and made this team feel unstoppable. 
 
@@ -272,6 +271,8 @@ Woow—you’re a powerhouse crew, and I’m privileged to work side‑by‑side
 
 Let’s keep crushing it!
 
+---
+Contact:
 
-
-
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
