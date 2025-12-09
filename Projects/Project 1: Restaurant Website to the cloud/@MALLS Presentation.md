@@ -15,6 +15,8 @@ Handover: I will handover to Moks to demonstrate further…
 Moks take over
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/63752033-d03d-46eb-829e-75cdf61dd626" />
 
+**Sticky notes**
+
 Moks part:
 
 Great everyone in class first:
@@ -26,6 +28,8 @@ We are @MALLS Restaurant team – bringing South African culture to life with vi
 Go to the next slide..
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/51258a1f-8583-4256-9b02-6131081b91ce" />
+
+**Sticky notes**
 
 Moks, start by saying: I will walk you through our restaurant current situation..
 
@@ -45,6 +49,23 @@ Customer:
 Go to the next slide..
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4bf70dd3-76d6-4676-bf66-60bcf267eddf" />
+
+**Sticky notes**
+
+Challenges we faced in our restaurant:
+
+Before the digital upgrade we had big problems:
+
+*We had Order Issues- Orders got mixed up and wrong dishes went out, making customers angry.
+
+*Double bookings caused long waits for tables.
+
+*No central customer information(Data), so we lost repeat business and loyalty from our customers.
+
+*Not enough staff meant everything had to be done manually slowing us down.
+
+Go to the next slide..
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3f8f2142-1295-4e06-9d24-a1c136dd18d0" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca03d6e4-f762-4a69-b662-95f8d7963dde" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/461d237c-91ef-4085-a80b-93fac985513b" />
