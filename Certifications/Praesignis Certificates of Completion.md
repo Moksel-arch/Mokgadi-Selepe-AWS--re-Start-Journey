@@ -6,7 +6,9 @@
 
 I completed the **AI Practitioner Learning Plan** by Praesignis (August 2025).
 
-It’s a practical course that taught me the basics of AI and machine learning without too much theory. I learned:
+It’s a practical course that taught me the basics of AI and machine learning without too much theory. 
+
+I learned:
 
 - How machine learning actually works (supervised, unsupervised, reinforcement)
 - Data preparation and feature engineering
@@ -23,7 +25,9 @@ It’s a practical course that taught me the basics of AI and machine learning w
 
 I completed the **Generative AI for Decision Makers** course by Praesignis (August 2025).
 
-It’s a short, business-focused course that helped me understand generative AI without needing to code. I learned:
+It’s a short, business-focused course that helped me understand generative AI without needing to code. 
+
+I learned:
 
 - What generative AI really is and how it differs from traditional AI
 - Real-world use cases in companies (content creation, customer support, product design, etc.)
