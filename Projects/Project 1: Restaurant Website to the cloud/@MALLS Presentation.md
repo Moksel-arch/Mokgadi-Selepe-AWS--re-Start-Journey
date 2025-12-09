@@ -106,9 +106,9 @@ Aytee: finish off the slides
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca03d6e4-f762-4a69-b662-95f8d7963dde" />
 
-This is where the AWS S3 is presented by Lethabo
-
 **Sticky notes!!**
+
+This is where the AWS S3 is presented by Lethabo..
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/461d237c-91ef-4085-a80b-93fac985513b" />
 
