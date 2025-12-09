@@ -103,11 +103,11 @@ Go to the next slide:
 
 Aytee: finish off the slides
 
-<img width="1569" height="923" alt="image" src="https://github.com/user-attachments/assets/83d67a26-9649-4feb-82f6-2df610894263" />
-
 **Sticky notes!!**
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca03d6e4-f762-4a69-b662-95f8d7963dde" />
+
+This is where the AWS S3 is presented by Lethabo
 
 **Sticky notes!!**
 
