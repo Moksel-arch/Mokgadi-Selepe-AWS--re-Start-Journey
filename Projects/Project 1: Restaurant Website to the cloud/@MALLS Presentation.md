@@ -1,7 +1,9 @@
 # **@MALLS PRESENTATION**
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2dc3ffa7-2880-4565-ae64-2533d0c97bdb" />
+
 **Sticky notes**
+
 Miss Leah!
 
 Set the tone: Welcome everyone to the presentation about our digital journey at @MALLS—”Africa's finest roots”.
