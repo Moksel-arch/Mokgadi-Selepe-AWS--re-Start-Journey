@@ -1,11 +1,6 @@
 **AWS CERTIFICATIONS**
 ---
 
-<img width="1319" height="859" alt="image" src="https://github.com/user-attachments/assets/f9c6501d-437a-426e-94f5-af4d556b9228" />
-
-**File Systems in the Cloud(Storage)**
----
-
 ![WhatsApp Image 2025-12-05 at 22 49 51_07904484](https://github.com/user-attachments/assets/c34dbefb-7154-4521-851f-f3908db4c965)
 
 **AWS Billing Cost Management**
