@@ -11,7 +11,9 @@ I learned:
 - The main advantages (scalability, pay-as-you-go, global reach)
 - Core services: EC2, S3, VPC, Lambda
 - How everything connects together
-- Building a simple website on AWS from scratch Short, clear, and hands-on – perfect refresher of the basics.
+- Building a simple website on AWS from scratch Short, clear, and hands-on
+
+Perfect refresher of the basics!
 
 
 ---
