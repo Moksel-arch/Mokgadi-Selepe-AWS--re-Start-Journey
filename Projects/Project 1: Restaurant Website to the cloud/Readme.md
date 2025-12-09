@@ -2,6 +2,9 @@
 
 **Project Overview**
 
+- We were tasked with creating a static website for a real-world restaurant (we can choose an existing local restaurant or a small business). The restaurant is experiencing operational challenges due to a high volume of customer bookings and orders, which are getting mixed up, and the owner is struggling to find a solution. 
+- The owner wants to use a simple static website to streamline customer interactions and improve order and booking management.
+- Additionally, we will prepare a presentation to showcase the benefits of migrating the restaurant’s digital presence to AWS, targeting a panel of our choice (e.g., the restaurant owner or a mock business panel).
 
 
 ### A Group Project: Moving a Traditional South African Restaurant Online with AWS  
