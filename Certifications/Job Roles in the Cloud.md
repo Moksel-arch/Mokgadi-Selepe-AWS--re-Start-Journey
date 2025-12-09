@@ -11,7 +11,9 @@ I learned:
 - What cloud architects, developers, DevOps engineers, and data engineers actually do
 - The main responsibilities and tools for each role
 - Which AWS certifications match each job
-- How companies build cloud teams Super helpful for deciding my next steps – now I know exactly which direction I want to take!
+- How companies build cloud teams Super helpful for deciding my next steps
+  
+Now I know exactly which direction I want to take!
 
 ---
 Contact:
