@@ -232,8 +232,45 @@ Go to the next slide for a conclusion..
 
 **Sticky notes!!**
 
+Conclusion:
+
+- Final Summary: We successfully moved from a manual paper-based system to AWS.
+
+- Impact: The monthly cost dropped from over R6,000 to about R540–R600.
+
+The system stays up 99.9 % of the time, even when we’re busy.
+We can add more power with just a click – no new hardware needed.
+AWS takes care of security patches and encryption, so we worry less about data breaches.
+Updates go live in minutes, not days, so we can improve the service quickly.
+
+- The Bottom Line: The cloud gives us a cheaper, more reliable, and faster way to run our business. It allows us to focus on serving our customers and our unique South African food, instead of fixing computers
+
+Say: “Thank you”
+
+Go to the next slide..
+
+Miss Leah take over..
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8e93fe10-5a91-497f-a0bc-6bb777b94bf1" />
 
+**Sticky notes!!**
+
+Questions & Answers!
+
+Leah: Thank you class, we now going to take questions and answers!!
+
+(Open the floor for questions.) Lets all as a group listen and be ready to answer questions!!
+
+
+This is for my Team mates..
+
+I can’t thank you enough for how brilliantly we’ve been pulling together. From the late‑night crunch sessions to the instant support whenever anyone calls, you’ve turned sleepless nights into victories and made this team feel unstoppable. 
+
+Woow—you’re a powerhouse crew, and I’m privileged to work side‑by‑side with such amazing mates! 
+
+🙌I personally worked well and learned a lot from you all, and for that, thank you.
+
+Let’s keep crushing it!
 
 
 
