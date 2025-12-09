@@ -1,5 +1,7 @@
 # @MALLS - Africa's Finest Roots  
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7b3adecf-fe7d-4f15-87a2-6ae030aaba1e" />
+
 **Project Overview**
 
 - We were tasked with creating a static website for a real-world restaurant (we can choose an existing local restaurant or a small business). The restaurant is experiencing operational challenges due to a high volume of customer bookings and orders, which are getting mixed up, and the owner is struggling to find a solution. 
