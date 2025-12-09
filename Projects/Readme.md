@@ -42,6 +42,8 @@ We collaborated to deliver this solution, with each member focusing on a specifi
 
 ## Project 2: AWS 3D E‑Commerce Architecture
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0ed70c0c-4d3a-4b38-8b3c-773bdbb2c32c" />
+
 **Context:** Group Project: AWS 3D E-Commerce Architecture
 
 ### Overview
