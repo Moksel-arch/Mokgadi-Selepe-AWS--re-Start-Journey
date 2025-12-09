@@ -27,6 +27,7 @@ We chose AWS because it can help us serve millions of people worldwide, keep the
  * Not waste money
 
 **3. Our 3D Diagram-Architecture Diagram**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4f04ed1e-ee49-4857-b0a2-66aa7c9590e7" />
 
 Main AWS pieces we use:
@@ -54,6 +55,7 @@ Main AWS pieces we use:
 * CloudWatch & Trusted Advisor: help us see problems and lower the bill
 
 **5. How our design meets the requirements**
+
 <img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/45bb2621-9bc1-466a-8c79-79364b831249" />
 
 **6. Trade-offs we noticed**
@@ -70,7 +72,9 @@ Main AWS pieces we use:
 * CloudWatch is like a free doctor for your system – it tells you exactly what’s wrong
 
 **8. Quick look at AWS Well-Architected Framework**
+
 We checked our design against the official AWS rules (6 pillars):
+
 <img width="600" height="379" alt="image" src="https://github.com/user-attachments/assets/1bae6826-aff4-4efd-829e-b6bfdecd513a" />
 
 **9. Conclusion**
@@ -85,7 +89,7 @@ We checked our design against the official AWS rules (6 pillars):
 ---
 **Submission Statement**
 
-<img width="400" height="450" alt="image" src="https://github.com/user-attachments/assets/8422779b-1d96-496f-8616-d8f0125542b1" />
+<img width="350" height="450" alt="image" src="https://github.com/user-attachments/assets/8422779b-1d96-496f-8616-d8f0125542b1" />
 
 - We, the group 2 members listed above, confirm that this is our own group work.
 - All sources are cited and we all contributed to the design and document.
