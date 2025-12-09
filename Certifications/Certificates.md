@@ -1,17 +1,6 @@
 **AWS CERTIFICATIONS**
 ---
 
-
-![AI Practitioner Learning Plan](https://github.com/user-attachments/assets/4dd7c18d-1123-49ec-be80-4a054b6fa45f)
-
-**AI Practitioner Learning Plan**
----
-
-![Generative AI for Decision Makers](https://github.com/user-attachments/assets/1117c9a5-a615-4b39-8dd7-177dda32b84b)
-
-**Generative AI for Decision Makers**
----
-
 <img width="1319" height="870" alt="image" src="https://github.com/user-attachments/assets/755847d7-ac2c-49fd-ad28-34f149fcef3b" />
 
 **Core Security Concepts**
