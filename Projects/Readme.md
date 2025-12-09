@@ -8,7 +8,7 @@ I will be updating this file with one more upcoming project soon.
 
 ## Project 1: Moving a Traditional South African Restaurant Online (@MALLS)
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/7b3adecf-fe7d-4f15-87a2-6ae030aaba1e" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7b3adecf-fe7d-4f15-87a2-6ae030aaba1e" />
 
 **Context:** Group Project: Static Website on S3
 
