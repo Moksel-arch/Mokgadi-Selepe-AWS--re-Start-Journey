@@ -4,7 +4,7 @@
 
 **Cloud Practitioner Trained Badge**
 
-![AWS Cloud Quest_Cloud Practitioner](https://github.com/user-attachments/assets/36aa5870-b495-45ec-91c9-cbd5f1330652)
+<img src="https://github.com/user-attachments/assets/36aa5870-b495-45ec-91c9-cbd5f1330652" width="600" height="600" alt="AWS Cloud Quest: Cloud Practitioner" />
 
 **AWS Cloud Quest_Cloud Practitioner**
 
