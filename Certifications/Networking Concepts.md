@@ -2,8 +2,6 @@
 ---
 <img src="https://github.com/user-attachments/assets/930c4303-e0a6-4d43-854f-db64d0b32916" width="600" height="600" />
 
-## AWS SimuLearn: Networking Concepts
-
 I completed the **AWS SimuLearn: Networking Concepts** course (December 2025).
 
 It's a short, hands-on AWS course that taught me the fundamental building blocks of networking required to design architectures on the platform. I learned:
