@@ -15,10 +15,25 @@ It’s a practical course that taught me the basics of AI and machine learning w
 - Real-world examples in industry (predictive maintenance, fraud detection, etc.)
 - A bit about MLOps and deploying models
 
-It gave me the confidence to start working on my own AI projects and understand what’s happening under the hood. Great stepping stone before diving into heavier certifications.
 ---
 
 <img src="https://github.com/user-attachments/assets/1117c9a5-a615-4b39-8dd7-177dda32b84b" width="600" height="600" alt="Generative AI for Decision Makers" />
 
 **Generative AI for Decision Makers**
+
+I completed the **Generative AI for Decision Makers** course by Praesignis (August 2025).
+
+It’s a short, business-focused course that helped me understand generative AI without needing to code. I learned:
+
+- What generative AI really is and how it differs from traditional AI
+- Real-world use cases in companies (content creation, customer support, product design, etc.)
+- Popular tools like ChatGPT, DALL-E, Midjourney, and GitHub Copilot
+- Risks, ethics, bias, and data privacy concerns
+- How to spot good opportunities for using GenAI in a business
+- Basic prompt engineering tips to get better results
+
 ---
+It gave me the confidence to start working on my own AI projects and understand what’s happening under the hood. Great stepping stone before diving into heavier certifications.
+
+---
+Contacts
