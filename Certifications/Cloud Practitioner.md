@@ -1,6 +1,7 @@
 # **Cloud Practitioner Trained Badge**
 
 ![Cloud Practitioner Trained Badge](https://github.com/user-attachments/assets/db6fbd8d-5101-4c59-8ae0-8af838be3950)
+
 **Cloud Practitioner Trained Badge**
 
 ![Cloud Computing Essentials](https://github.com/user-attachments/assets/98792779-9acb-4bb8-a6d4-46893c5415d9)
