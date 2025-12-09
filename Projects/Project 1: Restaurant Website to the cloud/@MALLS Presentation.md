@@ -195,6 +195,39 @@ Go to the next slides..
 
 **Sticky notes!!**
 
+Benefits of Moving to AWS:
+
+Say this slowly as you demonstrate..just to give the audience to read further what is in there..
+We considered the speed.., reliability.., security.., scalality.., cost control.., managed services.
+
+Key Advantages-
+
+- Speed: it Updates roll out in minutes, and not days. 
+
+- Reliability: 
+The system is 99.9% up(pause a little), it’s up and running most of the time (only about 8 hours of downtime per year).
+(pause a little in between)
+- Automatic failover, if something goes wrong, the system switches to a backup automatically so you don’t notice the problem 
+
+- Security: 
+-AWS manages patches(they automatically apply software updates and fixes to keep the system secure),
+(pause a little in between)
+-encryption(data is scrambled so only authorized users can read it, both while it’s stored and while it’s moving),
+(pause a little in between)
+-backups(they regularly copy your data to safe locations so you can restore it if something goes wrong).
+
+- Scalability: We can handle peak nights and sudden spikes without buying new hardware, extra staff and new technology.
+
+- Cost Control: We now use a pay-as-you-go model, resulting in a monthly bill of about R540-R630.
+
+ Ooh this is awesome guys!!(Giggle a little bit to show that we are excited as a business)
+- Managed services: 
+-AWS handles the IT work.
+-No server patching = we don’t have to apply software updates ourselves.
+-Backups handled = they take care of saving copies of our data.
+
+Go to the next slide for a conclusion..
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3e328bdd-d2d8-460d-9f51-0b6c8dba3ef5" />
 
 **Sticky notes!!**
