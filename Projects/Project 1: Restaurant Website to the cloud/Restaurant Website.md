@@ -1,5 +1,13 @@
 # **@MALLS RESTAURANT WEBSITE ON S3**
 
+**Project Overview**
+
+- We were tasked with creating a static website for a real-world restaurant (we can choose an existing local restaurant or a small business). The restaurant is experiencing operational challenges due to a high volume of customer bookings and orders, which are getting mixed up, and the owner is struggling to find a solution. 
+- The owner wants to use a simple static website to streamline customer interactions and improve order and booking management.
+- Additionally, we will prepare a presentation to showcase the benefits of migrating the restaurant’s digital presence to AWS, targeting a panel of our choice (e.g., the restaurant owner or a mock business panel).
+
+---
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7b3adecf-fe7d-4f15-87a2-6ae030aaba1e" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/475fa154-e66d-40cc-96be-e04251a60ccc" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8c90a874-d1a7-4f35-a134-b61b0ce7700a" />
