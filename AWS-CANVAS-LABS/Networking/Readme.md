@@ -237,4 +237,10 @@ Mokgadi
 #### Status
 Waiting for Bob to reply. As soon as he says go ahead, I will attach the Elastic IP and the problem is gone forever.
 
-That’s all! If you have questions, email me at mokgadi9939@gmail.com. Hope this repo helps you with AWS networking.
+Hope this repo helps you with AWS networking.
+
+---
+Contact:
+
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
