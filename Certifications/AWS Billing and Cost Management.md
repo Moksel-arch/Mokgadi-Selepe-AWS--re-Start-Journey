@@ -1,6 +1,6 @@
 # **AWS Billing and Cost Management**
 
-![AWS Billing and Cost Management](https://github.com/user-attachments/assets/c4efce06-4ef9-4e44-b63a-88cd0203e675)
+<img src="https://github.com/user-attachments/assets/9a24a506-5a7c-4b28-b84e-52bc9a060a77" width="600" height="600" />
 
 I completed AWS Billing and Cost Management (November 2025). 
 
