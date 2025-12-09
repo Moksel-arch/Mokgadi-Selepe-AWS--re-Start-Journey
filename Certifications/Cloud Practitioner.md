@@ -4,8 +4,9 @@
 
 **Cloud Practitioner Trained Badge**
 
-![Cloud Computing Essentials](https://github.com/user-attachments/assets/98792779-9acb-4bb8-a6d4-46893c5415d9)
-**Cloud Computing Essentials**
+![AWS Cloud Quest_Cloud Practitioner](https://github.com/user-attachments/assets/36aa5870-b495-45ec-91c9-cbd5f1330652)
+
+**AWS Cloud Quest_Cloud Practitioner**
 
 ---
 
