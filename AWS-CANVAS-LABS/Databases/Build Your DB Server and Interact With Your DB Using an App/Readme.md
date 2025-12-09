@@ -1,5 +1,5 @@
-
 # **Build Your DB Server and Interact With Your DB Using an App – AWS Re:start Lab** 
+
 **By Mokgadi Selepe**
 
 This was such a cool lab! I finally got to create a real MySQL database in the cloud using Amazon RDS, make it highly available, secure it properly, and then connect a web application to it. It felt like building a real-world backend from scratch.
@@ -54,4 +54,8 @@ Internet → Web Server (public subnet) → RDS MySQL (private subnets, Multi-AZ
 
 Feeling very proud right now – I can actually build this in a real job tomorrow!
 
--Mokgadi: mokgadi9939@gmail.com
+---
+Contact:
+
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
