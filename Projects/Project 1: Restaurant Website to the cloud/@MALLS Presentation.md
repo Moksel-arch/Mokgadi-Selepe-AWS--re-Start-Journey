@@ -2,7 +2,7 @@
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2dc3ffa7-2880-4565-ae64-2533d0c97bdb" />
 
-**Sticky notes**
+**Sticky notes!!**
 
 Miss Leah!
 
@@ -13,9 +13,10 @@ Focus: Today, we'll cover our restaurant's challenges and how our migration to A
 Handover: I will handover to Moks to demonstrate further…
 
 Moks take over
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/63752033-d03d-46eb-829e-75cdf61dd626" />
 
-**Sticky notes**
+**Sticky notes!!**
 
 Moks part:
 
@@ -29,7 +30,7 @@ Go to the next slide..
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/51258a1f-8583-4256-9b02-6131081b91ce" />
 
-**Sticky notes**
+**Sticky notes!!**
 
 Moks, start by saying: I will walk you through our restaurant current situation..
 
@@ -50,7 +51,7 @@ Go to the next slide..
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4bf70dd3-76d6-4676-bf66-60bcf267eddf" />
 
-**Sticky notes**
+**Sticky notes!!**
 
 Challenges we faced in our restaurant:
 
@@ -65,6 +66,7 @@ Before the digital upgrade we had big problems:
 *Not enough staff meant everything had to be done manually slowing us down.
 
 Go to the next slide..
+
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3f8f2142-1295-4e06-9d24-a1c136dd18d0" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca03d6e4-f762-4a69-b662-95f8d7963dde" />
