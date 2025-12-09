@@ -4,7 +4,8 @@
 
 I completed AWS Billing and Cost Management (November 2025). 
 
-This course taught me how to keep AWS costs under control. I learned:
+This course taught me how to keep AWS costs under control. 
+I learned:
 - How to read the billing dashboard and use Cost Explorer
 - Setting up budgets and cost alerts
 - Choosing between On-Demand, Reserved Instances, and Savings Plans
