@@ -1,4 +1,4 @@
-**AWS CERTIFICATIONS**
+# **AWS SimuLearn: Networking Conceptss**
 ---
 <img src="https://github.com/user-attachments/assets/930c4303-e0a6-4d43-854f-db64d0b32916" width="600" height="600" />
 
@@ -23,3 +23,7 @@ It's a short, hands-on AWS course that taught me the fundamental building blocks
 Quick but really useful – now I feel much more confident when setting up and connecting resources in a virtual network on AWS. Great starting point for anyone working with VPCs!
 
 ---
+Contact:
+
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
