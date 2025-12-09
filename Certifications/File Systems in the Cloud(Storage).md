@@ -13,7 +13,7 @@ I learned:
 - Performance modes and throughput options
 - Security and backup basics for EFS Really useful 
 
-now I know exactly how to handle shared files in the cloud!
+Now I know exactly how to handle shared files in the cloud!
 
 
 
