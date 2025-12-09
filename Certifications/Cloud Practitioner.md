@@ -25,4 +25,9 @@ Key things I learned (bullet points because that’s easier to read)
 - Basic Architecture Best Practices – How to build solutions that are scalable, resilient, and cost‑effective.
 - Hands‑on labs – Real‑world scenarios in a virtual city‑building game (super fun!).
 
-All of this confirms I can speak the AWS language, explain core services, design simple solutions, and understand cloud economics and security basics. Now I’m gearing up for the AWS Certified Cloud Practitioner exam and, later on, the professional‑level certifications. ☁🚀
+All of this confirms I can speak the AWS language, explain core services, design simple solutions, and understand cloud economics and security basics. Now I’m gearing up for the AWS Certified Cloud Practitioner exam and, later on, the professional‑level certifications.
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
