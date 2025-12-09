@@ -1,5 +1,6 @@
 # **Job Roles in the Cloud**
 
+![Job Roles in the Cloud](https://github.com/user-attachments/assets/e6b6467d-ee55-4755-ba16-b6fadca3ca2c)width="600" height="600"/>
 
 I completed AWS Job Roles in the Cloud (October 2025). 
 
