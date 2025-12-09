@@ -1,10 +1,13 @@
 # **Job Roles in the Cloud**
 
-![Job Roles in the Cloud](https://github.com/user-attachments/assets/e6b6467d-ee55-4755-ba16-b6fadca3ca2c)width="600" height="600"/>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e6b11177-29cc-44d3-9aeb-9650f4491727" />
+
 
 I completed AWS Job Roles in the Cloud (October 2025). 
 
-It’s a short AWS course that showed me the different career paths in the cloud. I learned:
+It’s a short AWS course that showed me the different career paths in the cloud. 
+
+I learned:
 - What cloud architects, developers, DevOps engineers, and data engineers actually do
 - The main responsibilities and tools for each role
 - Which AWS certifications match each job
