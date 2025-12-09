@@ -4,7 +4,9 @@
 
 I completed the **AWS SimuLearn: Networking Concepts** course (December 2025).
 
-It's a short, hands-on AWS course that taught me the fundamental building blocks of networking required to design architectures on the platform. I learned:
+It's a short, hands-on AWS course that taught me the fundamental building blocks of networking required to design architectures on the platform. 
+
+I learned:
 
 * The basics of **VPCs** (Virtual Private Clouds) and how they isolate resources.
 * Understanding and configuring **subnets** (public and private).
