@@ -1,11 +1,6 @@
 **AWS CERTIFICATIONS**
 ---
 
-<img width="1319" height="870" alt="image" src="https://github.com/user-attachments/assets/755847d7-ac2c-49fd-ad28-34f149fcef3b" />
-
-**Core Security Concepts**
----
-
 <img width="1250" height="868" alt="image" src="https://github.com/user-attachments/assets/930c4303-e0a6-4d43-854f-db64d0b32916" />
 
 **Networking Concepts**
