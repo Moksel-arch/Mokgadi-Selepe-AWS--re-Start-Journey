@@ -33,7 +33,7 @@ It’s a short, business-focused course that helped me understand generative AI 
 - Basic prompt engineering tips to get better results
 
 ---
-It gave me the confidence to start working on my own AI projects and understand what’s happening under the hood. Great stepping stone before diving into heavier certifications.
+This certificates gave me the confidence to start working on my own AI projects and understand what’s happening under the hood. Great stepping stone before diving into heavier certifications.
 
 ---
 Contacts:
