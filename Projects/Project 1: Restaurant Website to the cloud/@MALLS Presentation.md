@@ -114,19 +114,82 @@ This is where the AWS S3 is presented by Lethabo..
 
 **Sticky notes!!**
 
-This is where the website presented, by Skhuh and Moks
+This is where the website presented, by Skhuh and Moks..
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c483844e-329c-497f-b8cc-7a0c21c87119" />
 
 **Sticky notes!!**
 
+Our Current Static Website on AWS 
+
+The Architecture: We decided to leverage the power of Amazon Web Services (AWS) to host our site.
+
+The "Serverless" Approach: Show how we built the site using various AWS services.
+
+- S3 & CloudFront: The website and images are hosted on S3 and delivered globally fast via CloudFront.
+
+- Route 53: Custom domain & DNS, like (www.@MALLS.co.za)
+
+- API Gateway & Lambda: Forms connect to the back-end using API Gateway, and Lambda handles the actual booking and order logic.
+
+- DynamoDB & Cognito: DynamoDB stores all reservations, orders, and loyalty points, while Cognito manages secure customer login and registration.
+
+- Location services for interactive Map.
+
+- Benefit: This keeps the site cheap, scalable, and always available for our guests.
+
+Go to the next slide:
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/92aa6534-b480-4424-8699-82e147e06d55" />
 
 **Sticky notes!!**
 
+AWS COST ANALYSIS:
+
+[Full names](Don’t say them outloud, this is only if they ask us of the abbreviations only)
+- ACM = AWS Certificate Manager
+- SSL= Secure Sockets Layer (The protocol that ACM uses for its certificates)
+
+AWS cost breakdown:
+- Most expensive: Cloudfront – R470(Makes pages and images load super fast worlwide)
+
+- Free or cheap: 
+- S3 = Low cost service (Stores all the pictures, the website files, the menu pdfs)
+
+- Route 53 = Low cost service (Handles our custom domain like, www.@MALLS.co.za)
+
+- SSL certificates via ACM = Free service (Gives us a free SSL certificates so the site runs on https)
+
+- API Gateway = Low cost service (Lets the booking and take-away forms talk to the back-end)
+
+- Lambda = Low cost service (Tiny functions that actually save the reservation or order details)
+
+- DynamoDB = Low cost service (The database that actually save the reservation or order details)
+
+- Location Service = Free service (Powers the Map on our site so people can find us)
+
+- Cognito = Free service (Handles login, sign-up and password resets for customers)
+
+Total monthly bill: Only R540 – R630, a very cost-effective upgrade.
+
+Bottom line: Using AWS lets us run a high-traffic site with bookings, maps and a loyalty program cheaply, while AWS handles the servers and upgrades, so we don’t have to.
+
+Go to the next slide..
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/31810127-9bcf-4588-9ffb-46b2a4722834" />
 
 **Sticky notes!!**
+
+Using Manual System VS AWS Migration
+
+- Dramatic Difference: Visually shows the difference between the manual system cost and the AWS cost.
+
+- Old Cost: The manual system cost was roughly +R6,000 monthly.
+
+- New Cost: The AWS migration costs are now only ~R540 – R630 monthly.
+Return On Investment: This migration provides an immediate, massive return on investment(ROI).
+
+Go to the next slides..
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/db5921b7-1d73-48eb-a101-5ebdfb417ccf" />
 
