@@ -21,5 +21,5 @@ Quick but really useful – now I feel much more confident when locking down AWS
 ---
 Contact:
 
-Mokgadi: 067 719 3860
-mokgadi9939@gmail.com
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
