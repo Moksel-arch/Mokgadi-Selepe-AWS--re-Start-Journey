@@ -14,7 +14,36 @@ Handover: I will handover to Moks to demonstrate further…
 
 Moks take over
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/63752033-d03d-46eb-829e-75cdf61dd626" />
+
+Moks part:
+
+Great everyone in class first:
+
+Introducing the Team:
+
+We are @MALLS Restaurant team – bringing South African culture to life with vibrant colours.
+
+Go to the next slide..
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/51258a1f-8583-4256-9b02-6131081b91ce" />
+
+Moks, start by saying: I will walk you through our restaurant current situation..
+
+History of the restaurant:
+*It Started(2020)-founded by 5 great Team players, and branded the Restaurant @MALLS, so we can bring SA flavours to Gauteng.
+*Our Milestone(pause a little bit)-We opened a permanent spot in Bramley view.
+
+Our restaurant Uniquenes:
+*The Core value: its being authentic South African cuisine for every South African culture.
+*Our restaurant is a go-to for locals, a must-see for tourists craving real SA taste.
+
+Customer:
+*The Locals: families, students, office workers seeking fast food and home-cooked meal feeling.
+*Food lovers: they love braai, bobotie, bunny chow..etc..
+*Tourists visitors: wanting an authentic SA culinary experience.
+
+Go to the next slide..
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4bf70dd3-76d6-4676-bf66-60bcf267eddf" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3f8f2142-1295-4e06-9d24-a1c136dd18d0" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca03d6e4-f762-4a69-b662-95f8d7963dde" />
