@@ -11,7 +11,9 @@ I learned:
 - Creating and using DynamoDB tables
 - Choosing between relational and NoSQL databases
 - Connecting to databases from applications
-- Basic backup and restore options Now I can pick and build the right database for any project.
+- Basic backup and restore options
+
+Now I can pick and build the right database for any project!
 
 ---
 Contact:
