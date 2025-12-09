@@ -1,4 +1,13 @@
 # **@MALLS PRESENTATION**
+Miss Leah!
+
+Set the tone: Welcome everyone to the presentation about our digital journey at @MALLS—”Africa's finest roots”.
+
+Focus: Today, we'll cover our restaurant's challenges and how our migration to AWS has provided a modern, cost-effective solution.
+
+Handover: I will handover to Moks to demonstrate further…
+Moks take over…
+<img width="1438" height="263" alt="image" src="https://github.com/user-attachments/assets/24cedde0-a311-46a8-addf-5d465691bc4a" />
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2dc3ffa7-2880-4565-ae64-2533d0c97bdb" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/63752033-d03d-46eb-829e-75cdf61dd626" />
