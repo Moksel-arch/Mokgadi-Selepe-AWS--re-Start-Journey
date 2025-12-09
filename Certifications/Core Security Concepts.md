@@ -1,7 +1,10 @@
 # **AWS SimuLearn: Core Security Concepts**
 
-I completed **AWS SimuLearn: Core Security Concepts** (December 2025).
+---
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/755847d7-ac2c-49fd-ad28-34f149fcef3b" />
+
+I completed **AWS SimuLearn: Core Security Concepts** (December 2025).
 
 It’s a short, hands-on AWS course that taught me the most important security basics on the platform. I learned:
 
