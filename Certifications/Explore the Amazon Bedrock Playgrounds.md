@@ -1,4 +1,4 @@
-**Generate Code for a Webpage with Amazon Bedrock**  
+# **Generate Code for a Webpage with Amazon Bedrock**  
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c2e17e29-15dd-4b0e-8ec4-471398024107" />
 
