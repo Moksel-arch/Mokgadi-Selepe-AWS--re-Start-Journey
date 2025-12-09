@@ -36,4 +36,6 @@ It’s a short, business-focused course that helped me understand generative AI 
 It gave me the confidence to start working on my own AI projects and understand what’s happening under the hood. Great stepping stone before diving into heavier certifications.
 
 ---
-Contacts
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
