@@ -1,5 +1,7 @@
 # **AWS Cloud Projects Portfolio**
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7b3adecf-fe7d-4f15-87a2-6ae030aaba1e" />
+
 Welcome to my project portfolio. This repository documents my journey in cloud computing. It currently features a group project from the AWS re/Start program (06 October 2025 Cohort).
 
 I will be updating this file with one more upcoming project soon.
