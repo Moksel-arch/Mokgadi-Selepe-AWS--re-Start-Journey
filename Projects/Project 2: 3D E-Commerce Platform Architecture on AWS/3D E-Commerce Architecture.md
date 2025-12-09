@@ -27,7 +27,7 @@ We chose AWS because it can help us serve millions of people worldwide, keep the
  * Not waste money
 
 **3. Our 3D Diagram-Architecture Diagram**
-<img width="834" height="679" alt="image" src="https://github.com/user-attachments/assets/4f04ed1e-ee49-4857-b0a2-66aa7c9590e7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4f04ed1e-ee49-4857-b0a2-66aa7c9590e7" />
 
 Main AWS pieces we use:
 
@@ -54,7 +54,7 @@ Main AWS pieces we use:
 * CloudWatch & Trusted Advisor: help us see problems and lower the bill
 
 **5. How our design meets the requirements**
-<img width="699" height="256" alt="image" src="https://github.com/user-attachments/assets/45bb2621-9bc1-466a-8c79-79364b831249" />
+<img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/45bb2621-9bc1-466a-8c79-79364b831249" />
 
 **6. Trade-offs we noticed**
 * EC2 with GPUs is fast but costs more → we only use it when really needed
@@ -71,7 +71,7 @@ Main AWS pieces we use:
 
 **8. Quick look at AWS Well-Architected Framework**
 We checked our design against the official AWS rules (6 pillars):
-<img width="716" height="379" alt="image" src="https://github.com/user-attachments/assets/1bae6826-aff4-4efd-829e-b6bfdecd513a" />
+<img width="600" height="379" alt="image" src="https://github.com/user-attachments/assets/1bae6826-aff4-4efd-829e-b6bfdecd513a" />
 
 **9. Conclusion**
 - With S3, CloudFront, EC2, Lambda, RDS, DynamoDB, ELB, Route 53, and CloudWatch we built a real-world 3D shopping platform that is fast, always online, secure, and doesn’t cost a fortune.
@@ -85,7 +85,7 @@ We checked our design against the official AWS rules (6 pillars):
 ---
 **Submission Statement**
 
-<img width="439" height="677" alt="image" src="https://github.com/user-attachments/assets/8422779b-1d96-496f-8616-d8f0125542b1" />
+<img width="400" height="450" alt="image" src="https://github.com/user-attachments/assets/8422779b-1d96-496f-8616-d8f0125542b1" />
 
 - We, the group 2 members listed above, confirm that this is our own group work.
 - All sources are cited and we all contributed to the design and document.
