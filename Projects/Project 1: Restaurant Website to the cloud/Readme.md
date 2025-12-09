@@ -82,7 +82,7 @@ This project started as a simple “deploy a static site to S3” assignment and
 
 Feel free to fork, steal ideas, or hit us up if you want help doing something similar for your own business!
 
-Made with ☕ braai vibes and a lot of late nights in November 2025  
+Made with braai vibes and a lot of late nights in November 2025  
 ---
 Contacts:
 - Mokgadi: 067 719 3860
