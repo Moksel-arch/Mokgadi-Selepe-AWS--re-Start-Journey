@@ -17,3 +17,9 @@ It’s a short, hands-on AWS course that taught me the most important security b
 - Common security best practices and how to spot misconfigurations
 
 Quick but really useful – now I feel much more confident when locking down AWS accounts and resources. Great starting point for AWS security!
+
+---
+Contact:
+
+Mokgadi: 067 719 3860
+mokgadi9939@gmail.com
