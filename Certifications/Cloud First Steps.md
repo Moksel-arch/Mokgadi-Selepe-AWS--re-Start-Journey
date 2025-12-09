@@ -1,7 +1,6 @@
 **AWS SimuLearn: Cloud First Steps**  
 
-<img src="https://github.com/user-attachments/assets/f8f30ae1-8198-42ff-801a-e3de098b40f0" width="600" height="600" />
-
+<img src="https://github.com/user-attachments/assets/9a24a506-5a7c-4b28-b84e-52bc9a060a77" width="600" height="600" />
 ---
 
 Contact:
