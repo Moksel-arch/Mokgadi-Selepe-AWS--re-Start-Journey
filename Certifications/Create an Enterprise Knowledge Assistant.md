@@ -4,12 +4,16 @@
 
 I completed AWS SimuLearn: Create an Enterprise Knowledge Assistant (December 2025). 
 
-This was awesome – I built a real AI assistant for company documents. I learned:
+This was awesome – I built a real AI assistant for company documents. 
+
+I learned:
 - Using Amazon Bedrock and Knowledge Bases
 - Uploading PDFs and letting the AI answer questions from them
 - Adding guardrails for safe answers
 - Connecting it to a chat interface
-- Keeping everything private and secure Now I can make smart internal chatbots for any team – feels like real magic!
+- Keeping everything private and secure Now I can make smart internal chatbots for any team
+
+Feels like real magic!
 
 
 ---
