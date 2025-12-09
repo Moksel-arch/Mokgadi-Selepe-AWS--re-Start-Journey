@@ -35,17 +35,17 @@ Go to the next slide..
 Moks, start by saying: I will walk you through our restaurant current situation..
 
 History of the restaurant:
-*It Started(2020)-founded by 5 great Team players, and branded the Restaurant @MALLS, so we can bring SA flavours to Gauteng.
-*Our Milestone(pause a little bit)-We opened a permanent spot in Bramley view.
+- It Started(2020)-founded by 5 great Team players, and branded the Restaurant @MALLS, so we can bring SA flavours to Gauteng.
+- Our Milestone(pause a little bit)-We opened a permanent spot in Bramley view.
 
 Our restaurant Uniquenes:
-*The Core value: its being authentic South African cuisine for every South African culture.
-*Our restaurant is a go-to for locals, a must-see for tourists craving real SA taste.
+- The Core value: its being authentic South African cuisine for every South African culture.
+- Our restaurant is a go-to for locals, a must-see for tourists craving real SA taste.
 
 Customer:
-*The Locals: families, students, office workers seeking fast food and home-cooked meal feeling.
-*Food lovers: they love braai, bobotie, bunny chow..etc..
-*Tourists visitors: wanting an authentic SA culinary experience.
+- The Locals: families, students, office workers seeking fast food and home-cooked meal feeling.
+- Food lovers: they love braai, bobotie, bunny chow..etc..
+- Tourists visitors: wanting an authentic SA culinary experience.
 
 Go to the next slide..
 
@@ -57,13 +57,13 @@ Challenges we faced in our restaurant:
 
 Before the digital upgrade we had big problems:
 
-*We had Order Issues- Orders got mixed up and wrong dishes went out, making customers angry.
+- We had Order Issues- Orders got mixed up and wrong dishes went out, making customers angry.
 
-*Double bookings caused long waits for tables.
+- Double bookings caused long waits for tables.
 
-*No central customer information(Data), so we lost repeat business and loyalty from our customers.
+- No central customer information(Data), so we lost repeat business and loyalty from our customers.
 
-*Not enough staff meant everything had to be done manually slowing us down.
+- Not enough staff meant everything had to be done manually slowing us down.
 
 Go to the next slide..
 
@@ -76,15 +76,15 @@ Our Vision was to build simple, powerful online presence:
 
 So we aimed for a simple static website that would include:
 
-*High-quality pictures of our dishes.
+- High-quality pictures of our dishes.
 
-*Integrated forms for dine-in bookings and take-away orders.
+- Integrated forms for dine-in bookings and take-away orders.
 
-*A robust loyalty programme.
+- A robust loyalty programme.
 
-*Customer login/register/sign-up functionality, this will help us to track our loyal customers and not to lose customers but to grow the business.
+- Customer login/register/sign-up functionality, this will help us to track our loyal customers and not to lose customers but to grow the business.
 
-*Interactive Map & directions for easy access to our premises.
+- Interactive Map & directions for easy access to our premises.
 
 Moks, give Miss Leah a chance to bring in the next segment!!
 
@@ -103,7 +103,6 @@ Go to the next slide:
 
 Aytee: finish off the slides
 
-**Sticky notes!!**
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca03d6e4-f762-4a69-b662-95f8d7963dde" />
 
@@ -112,11 +111,29 @@ This is where the AWS S3 is presented by Lethabo
 **Sticky notes!!**
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/461d237c-91ef-4085-a80b-93fac985513b" />
+
+**Sticky notes!!**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c483844e-329c-497f-b8cc-7a0c21c87119" />
+
+**Sticky notes!!**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/92aa6534-b480-4424-8699-82e147e06d55" />
+
+**Sticky notes!!**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/31810127-9bcf-4588-9ffb-46b2a4722834" />
+
+**Sticky notes!!**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/db5921b7-1d73-48eb-a101-5ebdfb417ccf" />
+
+**Sticky notes!!**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3e328bdd-d2d8-460d-9f51-0b6c8dba3ef5" />
+
+**Sticky notes!!**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8e93fe10-5a91-497f-a0bc-6bb777b94bf1" />
 
 
