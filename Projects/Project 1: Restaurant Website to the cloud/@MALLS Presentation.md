@@ -114,6 +114,8 @@ This is where the AWS S3 is presented by Lethabo..
 
 **Sticky notes!!**
 
+This is where the website presented, by Skhuh and Moks
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c483844e-329c-497f-b8cc-7a0c21c87119" />
 
 **Sticky notes!!**
