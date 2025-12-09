@@ -69,7 +69,48 @@ Go to the next slide..
 
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3f8f2142-1295-4e06-9d24-a1c136dd18d0" />
+
+**Sticky notes!!**
+
+Our Vision was to build simple, powerful online presence: 
+
+So we aimed for a simple static website that would include:
+
+*High-quality pictures of our dishes.
+
+*Integrated forms for dine-in bookings and take-away orders.
+
+*A robust loyalty programme.
+
+*Customer login/register/sign-up functionality, this will help us to track our loyal customers and not to lose customers but to grow the business.
+
+*Interactive Map & directions for easy access to our premises.
+
+Moks, give Miss Leah a chance to bring in the next segment!!
+
+Miss Leah come in:
+
+Leah: We now going to handover our web devs to demonstrate the website on S3..
+Leah: Lethabo & Skhuh the floor is yours..
+Lethabo: We deployed on AWS S3, and show them a little demonstration e.g the pics. And handover to Skhuh & Moks 
+Skhuh: Lead the demonstration(show off the websites function and if you feel you enough just say.. Moks take over)
+Moks: finish off the demonstration..
+
+Miss Leah come in and hand over to Aytee:
+Leah: Aytee please take us to the end!
+
+Go to the next slide:
+
+Aytee: finish off the slides
+
+<img width="1569" height="923" alt="image" src="https://github.com/user-attachments/assets/83d67a26-9649-4feb-82f6-2df610894263" />
+
+**Sticky notes!!**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca03d6e4-f762-4a69-b662-95f8d7963dde" />
+
+**Sticky notes!!**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/461d237c-91ef-4085-a80b-93fac985513b" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c483844e-329c-497f-b8cc-7a0c21c87119" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/92aa6534-b480-4424-8699-82e147e06d55" />
