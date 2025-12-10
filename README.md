@@ -63,7 +63,7 @@ For me, the cloud represents *innovation and opportunity. It’s not just about 
 
 ### Full Stack & Web Development
 
-*   Full Stack Development Certificate (FNB App Academy – 32 credits, July 2025)
+*   Full Stack Development Certificate
 *   HTML, CSS & Javascript (projects: Netflix clone, Tesla landing page, virtual business cards)
 *   Introduction to Python Programming
 *   Object-Oriented Programming with Python
@@ -94,7 +94,7 @@ For me, the cloud represents *innovation and opportunity. It’s not just about 
 ## What’s Next for Me?
 
 *   Finish AWS re/Start strong (December 2025)
-*   Pass AWS Cloud Practitioner exam (early 2026)
+*   Pass AWS Cloud Practitioner exam
 *   Start preparing for AWS Solutions Architect – Associate
 *   Keep building small projects and adding them here
 
