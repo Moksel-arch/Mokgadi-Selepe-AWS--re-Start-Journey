@@ -15,6 +15,7 @@ I learned:
 - Best practices for securing AWS accounts and resources (like MFA, password policies, and access keys)
 
 Now I can confidently control who can do what in AWS – a real game-changer for keeping cloud environments secure!
+
 Super useful skill for any AWS journey.
 
 ---
