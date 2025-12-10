@@ -1,4 +1,4 @@
-# **AWS Lex Chatbot Project**
+**AWS Lex Chatbot Project**
 
 Hi, I am sharing our project from the Praesignis AWS re/Start program. 
 
@@ -85,4 +85,5 @@ If you have questions or want to see our bot, let us know!
 Contacts:
 - Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
+
 
