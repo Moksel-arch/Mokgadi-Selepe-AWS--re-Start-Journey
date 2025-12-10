@@ -1,3 +1,11 @@
+</div>
+<div style="background-color:#1e90ff; padding:20px; display:flex; justify-content:center; align-items:center; border-radius:10px; width:max-content;">
+  <a href="https://www.linkedin.com/in/thatomash/" target="_blank" style="display:block;">
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQHV0YK27HBDCA/profile-displayphoto-crop_800_800/B4DZjCQxpHH0AM-/0/1755605836772?e=1766620800&v=beta&t=l1aOLgvdV5cYbmrRkZDBDKXHIVOo6TEjeAao6bX51oE" style="width:200px; height:auto; border-radius:50%;">
+  </a>
+</div>
+
+
 # AWS Lex Chatbot Project
 
 Hi, I am sharing my project from the Praesignis AWS re/Start program.
@@ -26,3 +34,4 @@ Check the folders above for my full code, PowerPoint slides, and screenshots of 
 If you have any questions or want to try the bot yourself, just message me! 
 
 Praesignis AWS re/Start – December 2025
+
