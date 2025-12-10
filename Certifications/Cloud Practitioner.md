@@ -1,7 +1,6 @@
 # **Cloud Practitioner Trained Badge**
 
 ![Cloud Practitioner Trained Badge](https://github.com/user-attachments/assets/db6fbd8d-5101-4c59-8ae0-8af838be3950)
-![WhatsApp Image 2025-12-10 at 18 31 02_739c1e15](https://github.com/user-attachments/assets/037477bf-d61f-4728-8b4e-06c790bcbeb4)
 
 
 **Cloud Practitioner Trained Badge**
