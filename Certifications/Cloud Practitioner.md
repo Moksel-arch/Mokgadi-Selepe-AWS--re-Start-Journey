@@ -1,8 +1,6 @@
 # **Cloud Practitioner Trained Badge**
 
-![Cloud Practitioner Trained Badge](https://github.com/user-attachments/assets/db6fbd8d-5101-4c59-8ae0-8af838be3950)
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f0c9fc01-5c37-448a-9e9d-a8b7579bc0e3" />
-
 
 
 **Cloud Practitioner Trained Badge**
