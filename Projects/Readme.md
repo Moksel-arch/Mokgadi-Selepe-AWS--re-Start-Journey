@@ -113,9 +113,6 @@ If you have any questions or want to try the bot yourself, just message me!
 
 Praesignis AWS re/Start – December 2025
 
-
-.*
-
 ---
 Contacts:
 - Mokgadi: 067 719 3860
