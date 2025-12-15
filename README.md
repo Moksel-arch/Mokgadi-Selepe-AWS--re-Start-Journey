@@ -37,7 +37,7 @@ Right now I am busy with hands-on labs in:
 
 **Cloud Practitioner Trained Badge**  
 I am proud to have earned the AWS Cloud Quest: Cloud Practitioner Trained badge!  
-The badge represents my hands-on experience in building cloud solutions and understanding AWS fundamentals.  
+The badge represents my hands-on experience in building cloud solutions and understanding AWS fundamentals and other certifications.  
 Please feel free to check it on the certifications:  
 [My static site](https://mokgadi-selepe-aws-certification.netlify.app)
 
@@ -75,15 +75,40 @@ My goal is to master these concepts and eventually become an AWS Solutions Archi
 
 ## Modules Covered – AWS Core Services Explained
 
-**Compute**  
-- Compute is the processing power for applications.  
-- Examples I worked with: EC2 (virtual servers), Lambda (serverless functions).  
-- It is important because it determines app performance and scalability.  
+**Cloud Foundations**
+- Cloud Foundations gave me the basics of cloud computing.
+- I learned about shared responsibility, cloud models, and AWS global infrastructure.
+- It is important because it builds the base for all AWS learning. 
+
+**Linux Basics**
+- Linux is the operating system used in many AWS services.
+- I practiced commands, file management, and permissions.
+- It is important because it helps manage servers and applications.
 
 **Networking**  
 - Networking connects AWS resources securely.  
 - Examples I used: VPC, Route 53.  
 - It is important because it controls traffic flow and resource communication.  
+
+**Security & IAM**  
+- I used IAM to control access.  
+- I learned about roles, policies, MFA, and basic encryption.  
+- Security is important because it protects resources and data.
+
+**Python Programming**
+- Python is used for automation and scripting in AWS.
+- I learned about variables, loops, and functions.
+- It is important because it helps automate cloud tasks.
+
+**Databases (RDS, DynamoDB)**
+- Databases store structured application data.
+- Examples I worked with: RDS, DynamoDB.
+- They are important because they ensure fast, reliable data access for apps.
+
+**Compute**  
+- Compute is the processing power for applications.  
+- Examples I worked with: EC2 (virtual servers), Lambda (serverless functions).  
+- It is important because it determines app performance and scalability. 
 
 **Storage**  
 - Storage is where I keep data, files, and backups.  
@@ -95,10 +120,7 @@ My goal is to master these concepts and eventually become an AWS Solutions Archi
 - Examples I worked with: RDS, DynamoDB.  
 - They are important because they ensure fast, reliable data access for apps.  
 
-**Security**  
-- I used IAM to control access.  
-- I learned about roles, policies, MFA, and basic encryption.  
-- Security is important because it protects resources and data.  
+  
 
 ---
 
