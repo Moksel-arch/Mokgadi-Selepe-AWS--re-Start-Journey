@@ -167,15 +167,15 @@ My goal is to master these concepts and eventually become an AWS Solutions Archi
 ## Projects Completed
 
 **Static Website**  
-- Deadline: 28 November  
+- Deadline: 28 November 2025 
 - I included screenshots and step explanations.  
 
 **3D Architecture**  
-- Deadline: 5 December  
+- Deadline: 5 December 2025 
 - I included architecture diagrams, AWS services explanations, and screenshots.  
 
 **AWS Lex Bot**  
-- TBD  
+- Deadline: 18 December 2025 
 - I included intents, bot logic, and usage screenshots.  
 
 ---
