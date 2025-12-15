@@ -12,27 +12,6 @@ My big goal is to know more about this Cloud journey and later become a Solution
 
 Right now I am busy with hands-on labs in:
 
-- Cloud Foundations  
-- Linux basics  
-- Networking  
-- Security & IAM  
-- Python programming  
-- Databases (RDS, DynamoDB)  
-- Servers and compute (EC2, Lambda)  
-- AWS Architecture  
-- Systems Operations  
-- Tooling and Automation  
-- Servers  
-- Scaling and Name Resolution  
-- Serverless and Containers  
-- AWS Database Services  
-- AWS Networking Services  
-- Storage and Archiving  
-- Monitoring and Security  
-- Managing Resource Consumption  
-- Automated and Repeatable Deployments  
-- AWS Machine Learning and Generative AI  
-
 ---
 
 **Cloud Practitioner Trained Badge**  
@@ -105,23 +84,66 @@ My goal is to master these concepts and eventually become an AWS Solutions Archi
 - Examples I worked with: RDS, DynamoDB.
 - They are important because they ensure fast, reliable data access for apps.
 
-**Compute**  
-- Compute is the processing power for applications.  
-- Examples I worked with: EC2 (virtual servers), Lambda (serverless functions).  
-- It is important because it determines app performance and scalability. 
+**Compute (EC2, Lambda)**
+- Compute is the processing power for applications.
+- Examples I worked with: EC2 (virtual servers), Lambda (serverless functions).
+- It is important because it determines app performance and scalability.
 
-**Storage**  
+**AWS Architecture**
+- I learned how to design cloud solutions.
+- I practiced building secure and scalable architectures.
+- It is important because it prepares me for real-world projects.
+
+**Systems Operations**
+- I learned how to manage and monitor AWS systems.
+- I practiced automation and troubleshooting.
+- It is important because it keeps applications running smoothly.
+
+**Tooling and Automation**
+- I explored AWS CLI and SDKs.
+- I practiced automating deployments.
+- It is important because it saves time and reduces errors.
+
+**Storage and Archiving**  
 - Storage is where I keep data, files, and backups.  
 - Examples I used: S3, EBS.  
 - Storage is important because it provides durable, scalable storage for applications.  
+
+**Scaling and Name Resolution**
+- I learned about Auto Scaling and Route 53.
+- I practiced scaling applications and resolving domain names.
+- It is important because it improves availability and performance.
+
+**Serverless and Containers**
+- I worked with Lambda and ECS.
+- I learned how to run applications without managing servers.
+- It is important because it reduces costs and increases flexibility.
+
+**Monitoring and Security**
+- I used CloudWatch and CloudTrail.
+- I learned how to monitor resources and track activity.
+- It is important because it ensures reliability and compliance.
+
+**Managing Resource Consumption**
+- I learned about budgets and cost explorer.
+- I practiced tracking usage and optimizing costs.
+- It is important because it helps manage expenses.
+
+**Automated and Repeatable Deployments**
+- I practiced Infrastructure as Code with CloudFormation.
+- I learned how to deploy resources automatically.
+- It is important because it ensures consistency and saves time.
 
 **Databases**  
 - Databases store structured application data.  
 - Examples I worked with: RDS, DynamoDB.  
 - They are important because they ensure fast, reliable data access for apps.  
 
+**AWS Machine Learning and Generative AI**
+- I explored AI services like Bedrock and SageMaker.
+- I learned how to integrate ML into applications.
+- It is important because it brings intelligence to cloud solutions.
   
-
 ---
 
 ## Skills and Technologies
