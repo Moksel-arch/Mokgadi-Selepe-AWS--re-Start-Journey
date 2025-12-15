@@ -198,7 +198,3 @@ Learning one cloud at a time!
 
 Thank you for stopping by!  
 *Mokgadi*  
-
----  
-
-Would you like me to also **add a table format for your modules and projects** (like a checklist style) so it looks even more professional and beginner-friendly?
