@@ -25,7 +25,6 @@ That’s it – I now have an S3 bucket for syncing files and the Processor inst
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f0bce62e-e80c-4ba4-ad9c-f4f4e05335da" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0f9c3409-6fd3-4d4f-b1c9-c294e703ee64" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d3377177-5f76-48af-b0d7-46941530e9a8" />
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/285652e5-7d05-4bbb-935b-86cbc5c8623d" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/044c25cc-2600-45c7-967c-e5bcc2b1f361" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/548b0fd1-f04b-42a1-b680-691ad04945ac" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0a3cee5b-839d-4526-a8c4-ad673973a24a" />
