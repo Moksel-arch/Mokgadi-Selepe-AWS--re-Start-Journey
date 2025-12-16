@@ -125,87 +125,87 @@ I chose hr‑knowledge‑base from the Select Knowledge Base dropdown, reviewed 
 <img width="600" height="600jnho" alt="image" src="https://github.com/user-attachments/assets/d5ff9e5d-dced-4b59-a2d8-bd7873425767" />
 
 I checked the success alert, hit Save under Agent builder, then clicked Prepare, and moved on to the next step.
-<img width="1894" height="879" alt="image" src="https://github.com/user-attachments/assets/93630a07-a069-4945-bcf3-ffbfd7328224" />
-<img width="1895" height="882" alt="image" src="https://github.com/user-attachments/assets/e7d0b28f-e3f1-42d7-9ed7-3bd218c84332" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/93630a07-a069-4945-bcf3-ffbfd7328224" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e7d0b28f-e3f1-42d7-9ed7-3bd218c84332" />
 
 I reviewed the success alert, typed “What are the standard work hours?” into the Test Agent pane, hit Run, and moved on to the next step
-<img width="1917" height="880" alt="image" src="https://github.com/user-attachments/assets/98289abe-1f36-45a2-afc3-cffc13f2166c" />
-<img width="1906" height="887" alt="image" src="https://github.com/user-attachments/assets/e7cce492-fb19-4fa3-aec5-589b90cb0cf7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/98289abe-1f36-45a2-afc3-cffc13f2166c" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e7cce492-fb19-4fa3-aec5-589b90cb0cf7" />
 
 I checked that the agent’s response came from the employee handbook (and peeked at the .txt files in S3), typed “What is the vacation policy?” into the input box, hit Run, and moved on to the next step.
-<img width="1910" height="884" alt="image" src="https://github.com/user-attachments/assets/aa1cb462-efdd-4b5e-a4c5-fce5cd3d8814" />
-<img width="1919" height="880" alt="image" src="https://github.com/user-attachments/assets/83ea9fd5-8421-4c12-a7e2-7a7e844d0100" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/aa1cb462-efdd-4b5e-a4c5-fce5cd3d8814" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/83ea9fd5-8421-4c12-a7e2-7a7e844d0100" />
 
 I scrolled down to Action groups in the Agent builder pane, hit Add, and moved on to the next step.
-<img width="1913" height="875" alt="image" src="https://github.com/user-attachments/assets/fca8a505-cc31-41ce-93ef-453b14b7fda7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fca8a505-cc31-41ce-93ef-453b14b7fda7" />
 
 I typed submit_leave_action as the Action group name, scrolled down to Action group invocation, and moved on.
-<img width="1912" height="888" alt="image" src="https://github.com/user-attachments/assets/e6bc8ad7-0507-41e0-84da-70447922b543" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e6bc8ad7-0507-41e0-84da-70447922b543" />
 
 I chose Select an existing Lambda function, picked submit_leave, scrolled down to Action group function 1, and moved on to the next step.
-<img width="1912" height="890" alt="image" src="https://github.com/user-attachments/assets/fd2d2dac-842f-4be7-aaac-eccaa15ca4ec" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fd2d2dac-842f-4be7-aaac-eccaa15ca4ec" />
 
 I typed submit_leave for the name, scrolled down to Parameters, and moved on.
-<img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/88eeae82-7578-4f34-aaeb-58a650970ef5" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/88eeae82-7578-4f34-aaeb-58a650970ef5" />
 
 I clicked Add parameter, entered employee_name as the name, typed “Name of employee” for the description, set Required to True, and moved on to the next step.
-<img width="1911" height="877" alt="image" src="https://github.com/user-attachments/assets/a37fd1c5-f360-48bc-8104-fae852eeb695" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a37fd1c5-f360-48bc-8104-fae852eeb695" />
 
 I clicked Add parameter twice to create two more parameters, set Name to startDate (description “Start date of leave”) and endDate (description “End date of leave”), confirmed all three parameters were required, then saved and exited.
-<img width="1897" height="869" alt="image" src="https://github.com/user-attachments/assets/c46bff46-e71c-4043-9356-1d2c2ea19291" />
-<img width="1915" height="887" alt="image" src="https://github.com/user-attachments/assets/dc302a29-e35a-41db-a6b9-e808f17eef94" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c46bff46-e71c-4043-9356-1d2c2ea19291" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dc302a29-e35a-41db-a6b9-e808f17eef94" />
 
 I expanded the Additional settings, enabled User input, scrolled back to the top, and moved on to the next step.
-<img width="1902" height="883" alt="image" src="https://github.com/user-attachments/assets/cb7cd4a0-22df-4251-b744-ad664a99e5a9" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/cb7cd4a0-22df-4251-b744-ad664a99e5a9" />
 
 I hit Save and Prepare in the Agent builder, typed “submit my vacation request” in the Test Agent pane (opened it with the Test button), clicked Run, and moved on to the next step.
-<img width="1913" height="877" alt="image" src="https://github.com/user-attachments/assets/6f827ae6-496e-43fc-affe-a8df0ca4256d" />
-<img width="1918" height="885" alt="image" src="https://github.com/user-attachments/assets/f22cfcd2-5c9c-43b4-9d66-bea6a0bb896c" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6f827ae6-496e-43fc-affe-a8df0ca4256d" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f22cfcd2-5c9c-43b4-9d66-bea6a0bb896c" />
 
 I read through the Agent’s questions, answered each one as needed, hit Run, and moved on to the next step.
-<img width="1915" height="882" alt="image" src="https://github.com/user-attachments/assets/ebdea511-50df-40e3-b8e9-9193a2f98f8e" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ebdea511-50df-40e3-b8e9-9193a2f98f8e" />
 
 I verified that the Agent confirmed the vacation request was submitted successfully (keeping in mind the wording could vary) and then moved on to the next step.
-<img width="1911" height="875" alt="image" src="https://github.com/user-attachments/assets/7e5524f1-b2dd-4aa4-977f-5cae7300c2cb" />
-<img width="1918" height="891" alt="image" src="https://github.com/user-attachments/assets/ab180735-05e9-4fe4-82b2-2f47c4189164" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7e5524f1-b2dd-4aa4-977f-5cae7300c2cb" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ab180735-05e9-4fe4-82b2-2f47c4189164" />
 
 I typed lambda into the top‑navigation search box, clicked Lambda under Services in the results, and moved on to the next step.
-<img width="1910" height="882" alt="image" src="https://github.com/user-attachments/assets/5a58c952-868a-4ee4-b3ef-f96857bf4aa0" />
-<img width="1919" height="719" alt="image" src="https://github.com/user-attachments/assets/97b0a07d-0d5c-47a4-aa9b-a4af05d42303" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5a58c952-868a-4ee4-b3ef-f96857bf4aa0" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/97b0a07d-0d5c-47a4-aa9b-a4af05d42303" />
 
 I looked over the submit_benefits and submit_leave Lambda functions, clicked submit_leave, and moved on to the next step.
-<img width="1907" height="835" alt="image" src="https://github.com/user-attachments/assets/60d5ab31-cf83-4927-b43d-f32876d97f4d" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/60d5ab31-cf83-4927-b43d-f32876d97f4d" />
 
 I opened the Code tab, checked out submitLeave.py, and saw that it grabs the action‑group parameters and writes them to the VacationTable in DynamoDB. Then I moved on to the next step. If you need more details, a quick web search might help.
-<img width="1912" height="874" alt="image" src="https://github.com/user-attachments/assets/87cebdf2-9d6e-4496-a228-9a00e044c436" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/87cebdf2-9d6e-4496-a228-9a00e044c436" />
 
 I typed dynamodb into the top‑navigation search box, clicked DynamoDB under Services in the results, and moved on to the next step.
-<img width="1912" height="879" alt="image" src="https://github.com/user-attachments/assets/bfe83042-d1bf-4834-a031-7a7f32ee7ef8" />
-<img width="1915" height="885" alt="image" src="https://github.com/user-attachments/assets/49309a4f-fecb-414f-a45c-590f60e5ef8a" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/bfe83042-d1bf-4834-a031-7a7f32ee7ef8" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/49309a4f-fecb-414f-a45c-590f60e5ef8a" />
 
 I opened the left navigation pane, clicked Tables, saw the two lab‑created tables (VacationTable for vacation details and BenefitsTable for claim details), selected VacationTable, and moved on to the next step.
-<img width="1918" height="825" alt="image" src="https://github.com/user-attachments/assets/a8c2cb61-3a83-47d2-91ab-8a3dc18022ba" />
-<img width="1911" height="872" alt="image" src="https://github.com/user-attachments/assets/e66c126d-db03-4174-a9e8-185070e0b40a" />
-<img width="1916" height="874" alt="image" src="https://github.com/user-attachments/assets/319bc3ca-15b0-4acd-a68e-5adfad4a7a0b" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a8c2cb61-3a83-47d2-91ab-8a3dc18022ba" />
+<img width="1911" height="600" alt="image" src="https://github.com/user-attachments/assets/e66c126d-db03-4174-a9e8-185070e0b40a" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/319bc3ca-15b0-4acd-a68e-5adfad4a7a0b" />
 
 I clicked Explore table items under VacationTable, checked the Partition key details in the General information section, and moved on to the next step.
-<img width="1914" height="872" alt="image" src="https://github.com/user-attachments/assets/59eb6568-15da-4450-bf2b-029d3b8fe5f1" />
-<img width="1915" height="883" alt="image" src="https://github.com/user-attachments/assets/b8e33fcb-785b-41d1-acfa-cb0a49012ceb" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/59eb6568-15da-4450-bf2b-029d3b8fe5f1" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b8e33fcb-785b-41d1-acfa-cb0a49012ceb" />
 
 I checked the single item returned in the VacationTable – the entry the Bedrock agent added when the vacation details were submitted – and then moved on to the next step.
-<img width="1906" height="874" alt="image" src="https://github.com/user-attachments/assets/dff73290-6385-4c4f-9214-40894a5295e6" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dff73290-6385-4c4f-9214-40894a5295e6" />
 
-<img width="1905" height="819" alt="image" src="https://github.com/user-attachments/assets/91fb0d4d-ee99-4ccd-80e2-c085a5c4200d" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/91fb0d4d-ee99-4ccd-80e2-c085a5c4200d" />
 
-<img width="1405" height="774" alt="image" src="https://github.com/user-attachments/assets/81a00e80-ed47-466f-85ba-491f36a5e4db" />
-<img width="1409" height="866" alt="image" src="https://github.com/user-attachments/assets/9d003f8f-c474-4640-aa16-8b7a5dd2edf0" />
-<img width="1413" height="872" alt="image" src="https://github.com/user-attachments/assets/b4a79faa-3c18-4eeb-9426-95b714a02d95" />
-<img width="1416" height="880" alt="image" src="https://github.com/user-attachments/assets/fbb43acd-0cb9-4190-9715-e60a5dffff3b" />
-<img width="1410" height="876" alt="image" src="https://github.com/user-attachments/assets/3f516f5e-ebfb-4788-8ff1-f5010af32020" />
-<img width="764" height="584" alt="image" src="https://github.com/user-attachments/assets/6e7d29f6-d0d3-40d8-a3a7-80ee1fc72093" />
-<img width="1430" height="890" alt="image" src="https://github.com/user-attachments/assets/759c2c96-0a88-41ab-955b-7823b74596f7" />
-<img width="1407" height="877" alt="image" src="https://github.com/user-attachments/assets/c1e9167c-4904-468d-a014-53e0667db181" />
-<img width="1425" height="880" alt="image" src="https://github.com/user-attachments/assets/9a24c39d-a106-466c-857c-ce22dee40d93" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/81a00e80-ed47-466f-85ba-491f36a5e4db" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9d003f8f-c474-4640-aa16-8b7a5dd2edf0" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b4a79faa-3c18-4eeb-9426-95b714a02d95" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fbb43acd-0cb9-4190-9715-e60a5dffff3b" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3f516f5e-ebfb-4788-8ff1-f5010af32020" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6e7d29f6-d0d3-40d8-a3a7-80ee1fc72093" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/759c2c96-0a88-41ab-955b-7823b74596f7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c1e9167c-4904-468d-a014-53e0667db181" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9a24c39d-a106-466c-857c-ce22dee40d93" />
 
 
 
