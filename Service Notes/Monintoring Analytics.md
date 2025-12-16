@@ -63,3 +63,8 @@ Monitoring is now fully set up. The web server sends logs and detailed metrics t
 This gives good visibility into performance, quick alerts for issues, and helps maintain proper resource tagging and configuration.
 
 Screenshots of each step are saved in the repo if I need to refer back or show someone else.
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
