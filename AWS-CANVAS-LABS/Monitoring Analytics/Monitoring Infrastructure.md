@@ -128,3 +128,41 @@ What this shows
 - The JSON payload can be parsed or transformed (e.g., by a Lambda function) if I want a friendlier message.
 
 That’s the whole flow, explained step by step.
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a8df0797-06ce-42f0-be1b-d59baf60e0c3" />
+
+---
+
+4: Data Visualization (Dashboards)
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f88a2498-1347-48d0-8aed-de9fa3bee472" />
+
+
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/da6e3736-53fe-401c-82f4-82b5cc5d12d8" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/77089c7c-5ec1-472a-9ef4-496cf1d5b2b7" />
+
+---
+
+5: Monitoring for infrastructure compliance
+
+What I just did – using AWS Config to check compliance
+
+- I opened AWS Config and went through the quick‑start wizard to turn it on.
+- In the Rules section I added a managed rule called required‑tags.
+    - I set the rule to look for a tag key named project on every resource.
+    - This rule will flag any resource that doesn’t have a project tag.
+
+- I added another managed rule called ec2‑volume‑inuse‑check.
+    - This rule checks that every EBS volume is attached to an EC2 instance.
+
+- After a few minutes, AWS Config started evaluating the resources in my account.
+- I refreshed the page until the evaluation results showed up.
+
+- The results showed:
+    - required‑tags: the Web Server instance was compliant (it has the project tag), but several other resources were non‑compliant because they lacked the tag.
+    - ec2‑volume‑inuse‑check: one volume was compliant (attached to an instance), and another volume was non‑compliant (not attached).
+
+- AWS Config provides many built‑in rules, and I could also write custom rules with Lambda if I need something more specific.
+
+That’s the whole compliance‑monitoring flow, explained simply.
