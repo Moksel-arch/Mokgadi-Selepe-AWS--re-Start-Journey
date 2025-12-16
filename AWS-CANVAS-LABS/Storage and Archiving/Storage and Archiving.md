@@ -14,7 +14,10 @@ I worked through a lab that shows how to manage data on an Amazon EBS volume.
         - Command Host – the machine I used to run all AWS CLI commands and manage resources.
         - Processor – the instance whose EBS volume I was snapshotting and syncing.
 
-<img width="1538" height="970" alt="image" src="https://github.com/user-attachments/assets/375c8079-b70d-45b0-8454-f84dab928ad5" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/375c8079-b70d-45b0-8454-f84dab928ad5" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/46741209-9ee9-4e99-b94f-810e6f19d246" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b356eea5-6f0b-473e-953c-438e5b44f5c8" />
+
 
 ***Objectives*
 - By the end of this lab, you will be able to do the following:
