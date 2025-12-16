@@ -20,6 +20,7 @@ I worked through a lab that shows how to manage data on an Amazon EBS volume.
 
 
 ***Objectives*
+
 - By the end of this lab, you will be able to do the following:
 
 - Create and maintain snapshots for Amazon EC2 instances.
@@ -28,8 +29,9 @@ I worked through a lab that shows how to manage data on an Amazon EBS volume.
 
 - Use Amazon S3 versioning to retrieve deleted files.
 
-***1: Creating and configuring resources*
+***Creating and configuring resources*
 In this task, I must create an Amazon S3 bucket and configure the "Command Host" EC2 instance to have secure access to other AWS resources.
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5bdc31f8-fec8-4229-9eee-c10378247f9b" />
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f0bce62e-e80c-4ba4-ad9c-f4f4e05335da" />
@@ -59,4 +61,5 @@ In this task, I must create an Amazon S3 bucket and configure the "Command Host"
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/18fd1bdb-29c0-4f3a-b6d3-91d61857ffb0" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/bd7b9598-5c6c-4135-8c75-892444e1d3d5" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/66777c56-802a-46a6-9451-17adc6f111db" />
-***Create an S3 bucket*
+
+***Created an S3 bucket*
