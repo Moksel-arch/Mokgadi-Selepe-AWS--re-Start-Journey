@@ -1,7 +1,7 @@
 # Managing Storage - My AWS Lab Experience
 
 Hi! This is my personal repo for the "Managing Storage" AWS lab I completed on December 11, 2025.  
-I wanted to document everything I did so I can look back on it later (and maybe help others too).  
+I wanted to document everything I did, so I can look back on it later (and maybe help others too).  
 The lab was really practical – it showed how to manage EBS volumes, automate snapshots, and sync data to S3 using the AWS CLI.
 
 ## What the lab was about
@@ -74,9 +74,10 @@ This was the fun part! I had to figure it out mostly on my own.
 
 Here are the main screenshots I took during the lab:
 
-![Lab diagram showing the VPC, Command Host, Processor, and S3 bucket](https://github.com/user-attachments/assets/375c8079-b70d-45b0-8454-f84dab928ad5)
+<img src="https://github.com/user-attachments/assets/375c8079-b70d-45b0-8454-f84dab928ad5" alt="Lab diagram showing the VPC, Command Host, Processor, and S3 bucket" width="600" height="600">
 
-![Creating the S3 bucket and attaching the IAM role to the Processor instance](https://github.com/user-attachments/assets/5bdc31f8-fec8-4229-9eee-c10378247f9b)
+<img src="https://github.com/user-attachments/assets/5bdc31f8-fec8-4229-9eee-c10378247f9b" alt="Creating the S3 bucket and attaching the IAM role to the Processor instance" width="600" height="600">
+
 
 
 If you have any questions or want to see the exact commands I used, just let me know. Happy learning! 🚀
