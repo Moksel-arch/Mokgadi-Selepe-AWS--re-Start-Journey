@@ -86,3 +86,9 @@ What I Learned
 - I practiced using the AWS CLI, which is a powerful tool for automating tasks and managing resources directly from the terminal.
 ---
 In simple terms: I learned how to store, back up, sync, and recover data in AWS while keeping everything secure with IAM roles and security groups.
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
+
