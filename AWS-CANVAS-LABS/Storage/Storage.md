@@ -1,4 +1,4 @@
-# **Storage**
+# **Manage Storage**
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1c6b3adc-0472-464c-9f91-c90c722a4091" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/46741209-9ee9-4e99-b94f-810e6f19d246" />
