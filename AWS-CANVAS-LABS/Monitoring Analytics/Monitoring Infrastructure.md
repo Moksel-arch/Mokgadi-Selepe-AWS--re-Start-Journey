@@ -1,5 +1,7 @@
 # **Monitoring Infrastructure**
+***1: Installing the CloudWatch agent*
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b4165083-c6d4-49b1-83b0-2c4463fb9b7e" />
 - Lab goal:
 
 
@@ -36,14 +38,15 @@ What I did – Installing the CloudWatch agent:
 
 That’s it – the agent is now collecting web‑server logs and system metrics and shipping them to CloudWatch.
 
-***1: Installing the CloudWatch agent*
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b4165083-c6d4-49b1-83b0-2c4463fb9b7e" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1734ec5e-b472-45c7-b3c4-ef9985a660c6" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/58af6768-f64d-4be1-b2f3-178bd5f3b259" />
 
 ---
 
+***2: Monitoring application logs using CloudWatch Logs*
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6bc096ca-398e-4874-97d3-ead6ba90d0b3" />
 
 I opened the web server, saw the test page, then typed /start and got a 404 error – that’s exactly the log data I needed.
 
@@ -64,9 +67,7 @@ Finally I generated a few more 404 requests (e.g., /start2, /start3…) and 
 
 All of this shows how CloudWatch Logs can ship, filter, and alert on application log data without any code changes.
 
-***2: Monitoring application logs using CloudWatch Logs*
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6bc096ca-398e-4874-97d3-ead6ba90d0b3" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4f7144a0-20b8-488a-9cca-edf414c2c227" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/33ff4cee-86a4-4d6c-97d3-b78d4b7b5a5f" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7368b83b-1759-4d1a-ac4c-2cc11e7b04f2" />
@@ -77,4 +78,26 @@ All of this shows how CloudWatch Logs can ship, filter, and alert on application
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2e13c089-446c-43e8-b948-879ddfe1d09c" />
 
 ---
+***3: Monitoring instance metrics using CloudWatch*
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5572d12b-2af4-4190-84d7-522857c36988" />
+
+What I just did – monitoring instance metrics with CloudWatch (in plain English)
+
+- I opened the EC2 console, selected the Web Server instance, and switched to the Monitoring tab.
+    - CloudWatch showed the standard EC2 metrics (CPU, disk I/O, network) that are collected from outside the VM.
+
+- I went to the CloudWatch service, chose Metrics, then All metrics.
+    - The list mixed the default AWS metrics with the extra ones the CloudWatch agent pushes from inside the instance.
+
+- I filtered the view to CWAgent → device, fstype, host, path.
+    - This revealed the disk‑space metrics the agent is gathering (free space, used percent, etc.).
+
+- I drilled down further to host under the same CWAgent namespace.
+    - That showed memory‑related metrics (free memory, used percent, etc.) that only the agent can see because it runs inside the instance.
+
+- I browsed the other metric groups that CloudWatch automatically creates for the services used in this account.
+
+- I could pick any of these metrics and add them to a graph or dashboard, or set alarms on them later.
+
+In short, I looked at the built‑in EC2 metrics, then used the CloudWatch agent to see inside‑the‑instance details like memory and disk usage, and explored all the available metrics in the CloudWatch console.
