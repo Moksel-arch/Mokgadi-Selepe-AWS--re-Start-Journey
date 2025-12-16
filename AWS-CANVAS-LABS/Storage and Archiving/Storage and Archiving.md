@@ -63,3 +63,26 @@ In this task, I must create an Amazon S3 bucket and configure the "Command Host"
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/66777c56-802a-46a6-9451-17adc6f111db" />
 
 ***Created an S3 bucket*
+
+What Happened:
+
+- I created an Amazon S3 bucket to store files and data from my EC2 instances.
+- I attached an IAM role (S3BucketAccess) to the Processor EC2 instance so it could securely interact with S3 and EBS volumes.
+- I connected to the Command Host EC2 instance using EC2 Instance Connect, which gave me a terminal to run AWS CLI commands.
+- I identified the EBS volume attached to the Processor instance and took an initial snapshot of it.
+- I scheduled automatic snapshots using a cron job so that new snapshots were created every minute.
+- I ran a Python script (snapshotter_v2.py) to keep only the last two snapshots and delete the older ones.
+- I synced files between my EC2 instance and the S3 bucket, enabling versioning so I could recover deleted files.
+- I tested the sync process by deleting a file locally, syncing again with the --delete option, and then restoring the deleted file using S3 versioning.
+- I reviewed the Security Groups in the AWS console, which showed how inbound and outbound traffic rules protect my instances.
+---
+What I Learned
+- S3 Buckets are useful for storing and syncing files, and versioning helps recover deleted data.
+- IAM roles allow EC2 instances to securely access other AWS services without needing manual credentials.
+- Snapshots are backups of EBS volumes, and they can be automated with cron jobs to ensure regular backups.
+- Python scripts can be used to manage snapshots efficiently, keeping only the most recent ones.
+- Security Groups act like firewalls, controlling which traffic can reach my EC2 instances.
+- Managing storage in AWS involves not just saving data, but also setting up permissions, backups, and recovery processes.
+- I practiced using the AWS CLI, which is a powerful tool for automating tasks and managing resources directly from the terminal.
+---
+In simple terms: I learned how to store, back up, sync, and recover data in AWS while keeping everything secure with IAM roles and security groups.
