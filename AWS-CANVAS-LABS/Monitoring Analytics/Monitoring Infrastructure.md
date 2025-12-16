@@ -1,7 +1,7 @@
 # **Monitoring Infrastructure**
 ***1: Installing the CloudWatch agent*
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b4165083-c6d4-49b1-83b0-2c4463fb9b7e" />
+
 - Lab goal:
 
 
@@ -38,7 +38,7 @@ What I did – Installing the CloudWatch agent:
 
 That’s it – the agent is now collecting web‑server logs and system metrics and shipping them to CloudWatch.
 
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b4165083-c6d4-49b1-83b0-2c4463fb9b7e" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1734ec5e-b472-45c7-b3c4-ef9985a660c6" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/58af6768-f64d-4be1-b2f3-178bd5f3b259" />
 
@@ -82,7 +82,7 @@ All of this shows how CloudWatch Logs can ship, filter, and alert on application
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5572d12b-2af4-4190-84d7-522857c36988" />
 
-What I just did – monitoring instance metrics with CloudWatch (in plain English)
+What I just did – monitoring instance metrics with CloudWatch:
 
 - I opened the EC2 console, selected the Web Server instance, and switched to the Monitoring tab.
     - CloudWatch showed the standard EC2 metrics (CPU, disk I/O, network) that are collected from outside the VM.
@@ -101,3 +101,30 @@ What I just did – monitoring instance metrics with CloudWatch (in plain Englis
 - I could pick any of these metrics and add them to a graph or dashboard, or set alarms on them later.
 
 In short, I looked at the built‑in EC2 metrics, then used the CloudWatch agent to see inside‑the‑instance details like memory and disk usage, and explored all the available metrics in the CloudWatch console.
+
+---
+
+***4: Creating real time notifications*
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/bf80f70b-bb0d-45cc-b6d3-79d1df96e7c5" />
+
+What I just did – setting up real‑time notifications
+
+- I opened the CloudWatch console, went to Events → Rules, and clicked Create rule.
+- I named the rule Instance_Stopped_Terminated and chose Next.
+- In the Event pattern I told CloudWatch to watch EC2 Instance State‑change Notification for the states stopped and terminated.
+- For the target, I selected the SNS topic Default_CloudWatch_Alarms_Topic (the same one I used for alarms). I cleared the “Use execution role” checkbox because I’m using an existing topic.
+- I reviewed the settings and created the rule.
+
+Now the rule is listening for any instance that stops or terminates.
+
+- I switched to EC2, selected my Web Server instance, chose Instance state → Stop instance, and confirmed. The instance moved from Running → Stopping → Stopped.
+- Because the rule matched the “stopped” state, CloudWatch sent a JSON message to the SNS topic.
+- I received an email (the subscription I set up earlier) with the details of the stopped instance.
+
+What this shows
+- CloudWatch Events can spot changes to EC2 instances in near real time.
+- By routing the event to SNS, I get an instant email (or could add SMS, Lambda, etc.) whenever an instance stops or is terminated.
+- The JSON payload can be parsed or transformed (e.g., by a Lambda function) if I want a friendlier message.
+
+That’s the whole flow, explained step by step.
