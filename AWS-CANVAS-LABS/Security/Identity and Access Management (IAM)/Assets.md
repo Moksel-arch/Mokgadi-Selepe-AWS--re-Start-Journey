@@ -67,4 +67,5 @@ All users in this AWS account now have to follow a stricter password policy—lo
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a7fe0744-6f2e-41d6-9466-51f2cceae97a" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/14d1d3fb-f073-4b52-af81-d25e0795df18" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/08b2b098-4691-4cce-95ba-baec1f154435" />
+
 ...
