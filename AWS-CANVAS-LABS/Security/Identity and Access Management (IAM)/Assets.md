@@ -73,10 +73,7 @@ All users in this AWS account now have to follow a stricter password policy—lo
 Absolutely ✅ — here’s a polished **professional summary** you can drop straight into your GitHub README as a conclusion to your IAM lab:
 
 ---
-
-## 📘 Conclusion: AWS Identity and Access Management (IAM) Lab
-
-In this lab, I practiced the fundamentals of **AWS IAM** and learned how identity and access controls protect cloud resources.  
+ 
 
 ### Key Takeaways
 - **Password Security**: Implemented a stronger account password policy with length, complexity, expiration, and reuse rules.  
