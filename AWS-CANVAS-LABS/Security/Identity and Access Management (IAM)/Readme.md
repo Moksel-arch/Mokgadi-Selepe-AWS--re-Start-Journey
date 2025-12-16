@@ -1,7 +1,7 @@
 
 
 **Introduction to AWS Identity and Access Management (IAM)**
-<img width="2200" height="1100" alt="image" src="https://github.com/user-attachments/assets/9549e819-3938-42d0-b7fc-a672bd18b501" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9549e819-3938-42d0-b7fc-a672bd18b501" />
 
 README.md – AWS IAM Introduction Lab
 
