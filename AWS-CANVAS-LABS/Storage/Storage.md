@@ -2,6 +2,23 @@
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1c6b3adc-0472-464c-9f91-c90c722a4091" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/46741209-9ee9-4e99-b94f-810e6f19d246" />
+
+Here’s what I did:
+
+- Created an S3 bucket
+    - Went to the AWS Management Console and searched for S3.
+    - Clicked Create bucket.
+    - Gave the bucket a unique name (I’ll call it “s3‑bucket‑name” later).
+    - Left the region as the default and hit Create bucket.
+
+- Attached an instance profile to the “Processor” EC2 instance
+    - Switched to the EC2 console (search for EC2).
+    - Selected the instance named Processor.
+    - Chose Actions → Security → Modify IAM role.
+    - Picked the pre‑created S3BucketAccess role from the dropdown.
+    - Clicked Update IAM role to apply the change.
+
+That’s it – I now have an S3 bucket for syncing files and the Processor instance has the right permissions to talk to EBS and S3.
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b356eea5-6f0b-473e-953c-438e5b44f5c8" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f0bce62e-e80c-4ba4-ad9c-f4f4e05335da" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0f9c3409-6fd3-4d4f-b1c9-c294e703ee64" />
