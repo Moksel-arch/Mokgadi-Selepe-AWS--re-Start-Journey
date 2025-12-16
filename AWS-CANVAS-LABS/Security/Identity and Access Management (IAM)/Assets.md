@@ -70,11 +70,6 @@ All users in this AWS account now have to follow a stricter password policy—lo
 
 ...
 
-Absolutely ✅ — here’s a polished **professional summary** you can drop straight into your GitHub README as a conclusion to your IAM lab:
-
----
- 
-
 ### Key Takeaways
 - **Password Security**: Implemented a stronger account password policy with length, complexity, expiration, and reuse rules.  
 - **Users & Groups**: Explored how IAM organizes access by assigning users to groups and attaching policies.  
@@ -88,3 +83,11 @@ Absolutely ✅ — here’s a polished **professional summary** you can drop str
 IAM is the **foundation of AWS security**. It ensures that the right people have the right level of access — no more, no less. By combining **users, groups, and policies**, I can enforce least‑privilege access, strengthen security, and align permissions with organizational roles.
 
 ---  
+
+## Get in Touch
+
+- Phone: 067 719 3860  
+- Email: mokgadi9939@gmail.com  
+- LinkedIn: www.linkedin.com/in/mokgadi-selepe-265875b7  
+- My Overall GitHub: https://github.com/Moksel-arch  
+
