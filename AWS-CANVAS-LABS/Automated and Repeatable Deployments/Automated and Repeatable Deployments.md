@@ -46,13 +46,14 @@ Here is what i did here:
 That’s the whole lab in a nutshell.
 
 ***2: Add an Amazon S3 Bucket to the Stack*
-<img width="1908" height="873" alt="image" src="https://github.com/user-attachments/assets/901f4358-3979-4253-8763-d5958fa811e5" />
-<img width="487" height="880" alt="image" src="https://github.com/user-attachments/assets/9ac25ef5-561a-4c25-a87b-894660368d00" />
-<img width="1909" height="623" alt="image" src="https://github.com/user-attachments/assets/b6933b9d-30a3-4fde-affc-1d1588d57662" />
-<img width="1895" height="877" alt="image" src="https://github.com/user-attachments/assets/02f65e33-20ce-4961-8513-ae9698c316c2" />
-<img width="1913" height="866" alt="image" src="https://github.com/user-attachments/assets/c37b0d1d-cd0f-453c-ab02-57d763b3e7c7" />
-<img width="1918" height="868" alt="image" src="https://github.com/user-attachments/assets/3c916e74-5796-4b9c-9ba7-e99e5c22fbb0" />
-<img width="1912" height="862" alt="image" src="https://github.com/user-attachments/assets/2488943c-0d35-4430-83db-885837a61104" />
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/901f4358-3979-4253-8763-d5958fa811e5" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9ac25ef5-561a-4c25-a87b-894660368d00" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b6933b9d-30a3-4fde-affc-1d1588d57662" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/02f65e33-20ce-4961-8513-ae9698c316c2" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c37b0d1d-cd0f-453c-ab02-57d763b3e7c7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3c916e74-5796-4b9c-9ba7-e99e5c22fbb0" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2488943c-0d35-4430-83db-885837a61104" />
 Here is what I did:
 
 - I edited task1.yaml to add an S3 bucket under Resources (MyS3Bucket: Type: AWS::S3::Bucket).
