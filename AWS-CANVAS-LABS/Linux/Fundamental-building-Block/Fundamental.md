@@ -8,6 +8,9 @@
 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/d6543748-1a8f-49fd-82af-2801c0063b04" />
 
+***Redirection Operators*
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/64b275d1-6b50-4d96-bdec-3b7a07da02fb" />
 
 File‑system navigation
 - pwd – I print the current working directory.
