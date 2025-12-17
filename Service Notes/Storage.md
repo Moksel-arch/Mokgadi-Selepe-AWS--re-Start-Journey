@@ -4,9 +4,9 @@ Hey everyone! These are my personal notes from a hands-on lab I did about managi
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b649ae13-1809-4de2-a339-0f904ec8c711" />
 
-## What the Lab Was About
+## What the Lab is About
 
-The main goal was to learn how to:
+The main goal is to learn how to:
 - Back up EC2 storage using EBS snapshots
 - Sync files from an EC2 instance to an S3 bucket
 - Use S3 versioning to recover deleted files
@@ -14,7 +14,9 @@ The main goal was to learn how to:
 
 ## My Lab Setup
 
-There was a VPC with a public subnet and two EC2 instances already running:
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/43e0ca9a-2759-4093-85fd-a57846567573" />
+
+There is a VPC with a public subnet and two EC2 instances already running:
 - **Command Host** – This is where I ran all my AWS CLI commands from.
 - **Processor** – This instance had the EBS volume I was working with (taking snapshots and syncing data from it).
 
