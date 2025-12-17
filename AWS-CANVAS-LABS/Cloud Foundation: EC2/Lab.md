@@ -35,26 +35,33 @@ What’s happening now:
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/afe6051c-a02d-40af-bb60-fa02b834e4e3" />
 
 ***Step 1 & 2: Naming my EC2 instance and Choosing an Amazon Machine Image (AMI)*
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b40102c0-dfd6-4f98-b1d9-8076cf071495" />
 
 ***Step 3: Choosing an instance type*
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/847bc9e5-f242-4093-a8a7-8bb8177ddec5" />
 
 ***Step 4: Configuring a key pair*
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/56039057-f802-4231-bfed-4a7a913be1f5" />
 
 ***Step 5: Configuring the network settings *
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ef338c42-3857-463b-905e-724daa90e58c" />
 
 ***Step 6: Adding storage*
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/822657b5-23b3-495e-b327-a73e419b877a" />
 
 ***Step 7: Configuring advanced details *
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d5bdd7ab-5350-4398-bd3e-bc10c49201fe" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6c43484c-0e75-43b1-9446-60dba64ea1c6" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/92bee2fe-8b52-4132-a4e0-5709f1d69c58" />
 
 ***Step 8: Launching an EC2 instance*
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5f5458a7-5847-4091-a3e1-d4fe4270c2cf" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/14b520be-d7d1-483a-9622-a741f4448c9b" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/80022cf0-bd60-47d6-9181-aa0830f68d27" />
@@ -103,6 +110,7 @@ By doing this, I can:
 Now I know my instance is up and running smoothly!
 
 **Task 3: Update Your Security Group and Access the Web Server**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8105bbbc-ccb6-462b-b36b-27d0dc1a56d0" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/486c47c5-09a9-4111-a599-28923ba551d6" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/cf8676a3-87ff-48b6-9725-ae1b75934ab3" />
@@ -126,6 +134,7 @@ What I learned:
 - I need to configure security groups to allow specific types of traffic (like HTTP) to reach my instance.
 
 **Task 4: Resize Your Instance: Instance Type and EBS Volume**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/50833700-bdfb-4aaf-bfd3-c664f60ba821" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6e6b7134-ff17-4f76-ab02-91235d79f0fa" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0203a25b-4079-4dba-99ee-47302f7170ae" />
@@ -150,6 +159,7 @@ I just resized my EC2 instance and its disk, and here’s what I did:
 Now the web server runs on a larger t3.small instance with a 10 GiB root disk, and everything is back up and running.
 
 **Task 5: Test Termination Protection**
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/cd98f1df-1f71-4ea5-87d4-c13646f3129b" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/cb68cd51-cfec-43d6-aa2f-2d97f46af495" />
 <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/efcbc713-d698-490b-ad8c-15fcb5746e5b" />
