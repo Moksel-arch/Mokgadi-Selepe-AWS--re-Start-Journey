@@ -63,7 +63,7 @@ Here is what I did:
 
 ***3: Add an Amazon EC2 Instance to the Stack*
 
-<img width="669" height="786" alt="image" src="https://github.com/user-attachments/assets/50d119fc-916a-47cc-9e77-f8481e6d750f" />
+<img width="600" height="786" alt="image" src="https://github.com/user-attachments/assets/50d119fc-916a-47cc-9e77-f8481e6d750f" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/92e914b5-db3f-49cb-af30-067a99682ac7" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a8f7c683-8985-4590-9c76-6b59bfc3dcb8" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/717910d8-581f-41ce-8192-73f2ccf6531a" />
