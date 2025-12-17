@@ -15,6 +15,7 @@
 Alert! By default, the >output redirector will overwrite existing file content with no warning.
 
 ***Cut Command*
+
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/15d1e663-e988-4cfb-9d1f-bbd09433c100" />
 
 - The cut command pulls out specific parts of each line in a file.
@@ -86,7 +87,30 @@ It’s designed for writing tiny, quick‑run programs, and its name comes from 
 - No compilation required – just type the script and go.
 - Ideal for small, one‑off programs.
 - Named after *A*ho, *W*einberger, and *K*ernighan.
-  
+
+
+  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/d1bc2f17-b880-442b-86e5-da7531b51f64" />
+
+- How awk works
+    - No compiling needed – you give it a tiny program and an input file.
+    - Syntax: awk options 'program' inputFile.
+
+- Program forms
+    - { action } – do something to every record.
+    - select_record_or_field { action } – only act on records that match a pattern.
+
+- Common options
+    - -F <sep> – set the field separator (e.g., -F , for commas, -F @ for @).
+
+- Examples
+    - awk -F , '{ print $3 }' customers.txt → prints the third field of each comma‑separated line.
+    - awk -F @ '{ print $1 }' customers.txt → prints everything before the first @ on each line.
+    - awk -F , '/[0-9][0-9]/ { print $1 }' names.csv → prints the first field of lines that contain a two‑digit number.
+    - awk -F , '$2 > 35 { print $1 }' names.csv → prints the first field where the second field is greater than 35.
+    - awk 'BEGIN { print "Start Processing." }; { print $1 }; END { print "Done! :]" }' names.csv → prints a header, then the first field of each record, then a footer.
+
+That’s the gist of what awk is doing, explained simply.
+
 ---
 
 Working with files & directories
