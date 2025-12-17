@@ -61,5 +61,3 @@ This project was a challenge to practice **Bash scripting** on Linux. The goal w
 Contacts:
 - Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
--Mokgadi: mokgadi9939@gmail.com
-
