@@ -176,6 +176,9 @@ Miscellaneous handy tricks
 - !n – I repeat command number n from history.
 - Ctrl + R – I search my history interactively.
 - man <command> – I open the manual page (my go‑to for help).
-
--Mokgadi: mokgadi9939@gmail.com
+  
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
 
