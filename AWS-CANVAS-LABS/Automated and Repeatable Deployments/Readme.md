@@ -1,5 +1,5 @@
 # **Automated and Repeatable Deployments**
-```markdown
+
 # CloudFormation Lab
 
 This project is about learning how to use AWS CloudFormation to create and manage resources. I worked through a few tasks step by step and noted what I did and learned.
