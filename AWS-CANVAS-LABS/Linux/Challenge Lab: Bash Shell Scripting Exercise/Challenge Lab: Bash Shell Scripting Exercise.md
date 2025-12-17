@@ -23,7 +23,7 @@ Test the script. Display a long list of the directory and its contents to valida
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b247561f-1445-417e-b4fd-9a14b34f924d" />
 
-<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/54d52b0a-ec20-4b95-b6cb-904c8b8e850a" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/54d52b0a-ec20-4b95-b6cb-904c8b8e850a" />
 
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/8af26741-cc8c-43f1-a8c2-1773fc82cab3" />
 
