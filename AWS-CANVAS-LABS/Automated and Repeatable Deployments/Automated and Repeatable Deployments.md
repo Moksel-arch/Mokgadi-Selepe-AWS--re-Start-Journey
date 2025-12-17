@@ -79,12 +79,12 @@ Here is what I did:
 - I verified the App Server in the EC2 console.
 
 ***4: Delete the Stack*
-<img width="1912" height="864" alt="image" src="https://github.com/user-attachments/assets/ed8a256d-425c-40c2-90bc-afd08200621f" />
-<img width="1918" height="849" alt="image" src="https://github.com/user-attachments/assets/6fc94b01-2b75-4600-a47a-44fbd480d6b0" />
-<img width="1917" height="880" alt="image" src="https://github.com/user-attachments/assets/2be2b72d-a605-410b-a2c7-a49e58fe63ad" />
-<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/72931f1d-f38c-4fbe-888c-c338332ab9b9" />
-<img width="1909" height="862" alt="image" src="https://github.com/user-attachments/assets/d55049bd-cb4d-44f8-892e-226a06be15e4" />
-<img width="1903" height="881" alt="image" src="https://github.com/user-attachments/assets/acfa46a3-7823-44c3-afd0-aa6ebce71c27" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ed8a256d-425c-40c2-90bc-afd08200621f" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6fc94b01-2b75-4600-a47a-44fbd480d6b0" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2be2b72d-a605-410b-a2c7-a49e58fe63ad" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/72931f1d-f38c-4fbe-888c-c338332ab9b9" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d55049bd-cb4d-44f8-892e-226a06be15e4" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/acfa46a3-7823-44c3-afd0-aa6ebce71c27" />
 
 Here is what i finally did:
 - I opened the CloudFormation console and selected the Lab stack.
@@ -93,4 +93,6 @@ Here is what i finally did:
 - I optionally checked the S3 console, EC2 console, and VPC console to verify the bucket, instance, and VPC were removed.
 
 ---
-Contact: mokgadi9939@gmail.com
+Contact: 
+- mokgadi9939@gmail.com
+- Mokgadi: 067 719 3860
