@@ -12,10 +12,82 @@
 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/64b275d1-6b50-4d96-bdec-3b7a07da02fb" />
 
+Alert! By default, the >output redirector will overwrite existing file content with no warning.
+
+***Cut Command*
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/15d1e663-e988-4cfb-9d1f-bbd09433c100" />
+
+- The cut command pulls out specific parts of each line in a file.
+- You have to tell it what you’re extracting:
+    - -b – bytes
+    - -c – characters (columns)
+    - -f – fields
+    - -d – the delimiter that separates fields (required when using -f)
+
+Here are the examples I noted down:
+
+- cut -d ',' -f 1 names.csv – grab the first field of every record, using a comma as the separator.
+- cut -c 1-2 names.csv – take the first two characters of each line.
+- cut -b 1-5 names.csv – take the first five bytes of each line (remember, a character can be more than one byte depending on encoding).
+- cut -c 1,6,7 names.csv – pull characters 1, 6, and 7 from each record.
+- cut -c 4- names.csv – start at character 4 and keep everything to the end of the line.
+- cut -c -3 names.csv – keep only the first three characters of each line.
+
+So, cut lets you slice a file by bytes, characters, or fields, as long as you specify the delimiter when you’re working with fields.
 File‑system navigation
 - pwd – I print the current working directory.
 - ls – I list files; ls -l gives me a detailed view, ls -a shows hidden ones.
 - cd <path> – I change directories; cd .. takes me up one level, cd ~ drops me back in my home folder.
+
+***The SED COMMAND*
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/dbc28a59-a46c-4300-8b22-6187b4ccc703" />
+
+- The two examples do the same thing, just in different ways.
+    - The first one feeds the output of echo into sed using a pipe (|).
+    - The second one tells sed to work directly on a file called example.txt.
+
+- The sed command s/page/website/ changes the word page to website in the input.
+    - It only changes the first occurrence on each line unless you tell it otherwise.
+
+- You can control which occurrence gets replaced:
+    - sed 's/page/website/5' example.txt → replaces the 5th occurrence on each line.
+    - Adding /g (global) → sed 's/page/website/g' example.txt replaces all occurrences on a line.
+
+- sed can do a lot more, like deleting lines or applying changes only to certain line ranges, but the basics are just “find this text and replace it with that text”.
+
+ ***The SORT COMMAND*
+
+ <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/daadcacf-82f3-4bd9-a1f1-67b42d9b95e2" />
+
+- By default, sort treats the whole line as the key and orders things like this:
+    - Lines that start with a number come first.
+    - Then lines that start with “a” (or “A”) come before other letters.
+    - Lower‑case letters come before upper‑case letters.
+
+- Some handy options:
+    - -o – write the sorted output to a file (sort file.txt -o sorted.txt is the same as sort file.txt > sorted.txt).
+    - -r – sort in reverse order (largest to smallest, Z‑A).
+    - -n – sort numerically when the lines contain numbers.
+    - -k – sort by a specific column (useful for table‑style data).
+    - -u – remove duplicate lines.
+    - -c – check if a file is already sorted; it just tells you yes or no.
+
+That’s the gist of how sort works, explained simply.
+
+
+***The AWK Command*
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/8c974bbc-b94a-4c9c-b7b4-88af66d5f704" />
+
+I just read that awk is a handy tool you can run straight away – no compiling needed. 
+It’s designed for writing tiny, quick‑run programs, and its name comes from the three developers who created it: Aho, Weinberger, and Kernighan.
+
+- No compilation required – just type the script and go.
+- Ideal for small, one‑off programs.
+- Named after *A*ho, *W*einberger, and *K*ernighan.
+  
+---
 
 Working with files & directories
 - mkdir <dir> – I create a new folder.
