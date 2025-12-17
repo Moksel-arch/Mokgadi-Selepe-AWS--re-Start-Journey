@@ -203,3 +203,8 @@ ls -ltrh
 - To confirm that it's updated, you can check the file timestamp.
 
 3. Go to the next step.
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
