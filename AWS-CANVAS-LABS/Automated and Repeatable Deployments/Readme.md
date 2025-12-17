@@ -67,5 +67,8 @@ This project is about learning how to use AWS CloudFormation to create and manag
 - Parameters make templates flexible by allowing input values.
 - Outputs provide quick access to important resource details.
 - Deleting a stack removes all resources it created automatically.
-```
--Contact: Mokgadi - mokgadi9939@gmail.com
+
+--- 
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
