@@ -1,4 +1,4 @@
-# **Basic Fundamentals Linux Commands**
+# **Basic Fundamentals of Linux Commands**
 
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ada50bbc-e447-4773-84fb-265732c19446" />
