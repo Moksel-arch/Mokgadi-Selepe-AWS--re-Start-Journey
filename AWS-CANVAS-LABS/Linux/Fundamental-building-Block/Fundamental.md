@@ -1,5 +1,13 @@
 # **Basic Fundamentals Linux Commands**
-<img width="997" height="452" alt="image" src="https://github.com/user-attachments/assets/ada50bbc-e447-4773-84fb-265732c19446" />
+
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ada50bbc-e447-4773-84fb-265732c19446" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/83159a2c-2d2e-4221-9120-fbabb478b1d8" />
+
+***Bash Metacharactares*
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/d6543748-1a8f-49fd-82af-2801c0063b04" />
+
 
 File‑system navigation
 - pwd – I print the current working directory.
