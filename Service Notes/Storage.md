@@ -2,6 +2,8 @@
 
 Hey everyone! These are my personal notes from a hands-on lab I did about managing storage in AWS. I focused on Amazon EBS (block storage for EC2) and Amazon S3 (object storage). I wrote everything so I can come back to it later and understand what I did without confusion.
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b649ae13-1809-4de2-a339-0f904ec8c711" />
+
 ## What the Lab Was About
 
 The main goal was to learn how to:
