@@ -176,13 +176,13 @@ My goal is to master these concepts and eventually become an AWS Solutions Archi
 
 **AWS Lex Bot**  
 - Deadline: 18 December 2025 
-- I included intents, bot logic, and usage screenshots.  
+- I included intents, bot logic, and usage screenshots and probably the will be a short video.  
 
 ---
 
 ## Labs
 
-I completed a minimum of two labs per section (Compute, Storage, Networking, Databases) and documented each with clear explanations, screenshots, and reasoning for every step.
+Among the labs that I have completed are (Compute, Storage, Networking, Databases, Linux, Python Programming and AWS Machine Learning and Generative AI, etc) and documented each with clear explanations, screenshots, and reasoning for every step.
 
 ---
 
