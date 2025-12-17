@@ -9,8 +9,7 @@ Lab – Automation with CloudFormation
 
 <img width="428" height="500" alt="image" src="https://github.com/user-attachments/assets/ba823998-a8bf-4ebc-88ce-b07416dce214" />
 <img width="428" height="500" alt="image" src="https://github.com/user-attachments/assets/6e952bb0-1303-45c7-ad20-0c11e990a123" />
-
-![WhatsApp Image 2025-11-27 at 19 42 05_cbcea9b3](https://github.com/user-attachments/assets/9b9fcc88-d881-40e9-8a82-974bc37f916b)
+<img width="428" height="500" alt="image" src="https://github.com/user-attachments/assets/446b1f13-ab79-404a-9271-0c5a3b296031" />
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/94636662-4e97-4fca-a3d8-9c1e66415532" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/36ababef-c510-4fd3-93e9-92727c57d79e" />
