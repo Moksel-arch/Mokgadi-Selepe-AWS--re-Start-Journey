@@ -14,7 +14,7 @@ Right now I am busy with hands-on labs in:
 
 ---
 
-**Cloud Practitioner Trained Badge**  
+**Cloud Practitioner - Trained Badge**  
 I am proud to have earned the AWS Cloud Quest: Cloud Practitioner Trained badge!  
 The badge represents my hands-on experience in building cloud solutions and understanding AWS fundamentals and other certifications.  
 Please feel free to check it on the certifications:  
