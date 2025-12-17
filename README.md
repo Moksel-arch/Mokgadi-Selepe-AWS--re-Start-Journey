@@ -154,13 +154,15 @@ My goal is to master these concepts and eventually become an AWS Solutions Archi
 - RDS  
 - Lambda  
 - VPC  
-- IAM  
+- IAM
+- Amazon Lex bot 
 
 **Other Skills**  
 - Linux  
 - Python  
 - Networking  
-- Databases  
+- Databases
+- Generative AI  
 
 ---
 
