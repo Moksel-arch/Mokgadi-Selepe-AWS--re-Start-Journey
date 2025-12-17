@@ -62,13 +62,13 @@ Here is what I did:
 - I also checked it in the S3 console. 
 
 ***3: Add an Amazon EC2 Instance to the Stack*
-<img width="769" height="886" alt="image" src="https://github.com/user-attachments/assets/50d119fc-916a-47cc-9e77-f8481e6d750f" />
-<img width="505" height="875" alt="image" src="https://github.com/user-attachments/assets/92e914b5-db3f-49cb-af30-067a99682ac7" />
-<img width="1894" height="878" alt="image" src="https://github.com/user-attachments/assets/a8f7c683-8985-4590-9c76-6b59bfc3dcb8" />
-<img width="1916" height="696" alt="image" src="https://github.com/user-attachments/assets/717910d8-581f-41ce-8192-73f2ccf6531a" />
-<img width="1891" height="835" alt="image" src="https://github.com/user-attachments/assets/aba06f79-cff2-4f5a-9067-48935641d3d3" />
-<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/bee817cb-50d0-4971-b17c-bdcecc2011e7" />
-<img width="1913" height="872" alt="image" src="https://github.com/user-attachments/assets/398906bb-e9f1-4a87-939a-c2e833ec870d" />
+<img width="669" height="786" alt="image" src="https://github.com/user-attachments/assets/50d119fc-916a-47cc-9e77-f8481e6d750f" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/92e914b5-db3f-49cb-af30-067a99682ac7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a8f7c683-8985-4590-9c76-6b59bfc3dcb8" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/717910d8-581f-41ce-8192-73f2ccf6531a" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/aba06f79-cff2-4f5a-9067-48935641d3d3" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/bee817cb-50d0-4971-b17c-bdcecc2011e7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/398906bb-e9f1-4a87-939a-c2e833ec870d" />
 
 - I added a parameter called AmazonLinuxAMIID to fetch the latest Amazon Linux AMI from SSM.
 - I edited the template under Resources to create an EC2 instance.
