@@ -25,7 +25,7 @@ Please feel free to check it on the certifications:
 ## About This Repository
 
 This repository contains my learning journey and projects from the AWS re/Start program.  
-It includes practical exercises and labs covering cloud foundations, Linux, networking, security, IAM, Python programming, databases, compute services (EC2, Lambda), serverless, containers, automation, monitoring, scaling, and even machine learning with generative AI.  
+It includes practical exercises and labs covering cloud foundations, Linux, networking, security, IAM, Python programming, databases, compute services (EC2, Lambda), storage and archives, serverless, containers, automation, monitoring, scaling, and even machine learning with generative AI.  
 
 The goal is to build a strong foundation in AWS and cloud computing while applying best practices for security, scalability, and cost optimization.  
 If you are also learning AWS or exploring cloud careers, you’ll find examples and notes here that can help you understand real-world cloud architecture.
