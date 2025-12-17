@@ -79,6 +79,7 @@ Here is what I did:
 - I verified the App Server in the EC2 console.
 
 ***4: Delete the Stack*
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ed8a256d-425c-40c2-90bc-afd08200621f" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6fc94b01-2b75-4600-a47a-44fbd480d6b0" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2be2b72d-a605-410b-a2c7-a49e58fe63ad" />
