@@ -88,9 +88,9 @@ We collaborated to deliver this solution:
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fe134fee-5ebd-4b17-a1a5-0616a1602535" />
 
-### Overview
-
 It's called Lex_Box_Chatbot: Create Your Interactive Chatbot Using AWS Lex.
+
+### Overview
 
 We built a quiz bot with Amazon Lex V2. The bot asks a question, waits for the user’s answer, checks if it’s right, and then moves on to the next question. We used custom slots and conditional branching to keep the conversation flowing.
 
