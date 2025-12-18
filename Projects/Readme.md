@@ -111,6 +111,14 @@ Check the Lex_Box_Chatbox.md, PowerPoint slides, and screenshots of the working 
 
 If you have any questions or want to try the bot yourself, just message me! 
 
+**The Team**
+- Mokgadi
+- Aluwani
+- Brite
+- Nayana
+- Sadiyah
+- Ndzalo
+
 ---
 Contacts:
 - Mokgadi: 067 719 3860
