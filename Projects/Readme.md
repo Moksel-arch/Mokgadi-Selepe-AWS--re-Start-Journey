@@ -90,6 +90,8 @@ Hi, I am sharing our group project from the Praesignis AWS re/Start program.
 
 It's called Lex_Box_Chatbot: Create Your Interactive Chatbot Using AWS Lex.
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fe134fee-5ebd-4b17-a1a5-0616a1602535" />
+
 We have built a simple chatbot that can answer questions about Amazon S3 and even run a quiz on it. We did this to learn about AWS services and how to make AI chatbots.
 
 **What the Project Is About**  
