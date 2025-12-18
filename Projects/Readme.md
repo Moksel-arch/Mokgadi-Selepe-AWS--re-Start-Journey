@@ -88,7 +88,7 @@ We collaborated to deliver this solution:
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fe134fee-5ebd-4b17-a1a5-0616a1602535" />
 
-It's called Lex_Box_Chatbot: Create Your Interactive Chatbot Using AWS Lex.
+It's called Lex_Box_Chatbot: We created our Interactive Chatbot Using AWS Lex.
 
 ### Overview
 
