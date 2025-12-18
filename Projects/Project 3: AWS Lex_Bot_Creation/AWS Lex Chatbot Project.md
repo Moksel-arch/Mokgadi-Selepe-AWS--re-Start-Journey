@@ -32,6 +32,8 @@ Key Topics (bullet style)- Intents & Utterances – mapping user phrases to acti
 
 ---
 
+This is the Presentation we did as a group project:
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7b1d7bc4-2164-4b91-9525-45ad182346bc" />
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/926dd458-1601-416f-9af4-706445049636" />
