@@ -1,5 +1,37 @@
 # **AWS Lex Chatbot Project**
 
+### Project Overview
+
+In this project we’ll walk through building an interactive chatbot with AWS Lex. By the end you’ll have a functional bot that can ask questions, understand user answers, and give feedback – all without writing any code.
+
+---
+
+What You’ll Learn- Basics of AWS Lex – how intents, utterances, and slots work.
+- Creating a simple bot – one intent, sample utterances, and a basic response flow.
+- Designing a knowledge quiz – multiple intents, conditional branching, and a demo‑ready flow.
+
+---
+
+Learning OutcomesPart 1 – FoundationsBy the end of Part 1 you will be able to:
+- Set up and configure a chatbot in the AWS Lex console.
+- Define an intent and attach relevant utterances.
+- Deploy the bot and test the interaction flow.
+
+Part 2 – Quiz BotBy the end of Part 2 you will be able to:
+- Build a full‑featured knowledge quiz using multiple intents.
+- Demonstrate clear communication and presentation skills.
+- Deliver a live demo and explain the bot’s functionality to stakeholders.
+
+---
+
+Key Topics (bullet style)- Intents & Utterances – mapping user phrases to actions.
+- Slots – capturing user input (e.g., quiz answers).
+- Conditional Branching – using Lex’s built‑in logic to route the conversation.
+- Fulfilment – optional Lambda hooks (not required for the basic version).
+- Testing & Debugging – reading build logs and using the Lex test console.
+
+---
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7b1d7bc4-2164-4b91-9525-45ad182346bc" />
 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/926dd458-1601-416f-9af4-706445049636" />
