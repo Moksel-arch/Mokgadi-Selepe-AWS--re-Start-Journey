@@ -86,32 +86,42 @@ We collaborated to deliver this solution:
 
 ## Project 3: AWS Lex Chatbot Project
 
-Hi, I am sharing our group project from the Praesignis AWS re/Start program.
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fe134fee-5ebd-4b17-a1a5-0616a1602535" />
+
+### Overview
 
 It's called Lex_Box_Chatbot: Create Your Interactive Chatbot Using AWS Lex.
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fe134fee-5ebd-4b17-a1a5-0616a1602535" />
+We built a quiz bot with Amazon Lex V2. The bot asks a question, waits for the user’s answer, checks if it’s right, and then moves on to the next question. We used custom slots and conditional branching to keep the conversation flowing.
 
-We have built a simple chatbot that can answer questions about Amazon S3 and even run a quiz on it. We did this to learn about AWS services and how to make AI chatbots.
+Challenges we ran into
+- Lex limits us to 4 branches per intent, so a long quiz was tricky.
+- The bot wouldn’t build because we referenced slots that didn’t exist in that part of the flow.
+- Lex is case‑sensitive – “UserAnswer” vs “userAnswer” caused crashes.
+- We used the wrong comparison symbol (“==” instead of “=”).
+- “FulfillmentCodeHook” was on, making the bot look for a Lambda we didn’t need.
+- Jumping from Question 1 to Question 2 created ghost branches and conflicts.
 
-**What the Project Is About**  
-In this project we learned how to create a chatbot using AWS Lex. It's split into two parts:
-- Part 1: a basic bot  
-- Part 2: a quiz bot with a presentation
+How we fixed it
+- Grouped all wrong answers into one “default” path to stay under the branch limit.
+- Adopted a single naming style for slots and made every reference match exactly.
+- Switched all comparisons to Lex syntax {UserAnswer} = "A".
+- Turned off the FulfillmentCodeHook so the bot runs without Lambda.
+- Split the quiz into several smaller intents (e.g., S3Quiz, S3Quiz_Q2) to avoid branching issues.
+- Double‑checked every slot type and “required” flag.
 
-The bot helps users learn about AWS services like S3 through conversations.
+What we learned
+- Build error messages are useful – they usually point out the problem.
+- Small typos in slot names or case can break everything.
+- Work creatively within platform limits.
+- A functional bot can be built using only Lex configuration, no Lambda required.
+- Breaking a long conversation into tiny intents makes it far easier to manage.
 
-**What We Learned**  
-We gained these skills from the project:
-- How to design and build interactive chatbots with Amazon Lex
-- Problem-solving by creating quiz flows with branching logic
-- Better understanding of AWS Lex and its role in AI conversations
-- How to present technical projects and do live demos confidently
+Current status
+The bot builds successfully in the English (South Africa) locale, runs from start to finish, and is ready for demo.
 
 **Project Steps & Screenshots**  
 Check the Lex_Box_Chatbox.md, PowerPoint slides, and screenshots of the working chatbot in AWS Lex.
-
-If you have any questions or want to try the bot yourself, just message me! 
 
 **The Team**
 - Mokgadi
@@ -120,6 +130,8 @@ If you have any questions or want to try the bot yourself, just message me!
 - Nayana
 - Sadiyah
 - Ndzalo
+
+If you have any questions or want to try the bot yourself, just message me! 
 
 ---
 Contacts:
