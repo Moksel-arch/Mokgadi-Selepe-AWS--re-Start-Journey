@@ -55,4 +55,7 @@ The bot is now fully functional and builds successfully in the English (South Af
 
 Everything is tested and ready for the final demonstration.
 
----
+***
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
