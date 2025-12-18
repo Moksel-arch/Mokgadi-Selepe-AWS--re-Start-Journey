@@ -16,3 +16,8 @@
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b6af865a-0aba-4e3d-b419-e95d96ab5933" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0dcf529e-e9ef-4e92-91bf-73a692a48186" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b58d52c8-85b6-4cc2-b268-ebc79698eb2f" />
+
+***
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
