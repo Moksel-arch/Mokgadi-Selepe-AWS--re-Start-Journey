@@ -13,7 +13,8 @@ I learned:
 - Integrating SageMaker with other AWS services for end-to-end AI pipelines
 - Best practices for cost optimization, security, and scaling AI workloads
 
-The interactive scenarios with virtual customers made it feel real-world, combining technical builds in the console with solution design. It bridged my existing ML knowledge to production-ready AWS implementations—highly recommend for anyone advancing in cloud AI!
+The interactive scenarios with virtual customers made it feel real-world, combining technical builds in the console with solution design. 
+It bridged my existing ML knowledge to production-ready AWS implementations—highly recommend for anyone advancing in cloud AI!
 
 ---
 Contact:  
