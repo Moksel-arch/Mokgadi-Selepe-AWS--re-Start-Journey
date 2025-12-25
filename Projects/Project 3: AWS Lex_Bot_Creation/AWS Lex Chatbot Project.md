@@ -49,10 +49,6 @@ This is the Presentation we did as a group project:
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/78009498-e862-47ec-a449-3c29151834c0" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b6af865a-0aba-4e3d-b419-e95d96ab5933" />
 
-https://github.com/user-attachments/assets/6c17828e-f97b-40f6-9484-9635c222245e
-
-
-
 
 https://github.com/user-attachments/assets/2322f78e-1015-46a5-bca7-22ca47051810
 
