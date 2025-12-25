@@ -51,6 +51,12 @@ This is the Presentation we did as a group project:
 
 https://github.com/user-attachments/assets/6c17828e-f97b-40f6-9484-9635c222245e
 
+
+
+
+https://github.com/user-attachments/assets/2322f78e-1015-46a5-bca7-22ca47051810
+
+
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0dcf529e-e9ef-4e92-91bf-73a692a48186" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b58d52c8-85b6-4cc2-b268-ebc79698eb2f" />
 
