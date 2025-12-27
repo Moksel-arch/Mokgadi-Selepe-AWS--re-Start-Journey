@@ -34,4 +34,8 @@ Key things I learned (bullet points because that’s easier to read):
 All of this means I can now explain generative AI concepts, use AWS tools to build simple AI applications, and apply best practices for responsible and effective solutions. I’m now preparing for the AWS Certified AI Practitioner exam to take my skills further.  
 
 ---
+Contact:
+
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
 
