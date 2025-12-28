@@ -85,7 +85,7 @@ This repository contains all my completed AWS training certificates and badges f
 I created a simple HTML gallery page so you can easily see everything:  
 [View the Certifications Gallery Here](certifications.html)
 
-[My static site](https://mokgadi-selepe-aws-certification.netlify.app)
+[View the Certifications Gallery Here](https://mokgadi-selepe-aws-certification.netlify.app)
 
 ## Organization of Certificates
 
@@ -131,13 +131,13 @@ I’m following the official AWS certification paths to keep building my skills.
    - I’ve completed AWS Cloud Quest and many foundational trainings, which are great preparation for the **AWS Certified Cloud Practitioner (CLF-C02)**.  
    - Next step: Take the Cloud Practitioner exam to get my first official AWS certification.
 
-2. **AI/Generative AI Path** (my main focus right now)  
+2. **AI/Generative AI Path** (my main focus right now was finishing AI path)  
    - I’m working through the AI Practitioner learning plan and hands-on labs.  
    - Goal: Earn the **AWS Certified AI Practitioner (AIF-C01)** – this foundational AI certification will validate my knowledge of AI, ML, and generative AI on AWS.  
    - After that: Move toward more advanced AI certifications like **AWS Certified Machine Learning Engineer – Associate** or even the new **AWS Certified Generative AI Developer – Professional** when I have more experience.
 
 3. **General Cloud Path** (for broader career options)  
-   - After Cloud Practitioner: Go for an Associate-level certification, probably **AWS Certified Solutions Architect – Associate (SAA-C03)** – it’s the most popular and valuable next step.  
+   - After Cloud Practitioner: I would like to go for an Associate-level certification, probably **AWS Certified Solutions Architect – Associate (SAA-C03)** – it’s the most popular and valuable next step.  
    - Later: Explore **Developer Associate** or **SysOps/CloudOps Associate** depending on the roles I’m interested in.
 
 I’m using free resources on AWS Skill Builder, AWS Cloud Quest, and SimuLearn to prepare – they’re really helpful and hands-on!
