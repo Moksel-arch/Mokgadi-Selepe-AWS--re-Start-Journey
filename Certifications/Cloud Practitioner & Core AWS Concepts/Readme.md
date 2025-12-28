@@ -30,6 +30,7 @@ This section helped me pass the knowledge needed for the AWS Certified Cloud Pra
 I'm really happy I started here – it made everything else easier to understand.
 
 Thank you for looking at this part of my journey!  
+
 Mokgadi Selepe  
 December 2025
 
