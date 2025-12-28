@@ -30,3 +30,8 @@ Thank you for viewing this part of my AWS journey!
  
 Mokgadi Selepe  
 December 2025
+
+---
+Contacts:
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
