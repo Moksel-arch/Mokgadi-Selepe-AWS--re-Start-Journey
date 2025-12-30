@@ -79,7 +79,7 @@ I’m using free resources on AWS Skill Builder, AWS Cloud Quest, and SimuLearn 
 - Click any certificate image to see the full-size version  
 - Use the "Back to Repository" button (top-right) or the bottom link to come back here  
 
-All the certificate images are saved in the `assets/` folder.
+All the certificate images are saved in the `assets/` in my local folder.
 
 Thank you for checking out my AWS learning journey!  
 I’m really proud of how far I’ve come and excited for what’s next.  
