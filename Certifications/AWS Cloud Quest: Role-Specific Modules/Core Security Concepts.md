@@ -23,5 +23,3 @@ Contact:
 
 - Mokgadi: 067 719 3860
 - mokgadi9939@gmail.com
-
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4c914b9a-aafc-482f-b651-a7605360f0c8" />
