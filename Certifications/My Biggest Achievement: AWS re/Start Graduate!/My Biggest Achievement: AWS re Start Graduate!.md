@@ -4,7 +4,6 @@
 
 # Mokgadi Selepe - AWS Certifications & Badges
 
-![AWS re/Start Graduate Badge](Certifications/AWS_reStart_Graduate_Badge.png)
 
 I'm officially an **AWS re/Start Graduate** (December 2025)!  
 This badge means I completed the full cohort-based training program with hands-on labs, real-world scenarios, and professional skills like resume building and interview practice.  
@@ -13,3 +12,9 @@ I'm now prepared for entry to mid-level cloud roles and excited to start applyin
 Thank you AWS re/Start for this amazing opportunity!
 
 This repository contains all my completed AWS training certificates and badges from the AWS Re/Start program and extra learning paths I’ve done on my own.
+
+---  
+
+Contacts:  
+- Mokgadi: 067 719 3860  
+- mokgadi9939@gmail.com 
