@@ -9,5 +9,8 @@ Thanks to this program, I now have the knowledge and confidence to start working
 
 A big thank you to AWS re/Start for giving me this wonderful opportunity and helping me start my career in the cloud!
 
-Mokgadi Selepe  
-December 2025
+---  
+
+Contacts:  
+- Mokgadi: 067 719 3860  
+- mokgadi9939@gmail.com 
