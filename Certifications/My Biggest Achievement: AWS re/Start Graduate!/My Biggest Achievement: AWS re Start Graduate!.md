@@ -4,7 +4,6 @@
 
 # Mokgadi Selepe - AWS Certifications & Badges
 
-
 I'm officially an **AWS re/Start Graduate** (December 2025)!  
 This badge means I completed the full cohort-based training program with hands-on labs, real-world scenarios, and professional skills like resume building and interview practice.  
 I'm now prepared for entry to mid-level cloud roles and excited to start applying what I've learned.
