@@ -87,6 +87,7 @@ Contacts:
 # My Biggest Achievement: AWS re/Start Graduate!
 
 ![AWS re/Start Graduate Badge](Certifications/AWS_reStart_Graduate_Badge.png)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4c914b9a-aafc-482f-b651-a7605360f0c8" />
 
 I'm officially an **AWS re/Start Graduate** (December 2025)!  
 This badge means I completed the full cohort-based training program with hands-on labs, real-world scenarios, and professional skills like resume building and interview practice.  
