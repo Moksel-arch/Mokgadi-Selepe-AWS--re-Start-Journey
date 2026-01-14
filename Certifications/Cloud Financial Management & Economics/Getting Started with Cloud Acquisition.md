@@ -3,6 +3,7 @@
 
 I completed Getting Started with Cloud Acquisition (January 2026).
 Perfect for anyone involved in buying or procuring cloud services.
+
 I learned:
 
 - How buying AWS is different from traditional IT hardware
