@@ -2,6 +2,7 @@
 
 I completed Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2) (January 2026).
 This built on Part 1 and went deeper into real FinOps practices.
+
 I learned:
 
 - Main CFM use cases like cost optimization and cost allocation
