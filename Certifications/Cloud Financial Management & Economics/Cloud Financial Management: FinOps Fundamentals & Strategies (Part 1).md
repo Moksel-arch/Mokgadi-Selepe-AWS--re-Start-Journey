@@ -4,6 +4,7 @@
 
 I completed Cloud Financial Management: FinOps Fundamentals & Strategies (Part 1) (January 2026).
 A great intro to managing cloud costs the smart way.
+
 I learned:
 
 - The AWS Cloud Financial Management (CFM) framework and its four pillars (See, Save, Plan, Run)
