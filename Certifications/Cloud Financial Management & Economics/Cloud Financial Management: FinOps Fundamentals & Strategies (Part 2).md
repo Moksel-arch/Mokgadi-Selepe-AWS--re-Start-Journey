@@ -1,6 +1,10 @@
 # **Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)**
+![Cloud Financial Management_ FinOps fundamentals   strategies _Part 2](https://github.com/user-attachments/assets/ed70f977-355a-4b6a-b4dc-a4138945ae39)
+
+<img src="https://github.com/user-attachments/assets/ed70f977-355a-4b6a-b4dc-a4138945ae39" width="600" height="600" />
 
 I completed Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2) (January 2026).
+
 This built on Part 1 and went deeper into real FinOps practices.
 
 I learned:
