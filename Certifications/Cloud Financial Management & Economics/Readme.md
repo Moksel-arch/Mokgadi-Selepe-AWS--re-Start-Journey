@@ -27,7 +27,6 @@ I’m proud of finishing these four certificates quickly – now I feel more rea
 Thank you for looking at this part of my journey!
 
 Mokgadi Selepe
-January 2026
 
 ---
 
