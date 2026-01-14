@@ -1,5 +1,4 @@
 # **Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)**
-![Cloud Financial Management_ FinOps fundamentals   strategies _Part 2](https://github.com/user-attachments/assets/ed70f977-355a-4b6a-b4dc-a4138945ae39)
 
 <img src="https://github.com/user-attachments/assets/ed70f977-355a-4b6a-b4dc-a4138945ae39" width="600" height="600" />
 
