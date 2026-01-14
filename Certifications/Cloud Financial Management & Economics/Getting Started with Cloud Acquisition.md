@@ -1,7 +1,9 @@
 # **Getting Started with Cloud Acquisition**
 
+<img src="https://github.com/user-attachments/assets/b015f754-3cec-4056-8bd5-4d224e09483b" width="600" height="600" />
 
 I completed Getting Started with Cloud Acquisition (January 2026).
+
 Perfect for anyone involved in buying or procuring cloud services.
 
 I learned:
