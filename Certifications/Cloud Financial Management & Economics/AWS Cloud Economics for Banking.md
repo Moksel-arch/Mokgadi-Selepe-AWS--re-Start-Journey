@@ -12,7 +12,8 @@ I learned:
 
 Really eye-opening – it proves cloud isn't just tech, it's a smart business move for finance too!
 
+---
 Contact:
 
-Mokgadi: 067 719 3860
-mokgadi9939@gmail.com
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
