@@ -2,6 +2,7 @@
 
 I completed AWS Cloud Economics for Banking (January 2026).
 This course showed how AWS brings economic benefits specially for banks.
+
 I learned:
 
 - Overview of AWS resources that fit banking needs (security, compliance, scalability)
