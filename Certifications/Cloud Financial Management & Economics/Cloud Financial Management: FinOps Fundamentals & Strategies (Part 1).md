@@ -3,6 +3,7 @@
 <img src="https://github.com/user-attachments/assets/e91b921a-b60b-4581-86f4-15477b327c02" width="600" height="600" />
 
 I completed Cloud Financial Management: FinOps Fundamentals & Strategies (Part 1) (January 2026).
+
 A great intro to managing cloud costs the smart way.
 
 I learned:
