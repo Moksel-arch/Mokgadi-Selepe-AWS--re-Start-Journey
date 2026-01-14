@@ -54,6 +54,16 @@ I’ve been exploring how to use Generative AI on AWS, and I completed many trai
 - Machine learning basics and generating code for webpages  
 This section shows my growing passion for AI and how I’m preparing to work with modern cloud AI tools.
 
+### 4. Cloud Financial Management & Economics
+
+More recently, I've started exploring the business and financial aspects of cloud adoption. These trainings focus on cost optimization, financial governance, and economic decision-making in AWS environments:  
+
+- **Cloud Financial Management: FinOps Fundamentals & Strategies** (Parts 1 and 2)  
+- **AWS Cloud Economics for Banking** — industry-specific cloud economics insights  
+- **Getting Started with Cloud Acquisition** — best practices for procuring and managing cloud resources  
+
+Understanding FinOps and cloud economics is essential for any cloud professional, and these modules help bridge the gap between technical skills and business value.
+
 ## My AWS Certification Roadmap
 
 I’m following the official AWS certification paths to keep building my skills. Here’s my plan for the future (as of December 2025):
@@ -70,6 +80,10 @@ I’m following the official AWS certification paths to keep building my skills.
 3. **General Cloud Path** (for broader career options)  
    - After Cloud Practitioner: I would like to go for an Associate-level certification, probably **AWS Certified Solutions Architect – Associate (SAA-C03)** – it’s the most popular and valuable next step.  
    - Later: Explore **Developer Associate** or **SysOps/CloudOps Associate** depending on the roles I’m interested in.
+  
+4. **Foundational FinOps**  
+   - Completed: FinOps Fundamentals (Parts 1 & 2), Cloud Economics for Banking, Cloud Acquisition  
+   - Next: Finish AWS cost-optimization courses (Cost Explorer, Budgets, Savings Plans)
 
 I’m using free resources on AWS Skill Builder, AWS Cloud Quest, and SimuLearn to prepare – they’re really helpful and hands-on!
 
