@@ -12,8 +12,8 @@ I learned:
 
 Super useful for making sure every rand counts in the cloud – feeling more ready to help cut unnecessary costs!
 
+---
 Contact:
 
-Mokgadi: 067 719 3860
-
-mokgadi9939@gmail.com
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
