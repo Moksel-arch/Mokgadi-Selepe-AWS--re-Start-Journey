@@ -13,3 +13,9 @@ I learned:
 - Basics of cloud cost reporting, visualization, and governance
 
 Short but powerful – now I understand how to start controlling and planning AWS spend better!
+
+---
+Contact:
+
+- Mokgadi: 067 719 3860
+- mokgadi9939@gmail.com
