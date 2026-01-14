@@ -1,6 +1,9 @@
 # **AWS Cloud Economics for Banking**
 
+<img src="https://github.com/user-attachments/assets/1469c584-e773-46d3-af60-96a63ba18a6b" width="600" height="600" />
+
 I completed AWS Cloud Economics for Banking (January 2026).
+
 This course showed how AWS brings economic benefits specially for banks.
 
 I learned:
