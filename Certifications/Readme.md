@@ -1,6 +1,24 @@
 # Mokgadi Selepe - AWS Certifications & Badges
 
-# My Biggest Achievement: AWS re/Start Graduate!
+My Biggest Achievement: AWS Certified Cloud Practitioner!
+
+<img width="400" height="400" alt="AWS Cloud Practitioner Badge" src="https://github.com/user-attachments/assets/your-badge-image.png" />
+
+AWS Certified Cloud Practitioner Badge
+
+I’m officially an AWS Certified Cloud Practitioner (March 2026)!
+This certification validates my foundational knowledge of cloud computing and AWS services, including billing, security, and core architecture principles.
+
+Earning this badge means I’ve demonstrated the ability to:
+
+- Explain the value of cloud computing and AWS in business contexts
+- Identify and describe AWS core services like EC2, S3, RDS, and IAM
+- Understand AWS billing models and cost optimization strategies
+- Apply cloud concepts to real-world scenarios with confidence
+
+This achievement marks a major milestone in my cloud journey. It shows I’m ready to take on entry-level cloud roles and continue building toward associate and professional-level certifications.
+
+Thank you AWS for providing such a strong foundation to grow from!
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4c914b9a-aafc-482f-b651-a7605360f0c8" />
 
