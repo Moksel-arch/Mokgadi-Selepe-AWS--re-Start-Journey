@@ -6,7 +6,7 @@ My Biggest Achievement: AWS Certified Cloud Practitioner!
 
 AWS Certified Cloud Practitioner Badge
 
-I’m officially an AWS Certified Cloud Practitioner (March 2026)!
+I’m officially an AWS Certified Cloud Practitioner (2026)!
 This certification validates my foundational knowledge of cloud computing and AWS services, including billing, security, and core architecture principles.
 
 Earning this badge means I’ve demonstrated the ability to:
