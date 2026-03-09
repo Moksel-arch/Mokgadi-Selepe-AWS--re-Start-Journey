@@ -2,7 +2,7 @@
 
 My Biggest Achievement: AWS Certified Cloud Practitioner!
 
-<img width="400" height="400" alt="AWS Cloud Practitioner Badge" src="https://github.com/user-attachments/assets/your-badge-image.png" />
+<img width="400" height="400" alt="AWS Cloud Practitioner Badge2" src="https://github.com/user-attachments/assets/a6e0b6a7-d863-4253-9009-a363abc93828" />
 
 AWS Certified Cloud Practitioner Badge
 
