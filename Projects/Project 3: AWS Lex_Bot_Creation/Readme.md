@@ -1,6 +1,6 @@
 # Amazon Lex Quiz Bot
 
-## 📌 Overview
+##  Overview
 Serverless conversational AI built with Amazon Lex V2 to deliver interactive quizzes in English (South Africa).  
 Bot asks questions, validates answers, and provides feedback using custom slots and multi-intent branching.
 
