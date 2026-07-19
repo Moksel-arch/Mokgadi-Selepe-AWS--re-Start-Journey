@@ -1,4 +1,47 @@
 ## GROUP PROJECT: 
+
+# AWS 3D E-Commerce Architecture
+
+##  Overview
+Cloud architecture design for a global 3D e-commerce platform allowing users to interact with 3D product models before purchase.  
+Built to be highly available, secure, fast, and cost-efficient for millions of global users.
+
+##  AWS Services Used
+- **Storage & CDN**: Amazon S3, Amazon CloudFront
+- **Compute**: Amazon EC2 GPU Instances, AWS Lambda, Elastic Load Balancer, Auto Scaling
+- **Database**: Amazon RDS, Amazon DynamoDB
+- **Networking**: Amazon Route 53
+- **Monitoring & Security**: Amazon CloudWatch, AWS Trusted Advisor, IAM, WAF, GuardDuty
+
+##  Business Requirements
+- 24/7 Availability
+- Handle traffic spikes like Black Friday
+- Fast loading of large 3D models globally
+- Strong security for payments and customer data
+- Cost optimization
+
+##  Architecture Highlights
+- **Performance**: CloudFront + GPU EC2 for low-latency 3D rendering
+- **Reliability**: Multi-AZ deployment + Route 53 failover
+- **Scalability**: EC2 Auto Scaling + Serverless Lambda for variable workloads
+- **Security**: Encryption at rest/in transit, least-privilege IAM, WAF for web protection
+- **Cost**: Spot Instances, Lambda, and Trusted Advisor recommendations
+
+##  AWS Well-Architected Review
+| Pillar | Score |
+| --- | --- |
+| Operational Excellence | 5/5 |
+| Security | 5/5 |
+| Reliability | 5/5 |
+| Performance Efficiency | 5/5 |
+| Cost Optimization | 4.5/5 |
+| Sustainability | 4/5 |
+
+##  Banking Relevance
+This architecture directly maps to bank's digital banking needs: high availability, secure transactions, global scale, and cost control. 
+Demonstrates ability to design enterprise-grade cloud solutions.
+
+
 ***
 # AWS 3D E-Commerce Architecture
 
