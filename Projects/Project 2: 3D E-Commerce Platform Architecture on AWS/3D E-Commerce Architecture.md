@@ -97,5 +97,5 @@ We checked our design against the official AWS rules (6 pillars):
 
 <img width="200" height="350" alt="image" src="https://github.com/user-attachments/assets/ef4fcd47-528c-4732-a6ce-e8e1b40bbc93" />
 
-- We, the group 2 members listed above, confirm that this is our own group work.
+- We, the group of 5 members listed above, confirm that this is our own group work.
 - All sources are cited and we all contributed to the design and document.
