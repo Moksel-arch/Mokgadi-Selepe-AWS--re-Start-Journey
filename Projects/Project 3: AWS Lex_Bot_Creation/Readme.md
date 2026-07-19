@@ -28,7 +28,7 @@ Bot asks questions, validates answers, and provides feedback using custom slots 
 - Building scalable chatbot flows for customer self-service applications
 
 ##  Banking Relevance
-Applicable to FNB customer service bots, fraud awareness quizzes, and financial literacy tools.
+Applicable to banks customer service bots, fraud awareness quizzes, and financial literacy tools.
 
 ---
 
