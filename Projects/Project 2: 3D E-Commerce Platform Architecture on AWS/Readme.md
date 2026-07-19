@@ -115,18 +115,6 @@ We designed a cloud architecture using these AWS services:
 *   Plan security and cost from day one
 *   CloudWatch is critical for monitoring
 
-***
-
-## Well-Architected Review
-
-We checked our design against AWS’s six pillars:
-
-*   Operational Excellence: 5/5
-*   Security: 5/5
-*   Reliability: 5/5
-*   Performance Efficiency: 5/5
-*   Cost Optimization: 4.5/5
-*   Sustainability: 4/5
 
 ***
 
