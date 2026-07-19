@@ -1,3 +1,37 @@
+# Amazon Lex Quiz Bot
+
+## 📌 Overview
+Serverless conversational AI built with Amazon Lex V2 to deliver interactive quizzes in English (South Africa).  
+Bot asks questions, validates answers, and provides feedback using custom slots and multi-intent branching.
+
+##  Tech Stack
+- **Cloud**: AWS Lex V2
+- **Language**: English (ZA)
+- **Skills**: Intent Design, Slot Management, Conditional Branching, Conversation Flow
+
+##  Key Features
+- Multi-question quiz flow using separate intents to overcome 4-branch limit
+- Real-time feedback: Correct/Incorrect responses
+- Strict slot naming and validation to prevent build failures
+- No Lambda dependency - runs natively in Lex for faster response
+
+##  Challenges & Solutions
+| Challenge | Solution |
+| --- | --- |
+| 4-branch limit per intent | Grouped wrong answers to default path + split into multi-intent structure |
+| Build failures from slot errors | Enforced strict naming standards: `UserAnswer` case-sensitive |
+| Unnecessary Lambda calls | Disabled `FulfillmentCodeHook` to run directly in Lex |
+
+##  Key Learnings
+- How to design within platform constraints for stable AI experiences
+- Importance of error handling and detailed logging in conversational AI
+- Building scalable chatbot flows for customer self-service applications
+
+##  Banking Relevance
+Applicable to FNB customer service bots, fraud awareness quizzes, and financial literacy tools.
+
+---
+
 # Project Name: Amazon Lex Quiz Bot
 
 ## Project Overview
